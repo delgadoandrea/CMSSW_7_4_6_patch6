@@ -1,0 +1,1005 @@
+***** SETUP ************************************
+ dataset: cms.untracked.vstring('file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM00.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM01.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM02.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM03.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM04.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM05.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM06.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM07.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM08.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM09.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM10.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM11.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM12.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM13.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM14.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM15.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM16.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM17.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM18.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM19.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM20.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM21.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM22.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM23.root', 
+    'file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM24.root')
+ outfile: /fdata/hepx/store/user/delgado_andrea/Analysis/new/signal
+ 
+ storing lostlepton variables: False
+ storing hadtau variables: False
+ storing Zinv variables: False
+ storing QCD variables: False
+ 
+ storing PDF weights: False
+ 
+ storing tag and probe variables: False
+ storing track debugging variables: False
+ Applying baseline selection filter: False
+ 
+ scenario: Spring15Fast
+ global tag: MCRUN2_74_V9
+ Instance name of tag information: PAT
+ Including gen-level information: True
+ Using fastsim settings: True
+ JECs applied: data/Summer15_25nsV2_MC
+ era of this dataset: Run2_25ns
+************************************************
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+Configuring for 74X
+Calculation with mtcut: cms.double(100)
+13-Jan-2016 21:03:14 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM00.root
+13-Jan-2016 21:03:16 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM00.root
+  Target luminosity (1/pb) : 1
+        Cross section (pb) : 1
+          Number of events : -1
+WeightProducer: Using constant event weight of 1
+WeightProducer: Applying multiplicative PU weights
+  Reading PU scenario from '/home/delgado_andrea/CMSSW_7_4_6_patch6/src/TreeMaker/Production/test/data/pu_weights_7_4_25ns_testShifts.root'
+  Computing weights for pile-up scenario Reading JEC parameters = SubTotalMC from file = /home/delgado_andrea/CMSSW_7_4_6_patch6/src/PhysicsTools/PatUtils/data/Summer15_50nsV4_DATA_UncertaintySources_AK4PFchs.txt.
+Reading JEC parameters = SubTotalMC from file = /home/delgado_andrea/CMSSW_7_4_6_patch6/src/PhysicsTools/PatUtils/data/Summer15_50nsV4_DATA_UncertaintySources_AK4PFchs.txt.
+will store trigger information for...
+HLT_PFHT350_PFMET100_NoiseCleaned_v
+HLT_PFHT350_PFMET100_JetIdCleaned_v
+HLT_PFMET170_NoiseCleaned_v
+HLT_PFMET170_JetIdCleaned_v
+HLT_PFHT350_v
+HLT_PFHT800_v
+HLT_PFHT900_v
+HLT_Ele27_eta2p1_WPLoose_Gsf_v
+HLT_DoubleEle24_22_eta2p1_WPLoose_Gsf_v
+HLT_IsoMu17_eta2p1_v
+HLT_PFHT350_PFMET120_NoiseCleaned_v
+HLT_Mu15_IsoVVVL_PFHT350_PFMET70_v
+HLT_Ele15_IsoVVVL_PFHT350_PFMET70_v
+HLT_Mu15_IsoVVVL_PFHT400_PFMET70_v
+HLT_Ele15_IsoVVVL_PFHT400_PFMET70_v
+HLT_Mu15_IsoVVVL_BTagCSV0p72_PFHT400_v
+HLT_Mu15_IsoVVVL_BTagCSV07_PFHT400_v
+HLT_Mu15_IsoVVVL_PFHT600_v
+HLT_Mu45_eta2p1_v
+HLT_Mu50_eta2p1_v
+HLT_Mu50_v
+HLT_Mu55_v
+HLT_Photon75_v
+HLT_Photon90_v
+HLT_Photon90_CaloIdL_PFHT500_v
+HLT_DoubleEle8_CaloIdM_Mass8_PFHT300_v
+HLT_Ele27_eta2p1_WP85_Gsf_v
+HLT_IsoMu20_eta2p1_IterTrk02_v
+HLT_DoubleMu8_Mass8_PFHT300_v
+HLT_Ele27_WP85_Gsf_v
+HLT_IsoMu20_eta2p1_v
+HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v
+HLT_DoubleMu18NoFiltersNoVtx_v
+HLT_Mu20_v
+HLT_QuadJet45_TripleCSV0p5_v
+HLT_DoubleJet90_Double30_TripleCSV0p5_v
+HLT_Ele15_IsoVVVL_PFHT350_v
+HLT_Mu15_IsoVVVL_PFHT350_v
+Varsstoppair:
+full name: genParticles:stopPair(genParticles_stopPair) -> tag: genParticles:stopPair nameInTree: genParticles_stopPair
+VarsgenP:
+full name: genParticles:genPart(genParticles_genPart) -> tag: genParticles:genPart nameInTree: genParticles_genPart
+VarsBool:
+full name: GoodJets(JetID) -> tag: GoodJets nameInTree: JetID
+VarsInt:
+full name: NVtx -> tag: NVtx nameInTree: NVtx
+full name: nAllVertices -> tag: nAllVertices nameInTree: nAllVertices
+full name: genParticles:nElectrons(genParticles_nElectrons) -> tag: genParticles:nElectrons nameInTree: genParticles_nElectrons
+full name: genParticles:nMuons(genParticles_nMuons) -> tag: genParticles:nMuons nameInTree: genParticles_nMuons
+full name: genParticles:nTaus(genParticles_nTaus) -> tag: genParticles:nTaus nameInTree: genParticles_nTaus
+full name: genParticles:nMufromB(genParticles_nMufromB) -> tag: genParticles:nMufromB nameInTree: genParticles_nMufromB
+full name: IsolatedElectronTracksVeto:isoTracks(isoElectronTracks) -> tag: IsolatedElectronTracksVeto:isoTracks nameInTree: isoElectronTracks
+full name: IsolatedMuonTracksVeto:isoTracks(isoMuonTracks) -> tag: IsolatedMuonTracksVeto:isoTracks nameInTree: isoMuonTracks
+full name: IsolatedPionTracksVeto:isoTracks(isoPionTracks) -> tag: IsolatedPionTracksVeto:isoTracks nameInTree: isoPionTracks
+full name: LeptonsNew(Leptons) -> tag: LeptonsNew nameInTree: Leptons
+full name: LeptonsNew(ElecHandleSize) -> tag: LeptonsNew nameInTree: ElecHandleSize
+full name: LeptonsNew(MuonHandleSize) -> tag: LeptonsNew nameInTree: MuonHandleSize
+full name: LeptonsNewTag(TagLeptonHighPT) -> tag: LeptonsNewTag nameInTree: TagLeptonHighPT
+full name: goodPhotons:NumPhotons -> tag: goodPhotons:NumPhotons nameInTree: NumPhotons
+full name: NJets -> tag: NJets nameInTree: NJets
+full name: BTags -> tag: BTags nameInTree: BTags
+VarsDouble:
+full name: WeightProducer:weight(Weight) -> tag: WeightProducer:weight nameInTree: Weight
+full name: WeightProducer:PUweight(puWeight) -> tag: WeightProducer:PUweight nameInTree: puWeight
+full name: WeightProducer:PUSysUp(puSysUp) -> tag: WeightProducer:PUSysUp nameInTree: puSysUp
+full name: WeightProducer:PUSysDown(puSysDown) -> tag: WeightProducer:PUSysDown nameInTree: puSysDown
+full name: GenHT:genHT -> tag: GenHT:genHT nameInTree: genHT
+full name: SusyScan:SusyMotherMass -> tag: SusyScan:SusyMotherMass nameInTree: SusyMotherMass
+full name: SusyScan:SusyLSPMass -> tag: SusyScan:SusyLSPMass nameInTree: SusyLSPMass
+full name: HT -> tag: HT nameInTree: HT
+full name: MHT:Pt(MHT) -> tag: MHT:Pt nameInTree: MHT
+full name: MHT:Phi(MHT_Phi) -> tag: MHT:Phi nameInTree: MHT_Phi
+full name: DeltaPhi:DeltaPhi1 -> tag: DeltaPhi:DeltaPhi1 nameInTree: DeltaPhi1
+full name: DeltaPhi:DeltaPhi2 -> tag: DeltaPhi:DeltaPhi2 nameInTree: DeltaPhi2
+full name: DeltaPhi:DeltaPhi3 -> tag: DeltaPhi:DeltaPhi3 nameInTree: DeltaPhi3
+full name: DeltaPhi:DeltaPhi4 -> tag: DeltaPhi:DeltaPhi4 nameInTree: DeltaPhi4
+full name: MET:minDeltaPhiN -> tag: MET:minDeltaPhiN nameInTree: minDeltaPhiN
+full name: MET:DeltaPhiN1 -> tag: MET:DeltaPhiN1 nameInTree: DeltaPhiN1
+full name: MET:DeltaPhiN2 -> tag: MET:DeltaPhiN2 nameInTree: DeltaPhiN2
+full name: MET:DeltaPhiN3 -> tag: MET:DeltaPhiN3 nameInTree: DeltaPhiN3
+full name: MET:Pt(METPt) -> tag: MET:Pt nameInTree: METPt
+full name: MET:Phi(METPhi) -> tag: MET:Phi nameInTree: METPhi
+full name: MET:GenPt(GenMETPt) -> tag: MET:GenPt nameInTree: GenMETPt
+full name: MET:GenPhi(GenMETPhi) -> tag: MET:GenPhi nameInTree: GenMETPhi
+VarsString:
+VarsTLorentzVector:
+VectorBool:
+full name: TriggerProducer:TriggerPass -> tag: TriggerProducer:TriggerPass nameInTree: TriggerPass
+VectorInt:
+full name: genParticles:PDGid(genParticles_PDGid) -> tag: genParticles:PDGid nameInTree: genParticles_PDGid
+full name: genParticles:parent(genParticles_parent) -> tag: genParticles:parent nameInTree: genParticles_parent
+full name: LeptonsNew:MuonCharge(MuonCharge) -> tag: LeptonsNew:MuonCharge nameInTree: MuonCharge
+full name: LeptonsNew:ElectronCharge(ElectronCharge) -> tag: LeptonsNew:ElectronCharge nameInTree: ElectronCharge
+full name: TriggerProducer:TriggerPrescales -> tag: TriggerProducer:TriggerPrescales nameInTree: TriggerPrescales
+full name: JetsProperties:chargedHadronMultiplicity(Jets_chargedHadronMultiplicity) -> tag: JetsProperties:chargedHadronMultiplicity nameInTree: Jets_chargedHadronMultiplicity
+full name: JetsProperties:electronMultiplicity(Jets_electronMultiplicity) -> tag: JetsProperties:electronMultiplicity nameInTree: Jets_electronMultiplicity
+full name: JetsProperties:muonMultiplicity(Jets_muonMultiplicity) -> tag: JetsProperties:muonMultiplicity nameInTree: Jets_muonMultiplicity
+full name: JetsProperties:neutralHadronMultiplicity(Jets_neutralHadronMultiplicity) -> tag: JetsProperties:neutralHadronMultiplicity nameInTree: Jets_neutralHadronMultiplicity
+full name: JetsProperties:photonMultiplicity(Jets_photonMultiplicity) -> tag: JetsProperties:photonMultiplicity nameInTree: Jets_photonMultiplicity
+full name: JetsProperties:flavor(Jets_flavor) -> tag: JetsProperties:flavor nameInTree: Jets_flavor
+VectorDouble:
+full name: JetsProperties:bDiscriminatorUser(Jets_bDiscriminatorCS) -> tag: JetsProperties:bDiscriminatorUser nameInTree: Jets_bDiscriminatorCS
+full name: JetsProperties:bDiscriminatorMVA(Jets_bDiscriminatorMVA) -> tag: JetsProperties:bDiscriminatorMVA nameInTree: Jets_bDiscriminatorMVA
+full name: JetsProperties:chargedEmEnergyFraction(Jets_chargedEmEnergyFraction) -> tag: JetsProperties:chargedEmEnergyFraction nameInTree: Jets_chargedEmEnergyFraction
+full name: JetsProperties:chargedHadronEnergyFraction(Jets_chargedHadronEnergyFraction) -> tag: JetsProperties:chargedHadronEnergyFraction nameInTree: Jets_chargedHadronEnergyFraction
+full name: JetsProperties:jetArea(Jets_jetArea) -> tag: JetsProperties:jetArea nameInTree: Jets_jetArea
+full name: JetsProperties:muonEnergyFraction(Jets_muonEnergyFraction) -> tag: JetsProperties:muonEnergyFraction nameInTree: Jets_muonEnergyFraction
+full name: JetsProperties:neutralEmEnergyFraction(Jets_neutralEmEnergyFraction) -> tag: JetsProperties:neutralEmEnergyFraction nameInTree: Jets_neutralEmEnergyFraction
+full name: JetsProperties:photonEnergyFraction(Jets_photonEnergyFraction) -> tag: JetsProperties:photonEnergyFraction nameInTree: Jets_photonEnergyFraction
+VectorString:
+full name: TriggerProducer:TriggerNames -> tag: TriggerProducer:TriggerNames nameInTree: TriggerNames
+VectorTLorentzVector:
+full name: genParticles(genParticles) -> tag: genParticles nameInTree: genParticles
+VectorRecoCand:
+full name: LeptonsNew:IdIsoMuon(Muons) -> tag: LeptonsNew:IdIsoMuon nameInTree: Muons
+full name: LeptonsNew:IdIsoElectron(Electrons) -> tag: LeptonsNew:IdIsoElectron nameInTree: Electrons
+full name: LeptonsNew:IdMuon(IDMuons) -> tag: LeptonsNew:IdMuon nameInTree: IDMuons
+full name: LeptonsNew:IdElectron(IDElectrons) -> tag: LeptonsNew:IdElectron nameInTree: IDElectrons
+full name: goodPhotons:bestPhoton -> tag: goodPhotons:bestPhoton nameInTree: bestPhoton
+full name: GoodJets(Jets) -> tag: GoodJets nameInTree: Jets
+VarIso:
+full name: IsolatedMuonTracksVeto:pfcandstrkiso(pfcands_trkiso) -> tag: IsolatedMuonTracksVeto:pfcandstrkiso nameInTree: pfcands_trkiso
+VarCand:
+full name: IsolatedMuonTracksVeto:pfcands(pfcands) -> tag: IsolatedMuonTracksVeto:pfcands nameInTree: pfcands
+VectorFloat:
+full name: LeptonsNew:ElectronIsoValue(ElectronIsoValue) -> tag: LeptonsNew:ElectronIsoValue nameInTree: ElectronIsoValue
+full name: LeptonsNew:MuonIsoValue(MuonIsoValue) -> tag: LeptonsNew:MuonIsoValue nameInTree: MuonIsoValue
+Begin processing the 1st record. Run 1, Event 1, LumiSection 885558 at 13-Jan-2016 21:04:51.733 CST
+Begin processing the 1001st record. Run 1, Event 80580, LumiSection 885558 at 13-Jan-2016 21:06:03.974 CST
+Begin processing the 2001st record. Run 1, Event 84754, LumiSection 885558 at 13-Jan-2016 21:07:13.958 CST
+Begin processing the 3001st record. Run 1, Event 87894, LumiSection 885558 at 13-Jan-2016 21:08:23.170 CST
+Begin processing the 4001st record. Run 1, Event 91549, LumiSection 885558 at 13-Jan-2016 21:09:32.350 CST
+Begin processing the 5001st record. Run 1, Event 94718, LumiSection 885558 at 13-Jan-2016 21:10:41.941 CST
+Begin processing the 6001st record. Run 1, Event 98795, LumiSection 885558 at 13-Jan-2016 21:11:50.894 CST
+Begin processing the 7001st record. Run 1, Event 13124, LumiSection 885558 at 13-Jan-2016 21:13:00.810 CST
+Begin processing the 8001st record. Run 1, Event 16292, LumiSection 885558 at 13-Jan-2016 21:14:09.950 CST
+Begin processing the 9001st record. Run 1, Event 20165, LumiSection 885558 at 13-Jan-2016 21:15:18.823 CST
+13-Jan-2016 21:16:21 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM00.root
+13-Jan-2016 21:16:21 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM01.root
+13-Jan-2016 21:16:21 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM01.root
+Begin processing the 10001st record. Run 1, Event 2890, LumiSection 885558 at 13-Jan-2016 21:16:30.774 CST
+Begin processing the 11001st record. Run 1, Event 27158, LumiSection 885558 at 13-Jan-2016 21:17:40.307 CST
+Begin processing the 12001st record. Run 1, Event 31090, LumiSection 885558 at 13-Jan-2016 21:18:48.343 CST
+Begin processing the 13001st record. Run 1, Event 34341, LumiSection 885558 at 13-Jan-2016 21:19:57.160 CST
+Begin processing the 14001st record. Run 1, Event 39114, LumiSection 885558 at 13-Jan-2016 21:21:06.459 CST
+Begin processing the 15001st record. Run 1, Event 42345, LumiSection 885558 at 13-Jan-2016 21:22:15.577 CST
+Begin processing the 16001st record. Run 1, Event 46292, LumiSection 885558 at 13-Jan-2016 21:23:24.125 CST
+Begin processing the 17001st record. Run 1, Event 49506, LumiSection 885558 at 13-Jan-2016 21:24:33.065 CST
+Begin processing the 18001st record. Run 1, Event 53441, LumiSection 885558 at 13-Jan-2016 21:25:42.053 CST
+Begin processing the 19001st record. Run 1, Event 56702, LumiSection 885558 at 13-Jan-2016 21:26:51.184 CST
+13-Jan-2016 21:27:53 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM01.root
+13-Jan-2016 21:27:53 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM02.root
+13-Jan-2016 21:27:53 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM02.root
+Begin processing the 20001st record. Run 1, Event 60630, LumiSection 885558 at 13-Jan-2016 21:28:02.316 CST
+Begin processing the 21001st record. Run 1, Event 63574, LumiSection 885558 at 13-Jan-2016 21:29:11.934 CST
+Begin processing the 22001st record. Run 1, Event 67608, LumiSection 885558 at 13-Jan-2016 21:30:21.077 CST
+Begin processing the 23001st record. Run 1, Event 7455, LumiSection 885558 at 13-Jan-2016 21:31:29.130 CST
+Begin processing the 24001st record. Run 1, Event 74704, LumiSection 885558 at 13-Jan-2016 21:32:37.683 CST
+Begin processing the 25001st record. Run 1, Event 78641, LumiSection 885558 at 13-Jan-2016 21:33:47.130 CST
+Begin processing the 26001st record. Run 1, Event 79602, LumiSection 885559 at 13-Jan-2016 21:34:56.277 CST
+Begin processing the 27001st record. Run 1, Event 83419, LumiSection 885559 at 13-Jan-2016 21:36:05.546 CST
+Begin processing the 28001st record. Run 1, Event 86687, LumiSection 885559 at 13-Jan-2016 21:37:14.768 CST
+Begin processing the 29001st record. Run 1, Event 90617, LumiSection 885559 at 13-Jan-2016 21:38:23.491 CST
+13-Jan-2016 21:39:25 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM02.root
+13-Jan-2016 21:39:25 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM03.root
+13-Jan-2016 21:39:25 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM03.root
+Begin processing the 30001st record. Run 1, Event 9876, LumiSection 885559 at 13-Jan-2016 21:39:33.951 CST
+Begin processing the 31001st record. Run 1, Event 97597, LumiSection 885559 at 13-Jan-2016 21:40:44.411 CST
+Begin processing the 32001st record. Run 1, Event 12208, LumiSection 885559 at 13-Jan-2016 21:41:54.678 CST
+Begin processing the 33001st record. Run 1, Event 2136, LumiSection 885559 at 13-Jan-2016 21:43:03.914 CST
+Begin processing the 34001st record. Run 1, Event 19287, LumiSection 885559 at 13-Jan-2016 21:44:13.349 CST
+Begin processing the 35001st record. Run 1, Event 2950, LumiSection 885559 at 13-Jan-2016 21:45:22.748 CST
+Begin processing the 36001st record. Run 1, Event 27230, LumiSection 885559 at 13-Jan-2016 21:46:32.642 CST
+Begin processing the 37001st record. Run 1, Event 31231, LumiSection 885559 at 13-Jan-2016 21:47:42.807 CST
+Begin processing the 38001st record. Run 1, Event 34389, LumiSection 885559 at 13-Jan-2016 21:48:53.215 CST
+Begin processing the 39001st record. Run 1, Event 38212, LumiSection 885559 at 13-Jan-2016 21:50:02.549 CST
+13-Jan-2016 21:51:05 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM03.root
+13-Jan-2016 21:51:05 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM04.root
+13-Jan-2016 21:51:05 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM04.root
+Begin processing the 40001st record. Run 1, Event 41455, LumiSection 885559 at 13-Jan-2016 21:51:14.587 CST
+Begin processing the 41001st record. Run 1, Event 45445, LumiSection 885559 at 13-Jan-2016 21:52:24.427 CST
+Begin processing the 42001st record. Run 1, Event 48569, LumiSection 885559 at 13-Jan-2016 21:53:34.639 CST
+Begin processing the 43001st record. Run 1, Event 52424, LumiSection 885559 at 13-Jan-2016 21:54:44.039 CST
+Begin processing the 44001st record. Run 1, Event 55445, LumiSection 885559 at 13-Jan-2016 21:55:53.083 CST
+Begin processing the 45001st record. Run 1, Event 59539, LumiSection 885559 at 13-Jan-2016 21:57:02.622 CST
+Begin processing the 46001st record. Run 1, Event 6776, LumiSection 885559 at 13-Jan-2016 21:58:12.296 CST
+Begin processing the 47001st record. Run 1, Event 66589, LumiSection 885559 at 13-Jan-2016 21:59:22.274 CST
+Begin processing the 48001st record. Run 1, Event 70229, LumiSection 885559 at 13-Jan-2016 22:00:32.217 CST
+Begin processing the 49001st record. Run 1, Event 73418, LumiSection 885559 at 13-Jan-2016 22:01:42.256 CST
+13-Jan-2016 22:02:44 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM04.root
+13-Jan-2016 22:02:44 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM05.root
+13-Jan-2016 22:02:44 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM05.root
+Begin processing the 50001st record. Run 1, Event 77364, LumiSection 885559 at 13-Jan-2016 22:02:53.680 CST
+Begin processing the 51001st record. Run 1, Event 80875, LumiSection 885560 at 13-Jan-2016 22:04:03.128 CST
+Begin processing the 52001st record. Run 1, Event 84714, LumiSection 885560 at 13-Jan-2016 22:05:12.990 CST
+Begin processing the 53001st record. Run 1, Event 9345, LumiSection 885560 at 13-Jan-2016 22:06:22.362 CST
+Begin processing the 54001st record. Run 1, Event 92284, LumiSection 885560 at 13-Jan-2016 22:07:31.966 CST
+Begin processing the 55001st record. Run 1, Event 9905, LumiSection 885560 at 13-Jan-2016 22:08:41.289 CST
+Begin processing the 56001st record. Run 1, Event 10641, LumiSection 885560 at 13-Jan-2016 22:09:50.532 CST
+Begin processing the 57001st record. Run 1, Event 15522, LumiSection 885560 at 13-Jan-2016 22:11:00.069 CST
+Begin processing the 58001st record. Run 1, Event 18745, LumiSection 885560 at 13-Jan-2016 22:12:09.989 CST
+Begin processing the 59001st record. Run 1, Event 22855, LumiSection 885560 at 13-Jan-2016 22:13:19.694 CST
+13-Jan-2016 22:14:11 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM05.root
+13-Jan-2016 22:14:11 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM06.root
+13-Jan-2016 22:14:12 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM06.root
+Begin processing the 60001st record. Run 1, Event 26043, LumiSection 885560 at 13-Jan-2016 22:14:31.722 CST
+Begin processing the 61001st record. Run 1, Event 30173, LumiSection 885560 at 13-Jan-2016 22:15:40.812 CST
+Begin processing the 62001st record. Run 1, Event 33291, LumiSection 885560 at 13-Jan-2016 22:16:50.082 CST
+Begin processing the 63001st record. Run 1, Event 37364, LumiSection 885560 at 13-Jan-2016 22:17:58.981 CST
+Begin processing the 64001st record. Run 1, Event 40611, LumiSection 885560 at 13-Jan-2016 22:19:08.627 CST
+Begin processing the 65001st record. Run 1, Event 44592, LumiSection 885560 at 13-Jan-2016 22:20:16.589 CST
+Begin processing the 66001st record. Run 1, Event 5039, LumiSection 885560 at 13-Jan-2016 22:21:25.350 CST
+Begin processing the 67001st record. Run 1, Event 51934, LumiSection 885560 at 13-Jan-2016 22:22:34.686 CST
+Begin processing the 68001st record. Run 1, Event 55794, LumiSection 885560 at 13-Jan-2016 22:23:44.699 CST
+Begin processing the 69001st record. Run 1, Event 58857, LumiSection 885560 at 13-Jan-2016 22:24:54.172 CST
+13-Jan-2016 22:25:45 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM06.root
+13-Jan-2016 22:25:45 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM07.root
+13-Jan-2016 22:25:45 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM07.root
+Begin processing the 70001st record. Run 1, Event 62870, LumiSection 885560 at 13-Jan-2016 22:26:05.225 CST
+Begin processing the 71001st record. Run 1, Event 66187, LumiSection 885560 at 13-Jan-2016 22:27:14.532 CST
+Begin processing the 72001st record. Run 1, Event 70359, LumiSection 885560 at 13-Jan-2016 22:28:23.479 CST
+Begin processing the 73001st record. Run 1, Event 73689, LumiSection 885560 at 13-Jan-2016 22:29:32.988 CST
+Begin processing the 74001st record. Run 1, Event 78047, LumiSection 885560 at 13-Jan-2016 22:30:42.640 CST
+Begin processing the 75001st record. Run 1, Event 1545, LumiSection 885561 at 13-Jan-2016 22:31:52.119 CST
+Begin processing the 76001st record. Run 1, Event 81917, LumiSection 885561 at 13-Jan-2016 22:33:00.855 CST
+Begin processing the 77001st record. Run 1, Event 85849, LumiSection 885561 at 13-Jan-2016 22:34:10.302 CST
+Begin processing the 78001st record. Run 1, Event 89157, LumiSection 885561 at 13-Jan-2016 22:35:19.599 CST
+Begin processing the 79001st record. Run 1, Event 93150, LumiSection 885561 at 13-Jan-2016 22:36:29.152 CST
+13-Jan-2016 22:37:11 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM07.root
+13-Jan-2016 22:37:11 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM08.root
+13-Jan-2016 22:37:12 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM08.root
+Begin processing the 80001st record. Run 1, Event 96265, LumiSection 885561 at 13-Jan-2016 22:37:40.029 CST
+Begin processing the 81001st record. Run 1, Event 10294, LumiSection 885561 at 13-Jan-2016 22:38:49.343 CST
+Begin processing the 82001st record. Run 1, Event 14226, LumiSection 885561 at 13-Jan-2016 22:39:58.716 CST
+Begin processing the 83001st record. Run 1, Event 17864, LumiSection 885561 at 13-Jan-2016 22:41:08.123 CST
+Begin processing the 84001st record. Run 1, Event 22616, LumiSection 885561 at 13-Jan-2016 22:42:17.264 CST
+Begin processing the 85001st record. Run 1, Event 25810, LumiSection 885561 at 13-Jan-2016 22:43:26.705 CST
+Begin processing the 86001st record. Run 1, Event 29753, LumiSection 885561 at 13-Jan-2016 22:44:36.752 CST
+Begin processing the 87001st record. Run 1, Event 32963, LumiSection 885561 at 13-Jan-2016 22:45:46.073 CST
+Begin processing the 88001st record. Run 1, Event 36857, LumiSection 885561 at 13-Jan-2016 22:46:56.238 CST
+Begin processing the 89001st record. Run 1, Event 40135, LumiSection 885561 at 13-Jan-2016 22:48:06.018 CST
+13-Jan-2016 22:48:36 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM08.root
+13-Jan-2016 22:48:36 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM09.root
+13-Jan-2016 22:48:36 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM09.root
+Begin processing the 90001st record. Run 1, Event 44118, LumiSection 885561 at 13-Jan-2016 22:49:18.624 CST
+Begin processing the 91001st record. Run 1, Event 5396, LumiSection 885561 at 13-Jan-2016 22:50:27.567 CST
+Begin processing the 92001st record. Run 1, Event 51718, LumiSection 885561 at 13-Jan-2016 22:51:36.899 CST
+Begin processing the 93001st record. Run 1, Event 5945, LumiSection 885561 at 13-Jan-2016 22:52:46.155 CST
+Begin processing the 94001st record. Run 1, Event 58776, LumiSection 885561 at 13-Jan-2016 22:53:55.750 CST
+Begin processing the 95001st record. Run 1, Event 62692, LumiSection 885561 at 13-Jan-2016 22:55:04.875 CST
+Begin processing the 96001st record. Run 1, Event 65854, LumiSection 885561 at 13-Jan-2016 22:56:14.113 CST
+Begin processing the 97001st record. Run 1, Event 69865, LumiSection 885561 at 13-Jan-2016 22:57:22.887 CST
+Begin processing the 98001st record. Run 1, Event 73074, LumiSection 885561 at 13-Jan-2016 22:58:31.385 CST
+Begin processing the 99001st record. Run 1, Event 76949, LumiSection 885561 at 13-Jan-2016 22:59:39.991 CST
+13-Jan-2016 22:59:59 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM09.root
+13-Jan-2016 22:59:59 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM10.root
+13-Jan-2016 22:59:59 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM10.root
+Begin processing the 100001st record. Run 1, Event 8197, LumiSection 885562 at 13-Jan-2016 23:00:52.088 CST
+Begin processing the 101001st record. Run 1, Event 83383, LumiSection 885562 at 13-Jan-2016 23:02:01.863 CST
+Begin processing the 102001st record. Run 1, Event 87153, LumiSection 885562 at 13-Jan-2016 23:03:11.528 CST
+Begin processing the 103001st record. Run 1, Event 90226, LumiSection 885562 at 13-Jan-2016 23:04:21.207 CST
+Begin processing the 104001st record. Run 1, Event 94265, LumiSection 885562 at 13-Jan-2016 23:05:29.704 CST
+Begin processing the 105001st record. Run 1, Event 97491, LumiSection 885562 at 13-Jan-2016 23:06:39.447 CST
+Begin processing the 106001st record. Run 1, Event 11441, LumiSection 885562 at 13-Jan-2016 23:07:48.312 CST
+Begin processing the 107001st record. Run 1, Event 15302, LumiSection 885562 at 13-Jan-2016 23:08:57.529 CST
+Begin processing the 108001st record. Run 1, Event 18404, LumiSection 885562 at 13-Jan-2016 23:10:06.463 CST
+Begin processing the 109001st record. Run 1, Event 22673, LumiSection 885562 at 13-Jan-2016 23:11:15.434 CST
+13-Jan-2016 23:11:29 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM10.root
+13-Jan-2016 23:11:29 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM11.root
+13-Jan-2016 23:11:29 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM11.root
+Begin processing the 110001st record. Run 1, Event 26015, LumiSection 885562 at 13-Jan-2016 23:12:26.326 CST
+Begin processing the 111001st record. Run 1, Event 30036, LumiSection 885562 at 13-Jan-2016 23:13:36.235 CST
+Begin processing the 112001st record. Run 1, Event 33149, LumiSection 885562 at 13-Jan-2016 23:14:46.051 CST
+Begin processing the 113001st record. Run 1, Event 37151, LumiSection 885562 at 13-Jan-2016 23:15:55.520 CST
+Begin processing the 114001st record. Run 1, Event 40242, LumiSection 885562 at 13-Jan-2016 23:17:04.896 CST
+Begin processing the 115001st record. Run 1, Event 44409, LumiSection 885562 at 13-Jan-2016 23:18:13.826 CST
+Begin processing the 116001st record. Run 1, Event 5398, LumiSection 885562 at 13-Jan-2016 23:19:23.021 CST
+Begin processing the 117001st record. Run 1, Event 51689, LumiSection 885562 at 13-Jan-2016 23:20:32.033 CST
+Begin processing the 118001st record. Run 1, Event 55787, LumiSection 885562 at 13-Jan-2016 23:21:42.043 CST
+Begin processing the 119001st record. Run 1, Event 59099, LumiSection 885562 at 13-Jan-2016 23:22:50.458 CST
+13-Jan-2016 23:23:04 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM11.root
+13-Jan-2016 23:23:04 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM12.root
+13-Jan-2016 23:23:04 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM12.root
+Begin processing the 120001st record. Run 1, Event 63180, LumiSection 885562 at 13-Jan-2016 23:24:01.875 CST
+Begin processing the 121001st record. Run 1, Event 66511, LumiSection 885562 at 13-Jan-2016 23:25:10.722 CST
+Begin processing the 122001st record. Run 1, Event 70517, LumiSection 885562 at 13-Jan-2016 23:26:19.912 CST
+Begin processing the 123001st record. Run 1, Event 73477, LumiSection 885562 at 13-Jan-2016 23:27:29.489 CST
+Begin processing the 124001st record. Run 1, Event 77330, LumiSection 885562 at 13-Jan-2016 23:28:38.464 CST
+Begin processing the 125001st record. Run 1, Event 1474, LumiSection 885565 at 13-Jan-2016 23:29:46.839 CST
+Begin processing the 126001st record. Run 1, Event 82800, LumiSection 885565 at 13-Jan-2016 23:30:56.505 CST
+Begin processing the 127001st record. Run 1, Event 86842, LumiSection 885565 at 13-Jan-2016 23:32:05.635 CST
+Begin processing the 128001st record. Run 1, Event 89914, LumiSection 885565 at 13-Jan-2016 23:33:14.980 CST
+Begin processing the 129001st record. Run 1, Event 94614, LumiSection 885565 at 13-Jan-2016 23:34:24.300 CST
+13-Jan-2016 23:34:30 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM12.root
+13-Jan-2016 23:34:30 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM13.root
+13-Jan-2016 23:34:30 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM13.root
+Begin processing the 130001st record. Run 1, Event 97777, LumiSection 885565 at 13-Jan-2016 23:35:36.269 CST
+Begin processing the 131001st record. Run 1, Event 12204, LumiSection 885565 at 13-Jan-2016 23:36:46.625 CST
+Begin processing the 132001st record. Run 1, Event 1731, LumiSection 885565 at 13-Jan-2016 23:37:56.808 CST
+Begin processing the 133001st record. Run 1, Event 19462, LumiSection 885565 at 13-Jan-2016 23:39:06.120 CST
+Begin processing the 134001st record. Run 1, Event 23250, LumiSection 885565 at 13-Jan-2016 23:40:15.380 CST
+Begin processing the 135001st record. Run 1, Event 26588, LumiSection 885565 at 13-Jan-2016 23:41:25.146 CST
+Begin processing the 136001st record. Run 1, Event 30498, LumiSection 885565 at 13-Jan-2016 23:42:34.669 CST
+Begin processing the 137001st record. Run 1, Event 33780, LumiSection 885565 at 13-Jan-2016 23:43:45.176 CST
+Begin processing the 138001st record. Run 1, Event 37676, LumiSection 885565 at 13-Jan-2016 23:44:54.425 CST
+13-Jan-2016 23:45:49 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM13.root
+13-Jan-2016 23:45:49 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM14.root
+13-Jan-2016 23:45:49 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM14.root
+Begin processing the 139001st record. Run 1, Event 41280, LumiSection 885565 at 13-Jan-2016 23:46:05.952 CST
+Begin processing the 140001st record. Run 1, Event 45191, LumiSection 885565 at 13-Jan-2016 23:47:16.309 CST
+Begin processing the 141001st record. Run 1, Event 48402, LumiSection 885565 at 13-Jan-2016 23:48:26.148 CST
+Begin processing the 142001st record. Run 1, Event 52300, LumiSection 885565 at 13-Jan-2016 23:49:35.825 CST
+Begin processing the 143001st record. Run 1, Event 55327, LumiSection 885565 at 13-Jan-2016 23:50:46.355 CST
+Begin processing the 144001st record. Run 1, Event 59230, LumiSection 885565 at 13-Jan-2016 23:51:56.201 CST
+Begin processing the 145001st record. Run 1, Event 6395, LumiSection 885565 at 13-Jan-2016 23:53:04.724 CST
+Begin processing the 146001st record. Run 1, Event 66412, LumiSection 885565 at 13-Jan-2016 23:54:13.542 CST
+Begin processing the 147001st record. Run 1, Event 70624, LumiSection 885565 at 13-Jan-2016 23:55:22.534 CST
+Begin processing the 148001st record. Run 1, Event 73746, LumiSection 885565 at 13-Jan-2016 23:56:32.305 CST
+13-Jan-2016 23:57:26 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM14.root
+13-Jan-2016 23:57:26 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM15.root
+13-Jan-2016 23:57:26 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM15.root
+Begin processing the 149001st record. Run 1, Event 77781, LumiSection 885565 at 13-Jan-2016 23:57:43.515 CST
+Begin processing the 150001st record. Run 1, Event 79335, LumiSection 885568 at 13-Jan-2016 23:58:52.252 CST
+Begin processing the 151001st record. Run 1, Event 83179, LumiSection 885568 at 14-Jan-2016 00:00:02.007 CST
+Begin processing the 152001st record. Run 1, Event 8952, LumiSection 885568 at 14-Jan-2016 00:01:10.489 CST
+Begin processing the 153001st record. Run 1, Event 90253, LumiSection 885568 at 14-Jan-2016 00:02:19.014 CST
+Begin processing the 154001st record. Run 1, Event 94296, LumiSection 885568 at 14-Jan-2016 00:03:28.140 CST
+Begin processing the 155001st record. Run 1, Event 97507, LumiSection 885568 at 14-Jan-2016 00:04:36.978 CST
+Begin processing the 156001st record. Run 1, Event 11970, LumiSection 885568 at 14-Jan-2016 00:05:46.595 CST
+Begin processing the 157001st record. Run 1, Event 15876, LumiSection 885568 at 14-Jan-2016 00:06:56.709 CST
+Begin processing the 158001st record. Run 1, Event 19055, LumiSection 885568 at 14-Jan-2016 00:08:05.277 CST
+14-Jan-2016 00:08:35 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM15.root
+14-Jan-2016 00:08:35 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM16.root
+14-Jan-2016 00:08:35 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM16.root
+Begin processing the 159001st record. Run 1, Event 23695, LumiSection 885568 at 14-Jan-2016 00:09:16.421 CST
+Begin processing the 160001st record. Run 1, Event 26995, LumiSection 885568 at 14-Jan-2016 00:10:26.733 CST
+Begin processing the 161001st record. Run 1, Event 31192, LumiSection 885568 at 14-Jan-2016 00:11:37.632 CST
+Begin processing the 162001st record. Run 1, Event 34487, LumiSection 885568 at 14-Jan-2016 00:12:53.307 CST
+Begin processing the 163001st record. Run 1, Event 38985, LumiSection 885568 at 14-Jan-2016 00:14:03.046 CST
+Begin processing the 164001st record. Run 1, Event 42221, LumiSection 885568 at 14-Jan-2016 00:15:12.004 CST
+Begin processing the 165001st record. Run 1, Event 46329, LumiSection 885568 at 14-Jan-2016 00:16:22.421 CST
+Begin processing the 166001st record. Run 1, Event 49380, LumiSection 885568 at 14-Jan-2016 00:17:31.806 CST
+Begin processing the 167001st record. Run 1, Event 53391, LumiSection 885568 at 14-Jan-2016 00:18:42.021 CST
+Begin processing the 168001st record. Run 1, Event 57240, LumiSection 885568 at 14-Jan-2016 00:19:52.066 CST
+14-Jan-2016 00:20:08 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM16.root
+14-Jan-2016 00:20:08 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM17.root
+14-Jan-2016 00:20:08 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM17.root
+Begin processing the 169001st record. Run 1, Event 61334, LumiSection 885568 at 14-Jan-2016 00:21:04.116 CST
+Begin processing the 170001st record. Run 1, Event 64524, LumiSection 885568 at 14-Jan-2016 00:22:12.718 CST
+Begin processing the 171001st record. Run 1, Event 68348, LumiSection 885568 at 14-Jan-2016 00:23:21.570 CST
+Begin processing the 172001st record. Run 1, Event 71454, LumiSection 885568 at 14-Jan-2016 00:24:30.762 CST
+Begin processing the 173001st record. Run 1, Event 75283, LumiSection 885568 at 14-Jan-2016 00:25:39.860 CST
+Begin processing the 174001st record. Run 1, Event 902, LumiSection 885571 at 14-Jan-2016 00:26:49.473 CST
+Begin processing the 175001st record. Run 1, Event 82021, LumiSection 885571 at 14-Jan-2016 00:27:58.566 CST
+Begin processing the 176001st record. Run 1, Event 86015, LumiSection 885571 at 14-Jan-2016 00:29:07.122 CST
+Begin processing the 177001st record. Run 1, Event 89178, LumiSection 885571 at 14-Jan-2016 00:30:15.913 CST
+Begin processing the 178001st record. Run 1, Event 92965, LumiSection 885571 at 14-Jan-2016 00:31:25.175 CST
+14-Jan-2016 00:31:37 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM17.root
+14-Jan-2016 00:31:37 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM18.root
+14-Jan-2016 00:31:37 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM18.root
+Begin processing the 179001st record. Run 1, Event 96925, LumiSection 885571 at 14-Jan-2016 00:32:37.527 CST
+Begin processing the 180001st record. Run 1, Event 11127, LumiSection 885571 at 14-Jan-2016 00:33:47.406 CST
+Begin processing the 181001st record. Run 1, Event 15222, LumiSection 885571 at 14-Jan-2016 00:34:57.209 CST
+Begin processing the 182001st record. Run 1, Event 18273, LumiSection 885571 at 14-Jan-2016 00:36:06.865 CST
+Begin processing the 183001st record. Run 1, Event 22291, LumiSection 885571 at 14-Jan-2016 00:37:17.025 CST
+Begin processing the 184001st record. Run 1, Event 25406, LumiSection 885571 at 14-Jan-2016 00:38:27.195 CST
+Begin processing the 185001st record. Run 1, Event 29564, LumiSection 885571 at 14-Jan-2016 00:39:36.596 CST
+Begin processing the 186001st record. Run 1, Event 32798, LumiSection 885571 at 14-Jan-2016 00:40:45.902 CST
+Begin processing the 187001st record. Run 1, Event 36657, LumiSection 885571 at 14-Jan-2016 00:41:56.295 CST
+Begin processing the 188001st record. Run 1, Event 39785, LumiSection 885571 at 14-Jan-2016 00:43:05.951 CST
+14-Jan-2016 00:43:17 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM18.root
+14-Jan-2016 00:43:17 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM19.root
+14-Jan-2016 00:43:17 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM19.root
+Begin processing the 189001st record. Run 1, Event 44639, LumiSection 885571 at 14-Jan-2016 00:44:18.244 CST
+Begin processing the 190001st record. Run 1, Event 47789, LumiSection 885571 at 14-Jan-2016 00:45:27.493 CST
+Begin processing the 191001st record. Run 1, Event 51912, LumiSection 885571 at 14-Jan-2016 00:46:37.935 CST
+Begin processing the 192001st record. Run 1, Event 5686, LumiSection 885571 at 14-Jan-2016 00:47:47.673 CST
+Begin processing the 193001st record. Run 1, Event 58881, LumiSection 885571 at 14-Jan-2016 00:48:57.713 CST
+Begin processing the 194001st record. Run 1, Event 62974, LumiSection 885571 at 14-Jan-2016 00:50:07.484 CST
+Begin processing the 195001st record. Run 1, Event 66159, LumiSection 885571 at 14-Jan-2016 00:51:17.210 CST
+Begin processing the 196001st record. Run 1, Event 70275, LumiSection 885571 at 14-Jan-2016 00:52:26.165 CST
+Begin processing the 197001st record. Run 1, Event 73356, LumiSection 885571 at 14-Jan-2016 00:53:36.085 CST
+Begin processing the 198001st record. Run 1, Event 78455, LumiSection 885571 at 14-Jan-2016 00:54:45.123 CST
+14-Jan-2016 00:54:50 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM19.root
+14-Jan-2016 00:54:50 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM20.root
+14-Jan-2016 00:54:50 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM20.root
+Begin processing the 199001st record. Run 1, Event 79833, LumiSection 885555 at 14-Jan-2016 00:55:56.026 CST
+Begin processing the 200001st record. Run 1, Event 83737, LumiSection 885555 at 14-Jan-2016 00:57:05.555 CST
+Begin processing the 201001st record. Run 1, Event 9354, LumiSection 885555 at 14-Jan-2016 00:58:15.182 CST
+Begin processing the 202001st record. Run 1, Event 90908, LumiSection 885555 at 14-Jan-2016 00:59:24.591 CST
+Begin processing the 203001st record. Run 1, Event 94816, LumiSection 885555 at 14-Jan-2016 01:00:33.589 CST
+Begin processing the 204001st record. Run 1, Event 97931, LumiSection 885555 at 14-Jan-2016 01:01:44.055 CST
+Begin processing the 205001st record. Run 1, Event 12290, LumiSection 885555 at 14-Jan-2016 01:02:52.911 CST
+Begin processing the 206001st record. Run 1, Event 1872, LumiSection 885555 at 14-Jan-2016 01:04:02.719 CST
+Begin processing the 207001st record. Run 1, Event 19530, LumiSection 885555 at 14-Jan-2016 01:05:12.569 CST
+14-Jan-2016 01:06:17 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM20.root
+14-Jan-2016 01:06:17 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM21.root
+14-Jan-2016 01:06:17 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM21.root
+Begin processing the 208001st record. Run 1, Event 23493, LumiSection 885555 at 14-Jan-2016 01:06:23.001 CST
+Begin processing the 209001st record. Run 1, Event 26743, LumiSection 885555 at 14-Jan-2016 01:07:31.811 CST
+Begin processing the 210001st record. Run 1, Event 30759, LumiSection 885555 at 14-Jan-2016 01:08:41.765 CST
+Begin processing the 211001st record. Run 1, Event 33938, LumiSection 885555 at 14-Jan-2016 01:09:51.325 CST
+Begin processing the 212001st record. Run 1, Event 37971, LumiSection 885555 at 14-Jan-2016 01:11:00.732 CST
+Begin processing the 213001st record. Run 1, Event 41952, LumiSection 885555 at 14-Jan-2016 01:12:10.364 CST
+Begin processing the 214001st record. Run 1, Event 45836, LumiSection 885555 at 14-Jan-2016 01:13:19.758 CST
+Begin processing the 215001st record. Run 1, Event 49055, LumiSection 885555 at 14-Jan-2016 01:14:29.507 CST
+Begin processing the 216001st record. Run 1, Event 52925, LumiSection 885555 at 14-Jan-2016 01:15:38.831 CST
+Begin processing the 217001st record. Run 1, Event 56151, LumiSection 885555 at 14-Jan-2016 01:16:49.014 CST
+14-Jan-2016 01:17:55 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM21.root
+14-Jan-2016 01:17:55 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM22.root
+14-Jan-2016 01:17:55 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM22.root
+Begin processing the 218001st record. Run 1, Event 60133, LumiSection 885555 at 14-Jan-2016 01:18:00.585 CST
+Begin processing the 219001st record. Run 1, Event 6623, LumiSection 885555 at 14-Jan-2016 01:19:10.308 CST
+Begin processing the 220001st record. Run 1, Event 67255, LumiSection 885555 at 14-Jan-2016 01:20:19.942 CST
+Begin processing the 221001st record. Run 1, Event 7390, LumiSection 885555 at 14-Jan-2016 01:21:29.351 CST
+Begin processing the 222001st record. Run 1, Event 75684, LumiSection 885555 at 14-Jan-2016 01:22:38.891 CST
+Begin processing the 223001st record. Run 1, Event 171, LumiSection 885557 at 14-Jan-2016 01:23:47.994 CST
+Begin processing the 224001st record. Run 1, Event 80485, LumiSection 885557 at 14-Jan-2016 01:24:56.121 CST
+Begin processing the 225001st record. Run 1, Event 84738, LumiSection 885557 at 14-Jan-2016 01:26:04.855 CST
+Begin processing the 226001st record. Run 1, Event 87746, LumiSection 885557 at 14-Jan-2016 01:27:14.002 CST
+Begin processing the 227001st record. Run 1, Event 91713, LumiSection 885557 at 14-Jan-2016 01:28:23.352 CST
+14-Jan-2016 01:29:28 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM22.root
+14-Jan-2016 01:29:28 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM23.root
+14-Jan-2016 01:29:29 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM23.root
+Begin processing the 228001st record. Run 1, Event 94947, LumiSection 885557 at 14-Jan-2016 01:29:34.559 CST
+Begin processing the 229001st record. Run 1, Event 98742, LumiSection 885557 at 14-Jan-2016 01:30:44.334 CST
+Begin processing the 230001st record. Run 1, Event 13068, LumiSection 885557 at 14-Jan-2016 01:31:53.540 CST
+Begin processing the 231001st record. Run 1, Event 16237, LumiSection 885557 at 14-Jan-2016 01:33:03.863 CST
+Begin processing the 232001st record. Run 1, Event 20301, LumiSection 885557 at 14-Jan-2016 01:34:13.905 CST
+Begin processing the 233001st record. Run 1, Event 2882, LumiSection 885557 at 14-Jan-2016 01:35:23.665 CST
+Begin processing the 234001st record. Run 1, Event 27367, LumiSection 885557 at 14-Jan-2016 01:36:33.552 CST
+Begin processing the 235001st record. Run 1, Event 31088, LumiSection 885557 at 14-Jan-2016 01:37:42.641 CST
+Begin processing the 236001st record. Run 1, Event 35056, LumiSection 885557 at 14-Jan-2016 01:38:51.907 CST
+Begin processing the 237001st record. Run 1, Event 38903, LumiSection 885557 at 14-Jan-2016 01:40:01.679 CST
+14-Jan-2016 01:41:04 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM23.root
+14-Jan-2016 01:41:04 CST  Initiating request to open file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM24.root
+14-Jan-2016 01:41:04 CST  Successfully opened file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM24.root
+Begin processing the 238001st record. Run 1, Event 42096, LumiSection 885557 at 14-Jan-2016 01:41:13.501 CST
+Begin processing the 239001st record. Run 1, Event 45930, LumiSection 885557 at 14-Jan-2016 01:42:22.102 CST
+Begin processing the 240001st record. Run 1, Event 49054, LumiSection 885557 at 14-Jan-2016 01:43:31.483 CST
+Begin processing the 241001st record. Run 1, Event 52970, LumiSection 885557 at 14-Jan-2016 01:44:40.543 CST
+Begin processing the 242001st record. Run 1, Event 56044, LumiSection 885557 at 14-Jan-2016 01:45:49.590 CST
+Begin processing the 243001st record. Run 1, Event 59940, LumiSection 885557 at 14-Jan-2016 01:46:58.947 CST
+Begin processing the 244001st record. Run 1, Event 63198, LumiSection 885557 at 14-Jan-2016 01:48:08.081 CST
+Begin processing the 245001st record. Run 1, Event 67333, LumiSection 885557 at 14-Jan-2016 01:49:17.271 CST
+Begin processing the 246001st record. Run 1, Event 7657, LumiSection 885557 at 14-Jan-2016 01:50:26.806 CST
+Begin processing the 247001st record. Run 1, Event 74552, LumiSection 885557 at 14-Jan-2016 01:51:37.331 CST
+14-Jan-2016 01:52:39 CST  Closed file file:/fdata/hepx/store/user/delgado_andrea/Stop15/T2ttDeg_mStop350_mChi330_4bodydec.MINIAODSIM24.root
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 247899 passed = 247899 failed = 0
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+TrigReport     1    0     247899     247899          0          0 WriteTree
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+
+TrigReport ---------- Modules in Path: WriteTree ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0     247899     247899          0          0 WeightProducer
+TrigReport     1    1     247899     247899          0          0 GenHT
+TrigReport     1    2     247899     247899          0          0 NVtx
+TrigReport     1    3     247899     247899          0          0 nAllVertices
+TrigReport     1    4     247899     247899          0          0 genParticles
+TrigReport     1    5     247899     247899          0          0 SusyScan
+TrigReport     1    6     247899     247899          0          0 patJetCorrFactorsReapplyJEC
+TrigReport     1    7     247899     247899          0          0 patJetsReapplyJEC
+TrigReport     1    8     247899     247899          0          0 IsolatedElectronTracksVeto
+TrigReport     1    9     247899     247899          0          0 IsolatedMuonTracksVeto
+TrigReport     1   10     247899     247899          0          0 IsolatedPionTracksVeto
+TrigReport     1   11     247899     247899          0          0 LeptonsNew
+TrigReport     1   12     247899     247899          0          0 LeptonsNewTag
+TrigReport     1   13     247899     247899          0          0 goodPhotons
+TrigReport     1   14     247899     247899          0          0 GoodJets
+TrigReport     1   15     247899     247899          0          0 TriggerProducer
+TrigReport     1   16     247899     247899          0          0 HTJets
+TrigReport     1   17     247899     247899          0          0 HT
+TrigReport     1   18     247899     247899          0          0 NJets
+TrigReport     1   19     247899     247899          0          0 BTags
+TrigReport     1   20     247899     247899          0          0 MHTJets
+TrigReport     1   21     247899     247899          0          0 MHT
+TrigReport     1   22     247899     247899          0          0 DeltaPhi
+TrigReport     1   23     247899     247899          0          0 MET
+TrigReport     1   24     247899     247899          0          0 JetsProperties
+TrigReport     1   25     247899     247899          0          0 TreeMaker2
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited   Executed     Passed     Failed      Error Name
+TrigReport     247899     247899     247899          0          0 WeightProducer
+TrigReport     247899     247899     247899          0          0 GenHT
+TrigReport     247899     247899     247899          0          0 NVtx
+TrigReport     247899     247899     247899          0          0 nAllVertices
+TrigReport     247899     247899     247899          0          0 genParticles
+TrigReport     247899     247899     247899          0          0 SusyScan
+TrigReport     247899     247899     247899          0          0 patJetCorrFactorsReapplyJEC
+TrigReport     247899     247899     247899          0          0 patJetsReapplyJEC
+TrigReport     247899     247899     247899          0          0 IsolatedElectronTracksVeto
+TrigReport     247899     247899     247899          0          0 IsolatedMuonTracksVeto
+TrigReport     247899     247899     247899          0          0 IsolatedPionTracksVeto
+TrigReport     247899     247899     247899          0          0 LeptonsNew
+TrigReport     247899     247899     247899          0          0 LeptonsNewTag
+TrigReport     247899     247899     247899          0          0 goodPhotons
+TrigReport     247899     247899     247899          0          0 GoodJets
+TrigReport     247899     247899     247899          0          0 TriggerProducer
+TrigReport     247899     247899     247899          0          0 HTJets
+TrigReport     247899     247899     247899          0          0 HT
+TrigReport     247899     247899     247899          0          0 NJets
+TrigReport     247899     247899     247899          0          0 BTags
+TrigReport     247899     247899     247899          0          0 MHTJets
+TrigReport     247899     247899     247899          0          0 MHT
+TrigReport     247899     247899     247899          0          0 DeltaPhi
+TrigReport     247899     247899     247899          0          0 MET
+TrigReport     247899     247899     247899          0          0 JetsProperties
+TrigReport     247899     247899     247899          0          0 TreeMaker2
+TrigReport     247899     247899     247899          0          0 TriggerResults
+TrigReport          0          0          0          0          0 HTFilter
+TrigReport          0          0          0          0          0 MHTFilter
+TrigReport          0          0          0          0          0 PFCandAssoMap
+TrigReport          0          0          0          0          0 ak4CaloL1FastL2L3Corrector
+TrigReport          0          0          0          0          0 ak4CaloL1FastL2L3L6Corrector
+TrigReport          0          0          0          0          0 ak4CaloL1FastL2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4CaloL1FastjetCorrector
+TrigReport          0          0          0          0          0 ak4CaloL1L2L3Corrector
+TrigReport          0          0          0          0          0 ak4CaloL1L2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4CaloL1OffsetCorrector
+TrigReport          0          0          0          0          0 ak4CaloL2L3Corrector
+TrigReport          0          0          0          0          0 ak4CaloL2L3L6Corrector
+TrigReport          0          0          0          0          0 ak4CaloL2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4CaloL2RelativeCorrector
+TrigReport          0          0          0          0          0 ak4CaloL3AbsoluteCorrector
+TrigReport          0          0          0          0          0 ak4CaloL6SLBCorrector
+TrigReport          0          0          0          0          0 ak4CaloResidualCorrector
+TrigReport          0          0          0          0          0 ak4JPTL1FastL2L3Corrector
+TrigReport          0          0          0          0          0 ak4JPTL1FastL2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4JPTL1FastjetCorrector
+TrigReport          0          0          0          0          0 ak4JPTL1L2L3Corrector
+TrigReport          0          0          0          0          0 ak4JPTL1L2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4JPTL1OffsetCorrector
+TrigReport          0          0          0          0          0 ak4JPTL2L3Corrector
+TrigReport          0          0          0          0          0 ak4JPTL2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4JPTL2RelativeCorrector
+TrigReport          0          0          0          0          0 ak4JPTL3AbsoluteCorrector
+TrigReport          0          0          0          0          0 ak4JPTResidualCorrector
+TrigReport          0          0          0          0          0 ak4L1JPTOffsetCorrector
+TrigReport     247899     247899     247899          0          0 ak4PFCHSL1FastL2L3Corrector
+TrigReport          0          0          0          0          0 ak4PFCHSL1FastL2L3ResidualCorrector
+TrigReport     247899     247899     247899          0          0 ak4PFCHSL1FastjetCorrector
+TrigReport          0          0          0          0          0 ak4PFCHSL1L2L3Corrector
+TrigReport          0          0          0          0          0 ak4PFCHSL1L2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4PFCHSL1OffsetCorrector
+TrigReport          0          0          0          0          0 ak4PFCHSL2L3Corrector
+TrigReport          0          0          0          0          0 ak4PFCHSL2L3ResidualCorrector
+TrigReport     247899     247899     247899          0          0 ak4PFCHSL2RelativeCorrector
+TrigReport     247899     247899     247899          0          0 ak4PFCHSL3AbsoluteCorrector
+TrigReport          0          0          0          0          0 ak4PFCHSResidualCorrector
+TrigReport          0          0          0          0          0 ak4PFJets
+TrigReport     247899     247899     247899          0          0 ak4PFJetsCHS
+TrigReport          0          0          0          0          0 ak4PFL1FastL2L3Corrector
+TrigReport          0          0          0          0          0 ak4PFL1FastL2L3L6Corrector
+TrigReport          0          0          0          0          0 ak4PFL1FastL2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4PFL1FastjetCorrector
+TrigReport          0          0          0          0          0 ak4PFL1L2L3Corrector
+TrigReport          0          0          0          0          0 ak4PFL1L2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4PFL1OffsetCorrector
+TrigReport          0          0          0          0          0 ak4PFL2L3Corrector
+TrigReport          0          0          0          0          0 ak4PFL2L3L6Corrector
+TrigReport          0          0          0          0          0 ak4PFL2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4PFL2RelativeCorrector
+TrigReport          0          0          0          0          0 ak4PFL3AbsoluteCorrector
+TrigReport          0          0          0          0          0 ak4PFL6SLBCorrector
+TrigReport          0          0          0          0          0 ak4PFResidualCorrector
+TrigReport          0          0          0          0          0 ak4TrackL2L3Corrector
+TrigReport          0          0          0          0          0 ak4TrackL2RelativeCorrector
+TrigReport          0          0          0          0          0 ak4TrackL3AbsoluteCorrector
+TrigReport          0          0          0          0          0 corrPfMetType0PfCand
+TrigReport          0          0          0          0          0 corrPfMetType1
+TrigReport          0          0          0          0          0 corrPfMetType2
+TrigReport     247899     247899     247899          0          0 genMetExtractor
+TrigReport     247899     247899     247899          0          0 goodVertices
+TrigReport          0          0          0          0          0 particleFlowDisplacedVertex
+TrigReport          0          0          0          0          0 particleFlowPtrs
+TrigReport     247899     247899     247899          0          0 patJetCorrFactors
+TrigReport          0          0          0          0          0 patJetFlavourAssociation
+TrigReport          0          0          0          0          0 patJetFlavourAssociationLegacy
+TrigReport          0          0          0          0          0 patJetGenJetMatch
+TrigReport          0          0          0          0          0 patJetPartonAssociationLegacy
+TrigReport          0          0          0          0          0 patJetPartonMatch
+TrigReport          0          0          0          0          0 patJetPartons
+TrigReport          0          0          0          0          0 patJetPartonsLegacy
+TrigReport     247899     247899     247899          0          0 patJets
+TrigReport          0          0          0          0          0 patJetsResDown
+TrigReport          0          0          0          0          0 patJetsResUp
+TrigReport          0          0          0          0          0 patMETs
+TrigReport     247899     247899     247899          0          0 patPFMet
+TrigReport          0          0          0          0          0 patPFMetT0Corr
+TrigReport          0          0          0          0          0 patPFMetT0pcT1
+TrigReport          0          0          0          0          0 patPFMetT0pcT1Smear
+TrigReport          0          0          0          0          0 patPFMetT0pcT1T2
+TrigReport          0          0          0          0          0 patPFMetT0pcT1T2Smear
+TrigReport          0          0          0          0          0 patPFMetT0pcT1T2Txy
+TrigReport          0          0          0          0          0 patPFMetT0pcT1T2TxySmear
+TrigReport          0          0          0          0          0 patPFMetT0pcT1Txy
+TrigReport          0          0          0          0          0 patPFMetT0pcT1TxySmear
+TrigReport     247899     247899     247899          0          0 patPFMetT1
+TrigReport     247899     247899     247899          0          0 patPFMetT1ElectronEnDown
+TrigReport     247899     247899     247899          0          0 patPFMetT1ElectronEnUp
+TrigReport     247899     247899     247899          0          0 patPFMetT1JetEnDown
+TrigReport     247899     247899     247899          0          0 patPFMetT1JetEnUp
+TrigReport          0          0          0          0          0 patPFMetT1JetResDown
+TrigReport          0          0          0          0          0 patPFMetT1JetResUp
+TrigReport     247899     247899     247899          0          0 patPFMetT1MuonEnDown
+TrigReport     247899     247899     247899          0          0 patPFMetT1MuonEnUp
+TrigReport          0          0          0          0          0 patPFMetT1PhotonEnDown
+TrigReport          0          0          0          0          0 patPFMetT1PhotonEnUp
+TrigReport          0          0          0          0          0 patPFMetT1Smear
+TrigReport          0          0          0          0          0 patPFMetT1T2
+TrigReport     247899     247899     247899          0          0 patPFMetT1T2Corr
+TrigReport          0          0          0          0          0 patPFMetT1T2CorrUnclusteredEnDown
+TrigReport          0          0          0          0          0 patPFMetT1T2CorrUnclusteredEnUp
+TrigReport          0          0          0          0          0 patPFMetT1T2Smear
+TrigReport          0          0          0          0          0 patPFMetT1T2SmearCorr
+TrigReport          0          0          0          0          0 patPFMetT1T2Txy
+TrigReport          0          0          0          0          0 patPFMetT1T2TxySmear
+TrigReport     247899     247899     247899          0          0 patPFMetT1TauEnDown
+TrigReport     247899     247899     247899          0          0 patPFMetT1TauEnUp
+TrigReport          0          0          0          0          0 patPFMetT1Txy
+TrigReport          0          0          0          0          0 patPFMetT1TxySmear
+TrigReport     247899     247899     247899          0          0 patPFMetT1UnclusteredEnDown
+TrigReport     247899     247899     247899          0          0 patPFMetT1UnclusteredEnUp
+TrigReport     247899     247899     247899          0          0 patPFMetT2Corr
+TrigReport     247899     247899     247899          0          0 patPFMetT2CorrUnclusteredEnDown
+TrigReport     247899     247899     247899          0          0 patPFMetT2CorrUnclusteredEnUp
+TrigReport          0          0          0          0          0 patPFMetT2SmearCorr
+TrigReport          0          0          0          0          0 patPFMetTxy
+TrigReport          0          0          0          0          0 patPFMetTxyCorr
+TrigReport          0          0          0          0          0 patSmearedJets
+TrigReport     247899     247899     247899          0          0 pfCHS
+TrigReport          0          0          0          0          0 pfCandMETcorr
+TrigReport          0          0          0          0          0 pfCandMETcorrUnclusteredEnDown
+TrigReport          0          0          0          0          0 pfCandMETcorrUnclusteredEnUp
+TrigReport          0          0          0          0          0 pfCandidateToVertexAssociation
+TrigReport          0          0          0          0          0 pfCandsNotInJetsForMetCorr
+TrigReport          0          0          0          0          0 pfCandsNotInJetsPtrForMetCorr
+TrigReport          0          0          0          0          0 pfJetsPtrForMetCorr
+TrigReport          0          0          0          0          0 pfMETcorrType0
+TrigReport          0          0          0          0          0 pfMEtMultShiftCorr
+TrigReport     247899     247899     247899          0          0 pfMet
+TrigReport          0          0          0          0          0 pfNoJet
+TrigReport     247899     247899     247899          0          0 selectedPatJets
+TrigReport          0          0          0          0          0 selectedPatJetsForMetT1T2Corr
+TrigReport          0          0          0          0          0 selectedPatJetsForMetT1T2SmearCorr
+TrigReport          0          0          0          0          0 selectedPatJetsForMetT2Corr
+TrigReport          0          0          0          0          0 selectedPatJetsForMetT2SmearCorr
+TrigReport          0          0          0          0          0 selectedPrimaryVertexHighestPtTrackSumForPFMEtCorrType0
+TrigReport          0          0          0          0          0 selectedVerticesForPFMEtCorrType0
+TrigReport     247899     247899     247899          0          0 shiftedPatElectronEnDown
+TrigReport     247899     247899     247899          0          0 shiftedPatElectronEnUp
+TrigReport     247899     247899     247899          0          0 shiftedPatJetEnDown
+TrigReport     247899     247899     247899          0          0 shiftedPatJetEnUp
+TrigReport          0          0          0          0          0 shiftedPatJetResDown
+TrigReport          0          0          0          0          0 shiftedPatJetResUp
+TrigReport     247899     247899     247899          0          0 shiftedPatMETCorrElectronEnDown
+TrigReport     247899     247899     247899          0          0 shiftedPatMETCorrElectronEnUp
+TrigReport     247899     247899     247899          0          0 shiftedPatMETCorrJetEnDown
+TrigReport     247899     247899     247899          0          0 shiftedPatMETCorrJetEnUp
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetResDown
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetResUp
+TrigReport     247899     247899     247899          0          0 shiftedPatMETCorrMuonEnDown
+TrigReport     247899     247899     247899          0          0 shiftedPatMETCorrMuonEnUp
+TrigReport          0          0          0          0          0 shiftedPatMETCorrPhotonEnDown
+TrigReport          0          0          0          0          0 shiftedPatMETCorrPhotonEnUp
+TrigReport     247899     247899     247899          0          0 shiftedPatMETCorrTauEnDown
+TrigReport     247899     247899     247899          0          0 shiftedPatMETCorrTauEnUp
+TrigReport     247899     247899     247899          0          0 shiftedPatMuonEnDown
+TrigReport     247899     247899     247899          0          0 shiftedPatMuonEnUp
+TrigReport          0          0          0          0          0 shiftedPatPhotonEnDown
+TrigReport          0          0          0          0          0 shiftedPatPhotonEnUp
+TrigReport     247899     247899     247899          0          0 shiftedPatTauEnDown
+TrigReport     247899     247899     247899          0          0 shiftedPatTauEnUp
+TrigReport     247899     247899     247899          0          0 slimmedMETs
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport       event loop CPU/event = 0.064145
+TimeReport      event loop Real/event = 0.069940
+TimeReport     sum Streams Real/event = 0.068139
+TimeReport efficiency CPU/Real/thread = 0.917137
+
+TimeReport ---------- Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport   0.067635     0.067635  WriteTree
+TimeReport  per event     per exec  Name
+
+TimeReport -------End-Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport  per event     per exec  Name
+
+TimeReport ---------- Modules in Path: WriteTree ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000027     0.000027  WeightProducer
+TimeReport   0.000017     0.000017  GenHT
+TimeReport   0.000007     0.000007  NVtx
+TimeReport   0.000003     0.000003  nAllVertices
+TimeReport   0.000642     0.000642  genParticles
+TimeReport   0.000008     0.000008  SusyScan
+TimeReport   0.001945     0.001945  patJetCorrFactorsReapplyJEC
+TimeReport   0.000777     0.000777  patJetsReapplyJEC
+TimeReport   0.000652     0.000652  IsolatedElectronTracksVeto
+TimeReport   0.000530     0.000530  IsolatedMuonTracksVeto
+TimeReport   0.000610     0.000610  IsolatedPionTracksVeto
+TimeReport   0.000314     0.000314  LeptonsNew
+TimeReport   0.000096     0.000096  LeptonsNewTag
+TimeReport   0.000559     0.000559  goodPhotons
+TimeReport   0.000312     0.000312  GoodJets
+TimeReport   0.001873     0.001873  TriggerProducer
+TimeReport   0.000044     0.000044  HTJets
+TimeReport   0.000008     0.000008  HT
+TimeReport   0.000006     0.000006  NJets
+TimeReport   0.000007     0.000007  BTags
+TimeReport   0.000044     0.000044  MHTJets
+TimeReport   0.000012     0.000012  MHT
+TimeReport   0.000031     0.000031  DeltaPhi
+TimeReport   0.000027     0.000027  MET
+TimeReport   0.000311     0.000311  JetsProperties
+TimeReport   0.000550     0.000550  TreeMaker2
+TimeReport  per event    per visit  Name
+
+TimeReport ---------- Module Summary ---[Real sec]----
+TimeReport  per event     per exec    per visit  Name
+TimeReport   0.000040     0.000040     0.000040  TriggerResults
+TimeReport   0.000027     0.000027     0.000027  WeightProducer
+TimeReport   0.000017     0.000017     0.000017  GenHT
+TimeReport   0.000007     0.000007     0.000007  NVtx
+TimeReport   0.000003     0.000003     0.000003  nAllVertices
+TimeReport   0.000642     0.000642     0.000642  genParticles
+TimeReport   0.000008     0.000008     0.000008  SusyScan
+TimeReport   0.001945     0.001945     0.001945  patJetCorrFactorsReapplyJEC
+TimeReport   0.000777     0.000777     0.000777  patJetsReapplyJEC
+TimeReport   0.000652     0.000652     0.000652  IsolatedElectronTracksVeto
+TimeReport   0.000530     0.000530     0.000530  IsolatedMuonTracksVeto
+TimeReport   0.000610     0.000610     0.000610  IsolatedPionTracksVeto
+TimeReport   0.000314     0.000314     0.000314  LeptonsNew
+TimeReport   0.000096     0.000096     0.000096  LeptonsNewTag
+TimeReport   0.000559     0.000559     0.000559  goodPhotons
+TimeReport   0.000312     0.000312     0.000312  GoodJets
+TimeReport   0.001873     0.001873     0.001873  TriggerProducer
+TimeReport   0.000044     0.000044     0.000044  HTJets
+TimeReport   0.000008     0.000008     0.000008  HT
+TimeReport   0.000006     0.000006     0.000006  NJets
+TimeReport   0.000007     0.000007     0.000007  BTags
+TimeReport   0.000044     0.000044     0.000044  MHTJets
+TimeReport   0.000012     0.000012     0.000012  MHT
+TimeReport   0.000031     0.000031     0.000031  DeltaPhi
+TimeReport   0.000027     0.000027     0.000027  MET
+TimeReport   0.000311     0.000311     0.000311  JetsProperties
+TimeReport   0.000550     0.000550     0.000550  TreeMaker2
+TimeReport   0.000000     0.000000     0.000000  HTFilter
+TimeReport   0.000000     0.000000     0.000000  MHTFilter
+TimeReport   0.000000     0.000000     0.000000  PFCandAssoMap
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL1FastL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL1FastL2L3L6Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL1FastL2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL1FastjetCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL1L2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL1L2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL1OffsetCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL2L3L6Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL2RelativeCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL3AbsoluteCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloL6SLBCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4CaloResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTL1FastL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTL1FastL2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTL1FastjetCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTL1L2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTL1L2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTL1OffsetCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTL2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTL2RelativeCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTL3AbsoluteCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4JPTResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4L1JPTOffsetCorrector
+TimeReport   0.000016     0.000016     0.000016  ak4PFCHSL1FastL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL1FastL2L3ResidualCorrector
+TimeReport   0.000015     0.000015     0.000015  ak4PFCHSL1FastjetCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL1L2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL1L2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL1OffsetCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL2L3ResidualCorrector
+TimeReport   0.000009     0.000009     0.000009  ak4PFCHSL2RelativeCorrector
+TimeReport   0.000007     0.000007     0.000007  ak4PFCHSL3AbsoluteCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFJets
+TimeReport   0.023496     0.023496     0.023496  ak4PFJetsCHS
+TimeReport   0.000000     0.000000     0.000000  ak4PFL1FastL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL1FastL2L3L6Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL1FastL2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL1FastjetCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL1L2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL1L2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL1OffsetCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL2L3L6Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL2RelativeCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL3AbsoluteCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFL6SLBCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4TrackL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4TrackL2RelativeCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4TrackL3AbsoluteCorrector
+TimeReport   0.000000     0.000000     0.000000  corrPfMetType0PfCand
+TimeReport   0.000000     0.000000     0.000000  corrPfMetType1
+TimeReport   0.000000     0.000000     0.000000  corrPfMetType2
+TimeReport   0.000016     0.000016     0.000016  genMetExtractor
+TimeReport   0.000068     0.000068     0.000068  goodVertices
+TimeReport   0.000000     0.000000     0.000000  particleFlowDisplacedVertex
+TimeReport   0.000000     0.000000     0.000000  particleFlowPtrs
+TimeReport   0.004017     0.004017     0.004017  patJetCorrFactors
+TimeReport   0.000000     0.000000     0.000000  patJetFlavourAssociation
+TimeReport   0.000000     0.000000     0.000000  patJetFlavourAssociationLegacy
+TimeReport   0.000000     0.000000     0.000000  patJetGenJetMatch
+TimeReport   0.000000     0.000000     0.000000  patJetPartonAssociationLegacy
+TimeReport   0.000000     0.000000     0.000000  patJetPartonMatch
+TimeReport   0.000000     0.000000     0.000000  patJetPartons
+TimeReport   0.000000     0.000000     0.000000  patJetPartonsLegacy
+TimeReport   0.001687     0.001687     0.001687  patJets
+TimeReport   0.000000     0.000000     0.000000  patJetsResDown
+TimeReport   0.000000     0.000000     0.000000  patJetsResUp
+TimeReport   0.000000     0.000000     0.000000  patMETs
+TimeReport   0.000061     0.000061     0.000061  patPFMet
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0Corr
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1Smear
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1T2
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1T2Smear
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1T2Txy
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1T2TxySmear
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1Txy
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1TxySmear
+TimeReport   0.000039     0.000039     0.000039  patPFMetT1
+TimeReport   0.000016     0.000016     0.000016  patPFMetT1ElectronEnDown
+TimeReport   0.000017     0.000017     0.000017  patPFMetT1ElectronEnUp
+TimeReport   0.000016     0.000016     0.000016  patPFMetT1JetEnDown
+TimeReport   0.000017     0.000017     0.000017  patPFMetT1JetEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetResDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetResUp
+TimeReport   0.000016     0.000016     0.000016  patPFMetT1MuonEnDown
+TimeReport   0.000018     0.000018     0.000018  patPFMetT1MuonEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1PhotonEnDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1PhotonEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1Smear
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2
+TimeReport   0.003393     0.003393     0.003393  patPFMetT1T2Corr
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2CorrUnclusteredEnDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2CorrUnclusteredEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2Smear
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2SmearCorr
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2Txy
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2TxySmear
+TimeReport   0.000016     0.000016     0.000016  patPFMetT1TauEnDown
+TimeReport   0.000018     0.000018     0.000018  patPFMetT1TauEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1Txy
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1TxySmear
+TimeReport   0.000015     0.000015     0.000015  patPFMetT1UnclusteredEnDown
+TimeReport   0.000016     0.000016     0.000016  patPFMetT1UnclusteredEnUp
+TimeReport   0.003492     0.003492     0.003492  patPFMetT2Corr
+TimeReport   0.000008     0.000008     0.000008  patPFMetT2CorrUnclusteredEnDown
+TimeReport   0.000013     0.000013     0.000013  patPFMetT2CorrUnclusteredEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT2SmearCorr
+TimeReport   0.000000     0.000000     0.000000  patPFMetTxy
+TimeReport   0.000000     0.000000     0.000000  patPFMetTxyCorr
+TimeReport   0.000000     0.000000     0.000000  patSmearedJets
+TimeReport   0.004352     0.004352     0.004352  pfCHS
+TimeReport   0.000000     0.000000     0.000000  pfCandMETcorr
+TimeReport   0.000000     0.000000     0.000000  pfCandMETcorrUnclusteredEnDown
+TimeReport   0.000000     0.000000     0.000000  pfCandMETcorrUnclusteredEnUp
+TimeReport   0.000000     0.000000     0.000000  pfCandidateToVertexAssociation
+TimeReport   0.000000     0.000000     0.000000  pfCandsNotInJetsForMetCorr
+TimeReport   0.000000     0.000000     0.000000  pfCandsNotInJetsPtrForMetCorr
+TimeReport   0.000000     0.000000     0.000000  pfJetsPtrForMetCorr
+TimeReport   0.000000     0.000000     0.000000  pfMETcorrType0
+TimeReport   0.000000     0.000000     0.000000  pfMEtMultShiftCorr
+TimeReport   0.000989     0.000989     0.000989  pfMet
+TimeReport   0.000000     0.000000     0.000000  pfNoJet
+TimeReport   0.000402     0.000402     0.000402  selectedPatJets
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsForMetT1T2Corr
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsForMetT1T2SmearCorr
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsForMetT2Corr
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsForMetT2SmearCorr
+TimeReport   0.000000     0.000000     0.000000  selectedPrimaryVertexHighestPtTrackSumForPFMEtCorrType0
+TimeReport   0.000000     0.000000     0.000000  selectedVerticesForPFMEtCorrType0
+TimeReport   0.000024     0.000024     0.000024  shiftedPatElectronEnDown
+TimeReport   0.000036     0.000036     0.000036  shiftedPatElectronEnUp
+TimeReport   0.000704     0.000704     0.000704  shiftedPatJetEnDown
+TimeReport   0.000724     0.000724     0.000724  shiftedPatJetEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetResDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetResUp
+TimeReport   0.000011     0.000011     0.000011  shiftedPatMETCorrElectronEnDown
+TimeReport   0.000016     0.000016     0.000016  shiftedPatMETCorrElectronEnUp
+TimeReport   0.000030     0.000030     0.000030  shiftedPatMETCorrJetEnDown
+TimeReport   0.000038     0.000038     0.000038  shiftedPatMETCorrJetEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetResDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetResUp
+TimeReport   0.000012     0.000012     0.000012  shiftedPatMETCorrMuonEnDown
+TimeReport   0.000018     0.000018     0.000018  shiftedPatMETCorrMuonEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrPhotonEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrPhotonEnUp
+TimeReport   0.000012     0.000012     0.000012  shiftedPatMETCorrTauEnDown
+TimeReport   0.000016     0.000016     0.000016  shiftedPatMETCorrTauEnUp
+TimeReport   0.000027     0.000027     0.000027  shiftedPatMuonEnDown
+TimeReport   0.000044     0.000044     0.000044  shiftedPatMuonEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatPhotonEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatPhotonEnUp
+TimeReport   0.000039     0.000039     0.000039  shiftedPatTauEnDown
+TimeReport   0.000049     0.000049     0.000049  shiftedPatTauEnUp
+TimeReport   0.000039     0.000039     0.000039  slimmedMETs
+TimeReport  per event     per exec    per visit  Name
+
+T---Report end!
+
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                            25       25
+    2 fileAction           -s file_open                             50       50
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    2 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                 75                  75

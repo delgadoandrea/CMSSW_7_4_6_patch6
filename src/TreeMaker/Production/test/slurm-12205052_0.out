@@ -1,0 +1,1579 @@
+***** SETUP ************************************
+ dataset: cms.untracked.vstring('file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/12DA081B-5E74-E411-8140-00259073E3D6.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/1A25B034-5E74-E411-AB19-002590574604.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/2EDAAF5C-5E74-E411-BA95-002590D0B0BE.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/3CE8E14A-5E74-E411-86DB-00259074AE32.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/5875AE66-5E74-E411-8BF6-485B39800BBF.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/723FFE3C-5E74-E411-83D7-00259073E3A0.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/824AEE22-5E74-E411-929E-00259073E4C2.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/A03CBE5B-5E74-E411-946B-00259073E3A2.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/A6C9A4FB-5D74-E411-B003-485B39800BD5.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/AA96296E-5E74-E411-B545-00259073E3F2.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/E6901560-5E74-E411-B93F-BCAEC50971F2.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/FADE572F-5E74-E411-AC31-00259074AED2.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/FAF78155-5E74-E411-89FA-00259073E3A2.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/047F5082-6874-E411-B9C1-002590D0B048.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/349E775C-6874-E411-9DF8-00259073E470.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/64B89571-6874-E411-AC42-20CF305B053E.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/6897C987-6874-E411-A4C7-00259073E3B4.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/7639575E-6874-E411-BE12-0025907B4EEE.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/788A3C5D-6874-E411-824F-00259073E470.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/92EA5B3C-6874-E411-B50D-002590D0AFE8.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/C2F35257-6874-E411-8370-20CF305B04D2.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DA81C183-6874-E411-908E-20CF305B04FB.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DC529E4C-6874-E411-B7B4-20CF3027A627.root', 
+    'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DCC97166-6874-E411-933C-485B39800BC7.root')
+ outfile: /fdata/hepx/store/user/delgado_andrea/Analysis/Full/QCD_HT_1000ToInf_13TeV-madgraph
+ 
+ storing lostlepton variables: False
+ storing hadtau variables: False
+ storing Zinv variables: False
+ storing QCD variables: False
+ 
+ storing PDF weights: False
+ 
+ storing tag and probe variables: False
+ storing track debugging variables: False
+ Applying baseline selection filter: False
+ 
+ scenario: Phys14
+ global tag: PHYS14_25_V2
+ Instance name of tag information: PAT
+ Including gen-level information: True
+ Using fastsim settings: False
+ era of this dataset: Run2_25ns
+************************************************
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+Configuring for 74X
+Calculation with mtcut: cms.double(100)
+QCD_HT_1000ToInf_13TeV-madgraph, PU20bx25_PHYS14_25_V1 : 'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/12DA081B-5E74-E411-8140-00259073E3D6.root'
+Setup WeightProducer for 'file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/12DA081B-5E74-E411-8140-00259073E3D6.root'
+07-Mar-2016 12:28:43 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/12DA081B-5E74-E411-8140-00259073E3D6.root
+07-Mar-2016 12:28:45 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/12DA081B-5E74-E411-8140-00259073E3D6.root
+  Target luminosity (1/pb) : 1
+        Cross section (pb) : 769.7
+          Number of events : 1.46445e+06
+WeightProducer: Using constant event weight of 0.000525589
+  Target luminosity (1/pb) : 1
+        Cross section (pb) : 769.7
+          Number of events : 1.46445e+06
+WeightProducer: Applying multiplicative PU weights
+  Reading PU scenario from '/home/delgado_andrea/CMSSW_7_4_6_patch6/src/TreeMaker/Production/test/data/pu_weights_7_4_25ns_testShifts.root'
+  Computing weights for pile-up scenario will store trigger information for...
+HLT_PFHT350_PFMET100_NoiseCleaned_v
+HLT_PFHT350_PFMET100_JetIdCleaned_v
+HLT_PFMET170_NoiseCleaned_v
+HLT_PFMET170_JetIdCleaned_v
+HLT_PFHT350_v
+HLT_PFHT800_v
+HLT_PFHT900_v
+HLT_Ele27_eta2p1_WPLoose_Gsf_v
+HLT_DoubleEle24_22_eta2p1_WPLoose_Gsf_v
+HLT_IsoMu17_eta2p1_v
+HLT_PFHT350_PFMET120_NoiseCleaned_v
+HLT_Mu15_IsoVVVL_PFHT350_PFMET70_v
+HLT_Ele15_IsoVVVL_PFHT350_PFMET70_v
+HLT_Mu15_IsoVVVL_PFHT400_PFMET70_v
+HLT_Ele15_IsoVVVL_PFHT400_PFMET70_v
+HLT_Mu15_IsoVVVL_BTagCSV0p72_PFHT400_v
+HLT_Mu15_IsoVVVL_BTagCSV07_PFHT400_v
+HLT_Mu15_IsoVVVL_PFHT600_v
+HLT_Mu45_eta2p1_v
+HLT_Mu50_eta2p1_v
+HLT_Mu50_v
+HLT_Mu55_v
+HLT_Photon75_v
+HLT_Photon90_v
+HLT_Photon90_CaloIdL_PFHT500_v
+HLT_DoubleEle8_CaloIdM_Mass8_PFHT300_v
+HLT_Ele27_eta2p1_WP85_Gsf_v
+HLT_IsoMu20_eta2p1_IterTrk02_v
+HLT_DoubleMu8_Mass8_PFHT300_v
+HLT_Ele27_WP85_Gsf_v
+HLT_IsoMu20_eta2p1_v
+HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v
+HLT_DoubleMu18NoFiltersNoVtx_v
+HLT_Mu20_v
+HLT_QuadJet45_TripleCSV0p5_v
+HLT_DoubleJet90_Double30_TripleCSV0p5_v
+HLT_Ele15_IsoVVVL_PFHT350_v
+HLT_Mu15_IsoVVVL_PFHT350_v
+Varsstoppair:
+full name: genParticles:stopPair(genParticles_stopPair) -> tag: genParticles:stopPair nameInTree: genParticles_stopPair
+VarsgenP:
+full name: genParticles:genPart(genParticles_genPart) -> tag: genParticles:genPart nameInTree: genParticles_genPart
+VarsBool:
+full name: GoodJets(JetID) -> tag: GoodJets nameInTree: JetID
+full name: HBHENoiseFilterResultProducer:HBHENoiseFilterResult(HBHENoiseFilter) -> tag: HBHENoiseFilterResultProducer:HBHENoiseFilterResult nameInTree: HBHENoiseFilter
+VarsInt:
+full name: NVtx -> tag: NVtx nameInTree: NVtx
+full name: nAllVertices -> tag: nAllVertices nameInTree: nAllVertices
+full name: genParticles:nElectrons(genParticles_nElectrons) -> tag: genParticles:nElectrons nameInTree: genParticles_nElectrons
+full name: genParticles:nMuons(genParticles_nMuons) -> tag: genParticles:nMuons nameInTree: genParticles_nMuons
+full name: genParticles:nTaus(genParticles_nTaus) -> tag: genParticles:nTaus nameInTree: genParticles_nTaus
+full name: genParticles:nMufromB(genParticles_nMufromB) -> tag: genParticles:nMufromB nameInTree: genParticles_nMufromB
+full name: IsolatedElectronTracksVeto:isoTracks(isoElectronTracks) -> tag: IsolatedElectronTracksVeto:isoTracks nameInTree: isoElectronTracks
+full name: IsolatedMuonTracksVeto:isoTracks(isoMuonTracks) -> tag: IsolatedMuonTracksVeto:isoTracks nameInTree: isoMuonTracks
+full name: IsolatedPionTracksVeto:isoTracks(isoPionTracks) -> tag: IsolatedPionTracksVeto:isoTracks nameInTree: isoPionTracks
+full name: LeptonsNew(Leptons) -> tag: LeptonsNew nameInTree: Leptons
+full name: LeptonsNew(ElecHandleSize) -> tag: LeptonsNew nameInTree: ElecHandleSize
+full name: LeptonsNew(MuonHandleSize) -> tag: LeptonsNew nameInTree: MuonHandleSize
+full name: LeptonsNewTag(TagLeptonHighPT) -> tag: LeptonsNewTag nameInTree: TagLeptonHighPT
+full name: goodPhotons:NumPhotons -> tag: goodPhotons:NumPhotons nameInTree: NumPhotons
+full name: METFilters -> tag: METFilters nameInTree: METFilters
+full name: CSCTightHaloFilter -> tag: CSCTightHaloFilter nameInTree: CSCTightHaloFilter
+full name: EcalDeadCellTriggerPrimitiveFilter -> tag: EcalDeadCellTriggerPrimitiveFilter nameInTree: EcalDeadCellTriggerPrimitiveFilter
+full name: eeBadScFilter -> tag: eeBadScFilter nameInTree: eeBadScFilter
+full name: NJets -> tag: NJets nameInTree: NJets
+full name: BTags -> tag: BTags nameInTree: BTags
+VarsDouble:
+full name: WeightProducer:weight(Weight) -> tag: WeightProducer:weight nameInTree: Weight
+full name: WeightProducer:PUweight(puWeight) -> tag: WeightProducer:PUweight nameInTree: puWeight
+full name: WeightProducer:PUSysUp(puSysUp) -> tag: WeightProducer:PUSysUp nameInTree: puSysUp
+full name: WeightProducer:PUSysDown(puSysDown) -> tag: WeightProducer:PUSysDown nameInTree: puSysDown
+full name: GenHT:genHT -> tag: GenHT:genHT nameInTree: genHT
+full name: SusyScan:SusyMotherMass -> tag: SusyScan:SusyMotherMass nameInTree: SusyMotherMass
+full name: SusyScan:SusyLSPMass -> tag: SusyScan:SusyLSPMass nameInTree: SusyLSPMass
+full name: HT -> tag: HT nameInTree: HT
+full name: MHT:Pt(MHT) -> tag: MHT:Pt nameInTree: MHT
+full name: MHT:Phi(MHT_Phi) -> tag: MHT:Phi nameInTree: MHT_Phi
+full name: DeltaPhi:DeltaPhi1 -> tag: DeltaPhi:DeltaPhi1 nameInTree: DeltaPhi1
+full name: DeltaPhi:DeltaPhi2 -> tag: DeltaPhi:DeltaPhi2 nameInTree: DeltaPhi2
+full name: DeltaPhi:DeltaPhi3 -> tag: DeltaPhi:DeltaPhi3 nameInTree: DeltaPhi3
+full name: DeltaPhi:DeltaPhi4 -> tag: DeltaPhi:DeltaPhi4 nameInTree: DeltaPhi4
+full name: MET:minDeltaPhiN -> tag: MET:minDeltaPhiN nameInTree: minDeltaPhiN
+full name: MET:DeltaPhiN1 -> tag: MET:DeltaPhiN1 nameInTree: DeltaPhiN1
+full name: MET:DeltaPhiN2 -> tag: MET:DeltaPhiN2 nameInTree: DeltaPhiN2
+full name: MET:DeltaPhiN3 -> tag: MET:DeltaPhiN3 nameInTree: DeltaPhiN3
+full name: MET:Pt(METPt) -> tag: MET:Pt nameInTree: METPt
+full name: MET:Phi(METPhi) -> tag: MET:Phi nameInTree: METPhi
+full name: MET:GenPt(GenMETPt) -> tag: MET:GenPt nameInTree: GenMETPt
+full name: MET:GenPhi(GenMETPhi) -> tag: MET:GenPhi nameInTree: GenMETPhi
+VarsString:
+VarsTLorentzVector:
+VectorBool:
+full name: TriggerProducer:TriggerPass -> tag: TriggerProducer:TriggerPass nameInTree: TriggerPass
+VectorInt:
+full name: genParticles:PDGid(genParticles_PDGid) -> tag: genParticles:PDGid nameInTree: genParticles_PDGid
+full name: genParticles:parent(genParticles_parent) -> tag: genParticles:parent nameInTree: genParticles_parent
+full name: LeptonsNew:MuonCharge(MuonCharge) -> tag: LeptonsNew:MuonCharge nameInTree: MuonCharge
+full name: LeptonsNew:ElectronCharge(ElectronCharge) -> tag: LeptonsNew:ElectronCharge nameInTree: ElectronCharge
+full name: TriggerProducer:TriggerPrescales -> tag: TriggerProducer:TriggerPrescales nameInTree: TriggerPrescales
+full name: JetsProperties:chargedHadronMultiplicity(Jets_chargedHadronMultiplicity) -> tag: JetsProperties:chargedHadronMultiplicity nameInTree: Jets_chargedHadronMultiplicity
+full name: JetsProperties:electronMultiplicity(Jets_electronMultiplicity) -> tag: JetsProperties:electronMultiplicity nameInTree: Jets_electronMultiplicity
+full name: JetsProperties:muonMultiplicity(Jets_muonMultiplicity) -> tag: JetsProperties:muonMultiplicity nameInTree: Jets_muonMultiplicity
+full name: JetsProperties:neutralHadronMultiplicity(Jets_neutralHadronMultiplicity) -> tag: JetsProperties:neutralHadronMultiplicity nameInTree: Jets_neutralHadronMultiplicity
+full name: JetsProperties:photonMultiplicity(Jets_photonMultiplicity) -> tag: JetsProperties:photonMultiplicity nameInTree: Jets_photonMultiplicity
+full name: JetsProperties:flavor(Jets_flavor) -> tag: JetsProperties:flavor nameInTree: Jets_flavor
+VectorDouble:
+full name: JetsProperties:bDiscriminatorUser(Jets_bDiscriminatorCS) -> tag: JetsProperties:bDiscriminatorUser nameInTree: Jets_bDiscriminatorCS
+full name: JetsProperties:bDiscriminatorMVA(Jets_bDiscriminatorMVA) -> tag: JetsProperties:bDiscriminatorMVA nameInTree: Jets_bDiscriminatorMVA
+full name: JetsProperties:chargedEmEnergyFraction(Jets_chargedEmEnergyFraction) -> tag: JetsProperties:chargedEmEnergyFraction nameInTree: Jets_chargedEmEnergyFraction
+full name: JetsProperties:chargedHadronEnergyFraction(Jets_chargedHadronEnergyFraction) -> tag: JetsProperties:chargedHadronEnergyFraction nameInTree: Jets_chargedHadronEnergyFraction
+full name: JetsProperties:jetArea(Jets_jetArea) -> tag: JetsProperties:jetArea nameInTree: Jets_jetArea
+full name: JetsProperties:muonEnergyFraction(Jets_muonEnergyFraction) -> tag: JetsProperties:muonEnergyFraction nameInTree: Jets_muonEnergyFraction
+full name: JetsProperties:neutralEmEnergyFraction(Jets_neutralEmEnergyFraction) -> tag: JetsProperties:neutralEmEnergyFraction nameInTree: Jets_neutralEmEnergyFraction
+full name: JetsProperties:photonEnergyFraction(Jets_photonEnergyFraction) -> tag: JetsProperties:photonEnergyFraction nameInTree: Jets_photonEnergyFraction
+VectorString:
+full name: TriggerProducer:TriggerNames -> tag: TriggerProducer:TriggerNames nameInTree: TriggerNames
+VectorTLorentzVector:
+full name: genParticles(genParticles) -> tag: genParticles nameInTree: genParticles
+VectorRecoCand:
+full name: LeptonsNew:IdIsoMuon(Muons) -> tag: LeptonsNew:IdIsoMuon nameInTree: Muons
+full name: LeptonsNew:IdIsoElectron(Electrons) -> tag: LeptonsNew:IdIsoElectron nameInTree: Electrons
+full name: LeptonsNew:IdMuon(IDMuons) -> tag: LeptonsNew:IdMuon nameInTree: IDMuons
+full name: LeptonsNew:IdElectron(IDElectrons) -> tag: LeptonsNew:IdElectron nameInTree: IDElectrons
+full name: goodPhotons:bestPhoton -> tag: goodPhotons:bestPhoton nameInTree: bestPhoton
+full name: GoodJets(Jets) -> tag: GoodJets nameInTree: Jets
+VarIso:
+full name: IsolatedMuonTracksVeto:pfcandstrkiso(pfcands_trkiso) -> tag: IsolatedMuonTracksVeto:pfcandstrkiso nameInTree: pfcands_trkiso
+VarCand:
+full name: IsolatedMuonTracksVeto:pfcands(pfcands) -> tag: IsolatedMuonTracksVeto:pfcands nameInTree: pfcands
+VectorFloat:
+full name: LeptonsNew:ElectronIsoValue(ElectronIsoValue) -> tag: LeptonsNew:ElectronIsoValue nameInTree: ElectronIsoValue
+full name: LeptonsNew:MuonIsoValue(MuonIsoValue) -> tag: LeptonsNew:MuonIsoValue nameInTree: MuonIsoValue
+Begin processing the 1st record. Run 1, Event 1744354, LumiSection 17448 at 07-Mar-2016 12:28:55.940 CST
+Begin processing the 1001st record. Run 1, Event 650756, LumiSection 6509 at 07-Mar-2016 12:29:26.713 CST
+Begin processing the 2001st record. Run 1, Event 769085, LumiSection 7693 at 07-Mar-2016 12:29:51.460 CST
+Begin processing the 3001st record. Run 1, Event 607818, LumiSection 6080 at 07-Mar-2016 12:30:15.543 CST
+Begin processing the 4001st record. Run 1, Event 1138345, LumiSection 11386 at 07-Mar-2016 12:30:37.833 CST
+Begin processing the 5001st record. Run 1, Event 1146851, LumiSection 11471 at 07-Mar-2016 12:31:02.177 CST
+Begin processing the 6001st record. Run 1, Event 400863, LumiSection 4010 at 07-Mar-2016 12:31:27.433 CST
+Begin processing the 7001st record. Run 1, Event 362372, LumiSection 3625 at 07-Mar-2016 12:31:52.462 CST
+Begin processing the 8001st record. Run 1, Event 889868, LumiSection 8901 at 07-Mar-2016 12:32:14.684 CST
+Begin processing the 9001st record. Run 1, Event 525261, LumiSection 5254 at 07-Mar-2016 12:32:40.434 CST
+Begin processing the 10001st record. Run 1, Event 451159, LumiSection 4513 at 07-Mar-2016 12:33:05.106 CST
+Begin processing the 11001st record. Run 1, Event 439432, LumiSection 4395 at 07-Mar-2016 12:33:29.195 CST
+Begin processing the 12001st record. Run 1, Event 331787, LumiSection 3319 at 07-Mar-2016 12:33:51.519 CST
+Begin processing the 13001st record. Run 1, Event 346793, LumiSection 3469 at 07-Mar-2016 12:34:17.173 CST
+Begin processing the 14001st record. Run 1, Event 937349, LumiSection 9376 at 07-Mar-2016 12:34:42.222 CST
+Begin processing the 15001st record. Run 1, Event 858629, LumiSection 8589 at 07-Mar-2016 12:35:07.020 CST
+Begin processing the 16001st record. Run 1, Event 885559, LumiSection 8858 at 07-Mar-2016 12:35:29.635 CST
+Begin processing the 17001st record. Run 1, Event 391716, LumiSection 3918 at 07-Mar-2016 12:35:53.934 CST
+Begin processing the 18001st record. Run 1, Event 440379, LumiSection 4405 at 07-Mar-2016 12:36:18.755 CST
+Begin processing the 19001st record. Run 1, Event 489936, LumiSection 4900 at 07-Mar-2016 12:36:44.403 CST
+Begin processing the 20001st record. Run 1, Event 536097, LumiSection 5362 at 07-Mar-2016 12:37:06.683 CST
+Begin processing the 21001st record. Run 1, Event 508729, LumiSection 5088 at 07-Mar-2016 12:37:30.642 CST
+Begin processing the 22001st record. Run 1, Event 453575, LumiSection 4537 at 07-Mar-2016 12:37:55.645 CST
+Begin processing the 23001st record. Run 1, Event 1249071, LumiSection 12494 at 07-Mar-2016 12:38:19.835 CST
+Begin processing the 24001st record. Run 1, Event 484168, LumiSection 4843 at 07-Mar-2016 12:38:43.548 CST
+Begin processing the 25001st record. Run 1, Event 433965, LumiSection 4341 at 07-Mar-2016 12:39:06.558 CST
+Begin processing the 26001st record. Run 1, Event 1343716, LumiSection 13440 at 07-Mar-2016 12:39:30.624 CST
+Begin processing the 27001st record. Run 1, Event 479079, LumiSection 4792 at 07-Mar-2016 12:39:54.814 CST
+Begin processing the 28001st record. Run 1, Event 1059887, LumiSection 10601 at 07-Mar-2016 12:40:19.688 CST
+Begin processing the 29001st record. Run 1, Event 946319, LumiSection 9465 at 07-Mar-2016 12:40:42.156 CST
+Begin processing the 30001st record. Run 1, Event 494300, LumiSection 4944 at 07-Mar-2016 12:41:06.017 CST
+Begin processing the 31001st record. Run 1, Event 470470, LumiSection 4706 at 07-Mar-2016 12:41:30.556 CST
+Begin processing the 32001st record. Run 1, Event 561887, LumiSection 5620 at 07-Mar-2016 12:41:54.628 CST
+Begin processing the 33001st record. Run 1, Event 521247, LumiSection 5214 at 07-Mar-2016 12:42:19.676 CST
+Begin processing the 34001st record. Run 1, Event 550574, LumiSection 5507 at 07-Mar-2016 12:42:41.665 CST
+Begin processing the 35001st record. Run 1, Event 541156, LumiSection 5413 at 07-Mar-2016 12:43:06.717 CST
+Begin processing the 36001st record. Run 1, Event 663690, LumiSection 6639 at 07-Mar-2016 12:43:30.635 CST
+Begin processing the 37001st record. Run 1, Event 665743, LumiSection 6659 at 07-Mar-2016 12:43:56.093 CST
+Begin processing the 38001st record. Run 1, Event 803028, LumiSection 8032 at 07-Mar-2016 12:44:18.276 CST
+Begin processing the 39001st record. Run 1, Event 1233890, LumiSection 12342 at 07-Mar-2016 12:44:41.863 CST
+Begin processing the 40001st record. Run 1, Event 548562, LumiSection 5487 at 07-Mar-2016 12:45:06.989 CST
+Begin processing the 41001st record. Run 1, Event 724530, LumiSection 7247 at 07-Mar-2016 12:45:32.388 CST
+Begin processing the 42001st record. Run 1, Event 585203, LumiSection 5854 at 07-Mar-2016 12:45:54.469 CST
+Begin processing the 43001st record. Run 1, Event 746507, LumiSection 7467 at 07-Mar-2016 12:46:18.282 CST
+Begin processing the 44001st record. Run 1, Event 558573, LumiSection 5587 at 07-Mar-2016 12:46:42.405 CST
+Begin processing the 45001st record. Run 1, Event 583465, LumiSection 5836 at 07-Mar-2016 12:47:07.293 CST
+Begin processing the 46001st record. Run 1, Event 1450400, LumiSection 14507 at 07-Mar-2016 12:47:30.824 CST
+Begin processing the 47001st record. Run 1, Event 590317, LumiSection 5905 at 07-Mar-2016 12:47:55.040 CST
+Begin processing the 48001st record. Run 1, Event 670383, LumiSection 6705 at 07-Mar-2016 12:48:19.376 CST
+Begin processing the 49001st record. Run 1, Event 691396, LumiSection 6916 at 07-Mar-2016 12:48:44.070 CST
+07-Mar-2016 12:48:49 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/12DA081B-5E74-E411-8140-00259073E3D6.root
+07-Mar-2016 12:48:49 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/1A25B034-5E74-E411-AB19-002590574604.root
+07-Mar-2016 12:48:49 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/1A25B034-5E74-E411-AB19-002590574604.root
+Begin processing the 50001st record. Run 1, Event 1514551, LumiSection 15149 at 07-Mar-2016 12:49:09.490 CST
+Begin processing the 51001st record. Run 1, Event 1488306, LumiSection 14886 at 07-Mar-2016 12:49:32.752 CST
+Begin processing the 52001st record. Run 1, Event 1927840, LumiSection 19282 at 07-Mar-2016 12:49:56.733 CST
+Begin processing the 53001st record. Run 1, Event 1600471, LumiSection 16008 at 07-Mar-2016 12:50:20.692 CST
+Begin processing the 54001st record. Run 1, Event 1747815, LumiSection 17482 at 07-Mar-2016 12:50:44.679 CST
+Begin processing the 55001st record. Run 1, Event 1576183, LumiSection 15765 at 07-Mar-2016 12:51:06.818 CST
+Begin processing the 56001st record. Run 1, Event 1604484, LumiSection 16048 at 07-Mar-2016 12:51:30.840 CST
+Begin processing the 57001st record. Run 1, Event 1525910, LumiSection 15262 at 07-Mar-2016 12:51:55.167 CST
+Begin processing the 58001st record. Run 1, Event 1469943, LumiSection 14703 at 07-Mar-2016 12:52:18.784 CST
+Begin processing the 59001st record. Run 1, Event 1535457, LumiSection 15358 at 07-Mar-2016 12:52:41.674 CST
+Begin processing the 60001st record. Run 1, Event 1667958, LumiSection 16683 at 07-Mar-2016 12:53:05.283 CST
+Begin processing the 61001st record. Run 1, Event 1658877, LumiSection 16592 at 07-Mar-2016 12:53:29.330 CST
+Begin processing the 62001st record. Run 1, Event 2232241, LumiSection 22327 at 07-Mar-2016 12:53:53.764 CST
+Begin processing the 63001st record. Run 1, Event 1535758, LumiSection 15361 at 07-Mar-2016 12:54:16.660 CST
+Begin processing the 64001st record. Run 1, Event 1709923, LumiSection 17103 at 07-Mar-2016 12:54:39.672 CST
+Begin processing the 65001st record. Run 1, Event 1695604, LumiSection 16959 at 07-Mar-2016 12:55:03.774 CST
+Begin processing the 66001st record. Run 1, Event 1646088, LumiSection 16464 at 07-Mar-2016 12:55:28.102 CST
+Begin processing the 67001st record. Run 1, Event 2065348, LumiSection 20658 at 07-Mar-2016 12:55:49.963 CST
+Begin processing the 68001st record. Run 1, Event 1745073, LumiSection 17455 at 07-Mar-2016 12:56:13.140 CST
+Begin processing the 69001st record. Run 1, Event 2038053, LumiSection 20385 at 07-Mar-2016 12:56:37.261 CST
+Begin processing the 70001st record. Run 1, Event 1576087, LumiSection 15764 at 07-Mar-2016 12:57:00.837 CST
+Begin processing the 71001st record. Run 1, Event 1716011, LumiSection 17164 at 07-Mar-2016 12:57:24.703 CST
+Begin processing the 72001st record. Run 1, Event 1688044, LumiSection 16884 at 07-Mar-2016 12:57:47.225 CST
+Begin processing the 73001st record. Run 1, Event 1609870, LumiSection 16102 at 07-Mar-2016 12:58:11.131 CST
+Begin processing the 74001st record. Run 1, Event 1606554, LumiSection 16069 at 07-Mar-2016 12:58:35.658 CST
+Begin processing the 75001st record. Run 1, Event 1728758, LumiSection 17292 at 07-Mar-2016 12:58:59.523 CST
+Begin processing the 76001st record. Run 1, Event 1619376, LumiSection 16197 at 07-Mar-2016 12:59:21.466 CST
+Begin processing the 77001st record. Run 1, Event 1773912, LumiSection 17743 at 07-Mar-2016 12:59:45.510 CST
+Begin processing the 78001st record. Run 1, Event 1763178, LumiSection 17636 at 07-Mar-2016 13:00:09.121 CST
+Begin processing the 79001st record. Run 1, Event 1766820, LumiSection 17672 at 07-Mar-2016 13:00:32.744 CST
+Begin processing the 80001st record. Run 1, Event 1755683, LumiSection 17561 at 07-Mar-2016 13:00:55.676 CST
+Begin processing the 81001st record. Run 1, Event 2000059, LumiSection 20005 at 07-Mar-2016 13:01:19.401 CST
+Begin processing the 82001st record. Run 1, Event 3012541, LumiSection 30132 at 07-Mar-2016 13:01:43.690 CST
+Begin processing the 83001st record. Run 1, Event 1719610, LumiSection 17200 at 07-Mar-2016 13:02:08.485 CST
+Begin processing the 84001st record. Run 1, Event 2292698, LumiSection 22932 at 07-Mar-2016 13:02:29.697 CST
+Begin processing the 85001st record. Run 1, Event 1687926, LumiSection 16883 at 07-Mar-2016 13:02:52.684 CST
+Begin processing the 86001st record. Run 1, Event 1693412, LumiSection 16938 at 07-Mar-2016 13:03:16.721 CST
+Begin processing the 87001st record. Run 1, Event 3579599, LumiSection 35803 at 07-Mar-2016 13:03:40.799 CST
+Begin processing the 88001st record. Run 1, Event 1976881, LumiSection 19773 at 07-Mar-2016 13:04:03.808 CST
+Begin processing the 89001st record. Run 1, Event 1740295, LumiSection 17407 at 07-Mar-2016 13:04:27.350 CST
+Begin processing the 90001st record. Run 1, Event 1749322, LumiSection 17497 at 07-Mar-2016 13:04:51.275 CST
+Begin processing the 91001st record. Run 1, Event 1989267, LumiSection 19897 at 07-Mar-2016 13:05:15.221 CST
+Begin processing the 92001st record. Run 1, Event 2032613, LumiSection 20331 at 07-Mar-2016 13:05:38.423 CST
+Begin processing the 93001st record. Run 1, Event 1812215, LumiSection 18126 at 07-Mar-2016 13:06:02.548 CST
+Begin processing the 94001st record. Run 1, Event 1965838, LumiSection 19662 at 07-Mar-2016 13:06:26.818 CST
+Begin processing the 95001st record. Run 1, Event 1798589, LumiSection 17990 at 07-Mar-2016 13:06:50.366 CST
+Begin processing the 96001st record. Run 1, Event 2872940, LumiSection 28736 at 07-Mar-2016 13:07:12.250 CST
+Begin processing the 97001st record. Run 1, Event 1962627, LumiSection 19630 at 07-Mar-2016 13:07:35.299 CST
+Begin processing the 98001st record. Run 1, Event 2322374, LumiSection 23229 at 07-Mar-2016 13:07:59.060 CST
+07-Mar-2016 13:08:12 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/1A25B034-5E74-E411-AB19-002590574604.root
+07-Mar-2016 13:08:12 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/2EDAAF5C-5E74-E411-BA95-002590D0B0BE.root
+07-Mar-2016 13:08:13 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/2EDAAF5C-5E74-E411-BA95-002590D0B0BE.root
+Begin processing the 99001st record. Run 1, Event 3433857, LumiSection 34346 at 07-Mar-2016 13:08:25.564 CST
+Begin processing the 100001st record. Run 1, Event 3507583, LumiSection 35083 at 07-Mar-2016 13:08:50.478 CST
+Begin processing the 101001st record. Run 1, Event 3403550, LumiSection 34042 at 07-Mar-2016 13:09:12.596 CST
+Begin processing the 102001st record. Run 1, Event 3413941, LumiSection 34146 at 07-Mar-2016 13:09:36.202 CST
+Begin processing the 103001st record. Run 1, Event 3460722, LumiSection 34615 at 07-Mar-2016 13:10:00.489 CST
+Begin processing the 104001st record. Run 1, Event 4716956, LumiSection 47179 at 07-Mar-2016 13:10:24.671 CST
+Begin processing the 105001st record. Run 1, Event 3726327, LumiSection 37271 at 07-Mar-2016 13:10:49.003 CST
+Begin processing the 106001st record. Run 1, Event 3868883, LumiSection 38697 at 07-Mar-2016 13:11:10.968 CST
+Begin processing the 107001st record. Run 1, Event 3522136, LumiSection 35229 at 07-Mar-2016 13:11:34.991 CST
+Begin processing the 108001st record. Run 1, Event 3496462, LumiSection 34972 at 07-Mar-2016 13:11:59.366 CST
+Begin processing the 109001st record. Run 1, Event 3773842, LumiSection 37746 at 07-Mar-2016 13:12:23.820 CST
+Begin processing the 110001st record. Run 1, Event 4158904, LumiSection 41598 at 07-Mar-2016 13:12:45.858 CST
+Begin processing the 111001st record. Run 1, Event 3466327, LumiSection 34671 at 07-Mar-2016 13:13:09.403 CST
+Begin processing the 112001st record. Run 1, Event 4171450, LumiSection 41723 at 07-Mar-2016 13:13:33.743 CST
+Begin processing the 113001st record. Run 1, Event 3584930, LumiSection 35857 at 07-Mar-2016 13:13:59.224 CST
+Begin processing the 114001st record. Run 1, Event 3918047, LumiSection 39189 at 07-Mar-2016 13:14:21.326 CST
+Begin processing the 115001st record. Run 1, Event 3521093, LumiSection 35218 at 07-Mar-2016 13:14:45.578 CST
+Begin processing the 116001st record. Run 1, Event 3564556, LumiSection 35653 at 07-Mar-2016 13:15:09.847 CST
+Begin processing the 117001st record. Run 1, Event 3550388, LumiSection 35511 at 07-Mar-2016 13:15:34.892 CST
+Begin processing the 118001st record. Run 1, Event 3624718, LumiSection 36255 at 07-Mar-2016 13:15:56.680 CST
+Begin processing the 119001st record. Run 1, Event 3583873, LumiSection 35846 at 07-Mar-2016 13:16:20.953 CST
+Begin processing the 120001st record. Run 1, Event 3703788, LumiSection 37045 at 07-Mar-2016 13:16:45.190 CST
+Begin processing the 121001st record. Run 1, Event 3639206, LumiSection 36400 at 07-Mar-2016 13:17:10.134 CST
+Begin processing the 122001st record. Run 1, Event 4775489, LumiSection 47765 at 07-Mar-2016 13:17:32.181 CST
+Begin processing the 123001st record. Run 1, Event 4714525, LumiSection 47155 at 07-Mar-2016 13:17:55.174 CST
+Begin processing the 124001st record. Run 1, Event 3599490, LumiSection 36002 at 07-Mar-2016 13:18:19.403 CST
+Begin processing the 125001st record. Run 1, Event 3890618, LumiSection 38914 at 07-Mar-2016 13:18:43.872 CST
+Begin processing the 126001st record. Run 1, Event 4275616, LumiSection 42765 at 07-Mar-2016 13:19:07.173 CST
+Begin processing the 127001st record. Run 1, Event 4336298, LumiSection 43372 at 07-Mar-2016 13:19:31.031 CST
+Begin processing the 128001st record. Run 1, Event 3675100, LumiSection 36758 at 07-Mar-2016 13:19:55.085 CST
+Begin processing the 129001st record. Run 1, Event 3767382, LumiSection 37682 at 07-Mar-2016 13:20:19.221 CST
+Begin processing the 130001st record. Run 1, Event 4551144, LumiSection 45521 at 07-Mar-2016 13:20:42.157 CST
+Begin processing the 131001st record. Run 1, Event 3652572, LumiSection 36533 at 07-Mar-2016 13:21:05.665 CST
+Begin processing the 132001st record. Run 1, Event 3672065, LumiSection 36728 at 07-Mar-2016 13:21:30.402 CST
+Begin processing the 133001st record. Run 1, Event 3659355, LumiSection 36601 at 07-Mar-2016 13:21:54.407 CST
+Begin processing the 134001st record. Run 1, Event 3744335, LumiSection 37451 at 07-Mar-2016 13:22:17.537 CST
+Begin processing the 135001st record. Run 1, Event 3684640, LumiSection 36854 at 07-Mar-2016 13:22:40.424 CST
+Begin processing the 136001st record. Run 1, Event 4051593, LumiSection 40525 at 07-Mar-2016 13:23:04.209 CST
+Begin processing the 137001st record. Run 1, Event 3969531, LumiSection 39703 at 07-Mar-2016 13:23:28.470 CST
+Begin processing the 138001st record. Run 1, Event 4210856, LumiSection 42117 at 07-Mar-2016 13:23:52.409 CST
+Begin processing the 139001st record. Run 1, Event 3728035, LumiSection 37288 at 07-Mar-2016 13:24:15.303 CST
+Begin processing the 140001st record. Run 1, Event 3946841, LumiSection 39476 at 07-Mar-2016 13:24:39.834 CST
+Begin processing the 141001st record. Run 1, Event 3799078, LumiSection 37999 at 07-Mar-2016 13:25:04.138 CST
+Begin processing the 142001st record. Run 1, Event 3811249, LumiSection 38121 at 07-Mar-2016 13:25:27.669 CST
+Begin processing the 143001st record. Run 1, Event 3765715, LumiSection 37665 at 07-Mar-2016 13:25:51.012 CST
+Begin processing the 144001st record. Run 1, Event 3762486, LumiSection 37633 at 07-Mar-2016 13:26:14.665 CST
+Begin processing the 145001st record. Run 1, Event 3786733, LumiSection 37875 at 07-Mar-2016 13:26:38.374 CST
+Begin processing the 146001st record. Run 1, Event 3813822, LumiSection 38146 at 07-Mar-2016 13:27:02.752 CST
+Begin processing the 147001st record. Run 1, Event 3845679, LumiSection 38465 at 07-Mar-2016 13:27:24.423 CST
+07-Mar-2016 13:27:47 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/2EDAAF5C-5E74-E411-BA95-002590D0B0BE.root
+07-Mar-2016 13:27:47 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/3CE8E14A-5E74-E411-86DB-00259074AE32.root
+07-Mar-2016 13:27:47 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/3CE8E14A-5E74-E411-86DB-00259074AE32.root
+Begin processing the 148001st record. Run 1, Event 2234270, LumiSection 22347 at 07-Mar-2016 13:27:51.488 CST
+Begin processing the 149001st record. Run 1, Event 2204344, LumiSection 22048 at 07-Mar-2016 13:28:15.745 CST
+Begin processing the 150001st record. Run 1, Event 2226281, LumiSection 22267 at 07-Mar-2016 13:28:39.641 CST
+Begin processing the 151001st record. Run 1, Event 2274932, LumiSection 22754 at 07-Mar-2016 13:29:03.194 CST
+Begin processing the 152001st record. Run 1, Event 2218103, LumiSection 22186 at 07-Mar-2016 13:29:25.907 CST
+Begin processing the 153001st record. Run 1, Event 2347839, LumiSection 23484 at 07-Mar-2016 13:29:49.683 CST
+Begin processing the 154001st record. Run 1, Event 2390656, LumiSection 23912 at 07-Mar-2016 13:30:13.857 CST
+Begin processing the 155001st record. Run 1, Event 2375944, LumiSection 23765 at 07-Mar-2016 13:30:38.198 CST
+Begin processing the 156001st record. Run 1, Event 2560602, LumiSection 25611 at 07-Mar-2016 13:31:00.046 CST
+Begin processing the 157001st record. Run 1, Event 2343104, LumiSection 23436 at 07-Mar-2016 13:31:24.215 CST
+Begin processing the 158001st record. Run 1, Event 2569904, LumiSection 25705 at 07-Mar-2016 13:31:48.649 CST
+Begin processing the 159001st record. Run 1, Event 2289219, LumiSection 22897 at 07-Mar-2016 13:32:14.006 CST
+Begin processing the 160001st record. Run 1, Event 2592978, LumiSection 25935 at 07-Mar-2016 13:32:36.134 CST
+Begin processing the 161001st record. Run 1, Event 2318816, LumiSection 23193 at 07-Mar-2016 13:32:59.671 CST
+Begin processing the 162001st record. Run 1, Event 2341438, LumiSection 23420 at 07-Mar-2016 13:33:23.645 CST
+Begin processing the 163001st record. Run 1, Event 2448956, LumiSection 24495 at 07-Mar-2016 13:33:47.827 CST
+Begin processing the 164001st record. Run 1, Event 2430070, LumiSection 24306 at 07-Mar-2016 13:34:12.107 CST
+Begin processing the 165001st record. Run 1, Event 2958219, LumiSection 29588 at 07-Mar-2016 13:34:34.071 CST
+Begin processing the 166001st record. Run 1, Event 2375641, LumiSection 23762 at 07-Mar-2016 13:34:58.505 CST
+Begin processing the 167001st record. Run 1, Event 3314693, LumiSection 33154 at 07-Mar-2016 13:35:22.227 CST
+Begin processing the 168001st record. Run 1, Event 2373896, LumiSection 23744 at 07-Mar-2016 13:35:46.239 CST
+Begin processing the 169001st record. Run 1, Event 2586585, LumiSection 25872 at 07-Mar-2016 13:36:09.471 CST
+Begin processing the 170001st record. Run 1, Event 2706371, LumiSection 27069 at 07-Mar-2016 13:36:33.411 CST
+Begin processing the 171001st record. Run 1, Event 2501999, LumiSection 25025 at 07-Mar-2016 13:36:57.292 CST
+Begin processing the 172001st record. Run 1, Event 2474902, LumiSection 24754 at 07-Mar-2016 13:37:21.357 CST
+Begin processing the 173001st record. Run 1, Event 2465420, LumiSection 24659 at 07-Mar-2016 13:37:43.044 CST
+Begin processing the 174001st record. Run 1, Event 2405017, LumiSection 24055 at 07-Mar-2016 13:38:07.078 CST
+Begin processing the 175001st record. Run 1, Event 2419037, LumiSection 24196 at 07-Mar-2016 13:38:31.038 CST
+Begin processing the 176001st record. Run 1, Event 3368141, LumiSection 33688 at 07-Mar-2016 13:38:55.244 CST
+Begin processing the 177001st record. Run 1, Event 2424949, LumiSection 24255 at 07-Mar-2016 13:39:17.194 CST
+Begin processing the 178001st record. Run 1, Event 2461471, LumiSection 24620 at 07-Mar-2016 13:39:41.278 CST
+Begin processing the 179001st record. Run 1, Event 2555408, LumiSection 25559 at 07-Mar-2016 13:40:05.435 CST
+Begin processing the 180001st record. Run 1, Event 2549435, LumiSection 25499 at 07-Mar-2016 13:40:30.097 CST
+Begin processing the 181001st record. Run 1, Event 2677606, LumiSection 26782 at 07-Mar-2016 13:40:52.053 CST
+Begin processing the 182001st record. Run 1, Event 2815798, LumiSection 28164 at 07-Mar-2016 13:41:15.840 CST
+Begin processing the 183001st record. Run 1, Event 3367139, LumiSection 33678 at 07-Mar-2016 13:41:40.052 CST
+Begin processing the 184001st record. Run 1, Event 2491861, LumiSection 24924 at 07-Mar-2016 13:42:03.746 CST
+Begin processing the 185001st record. Run 1, Event 2664106, LumiSection 26647 at 07-Mar-2016 13:42:28.116 CST
+Begin processing the 186001st record. Run 1, Event 2724688, LumiSection 27253 at 07-Mar-2016 13:42:49.944 CST
+Begin processing the 187001st record. Run 1, Event 2646527, LumiSection 26471 at 07-Mar-2016 13:43:13.473 CST
+Begin processing the 188001st record. Run 1, Event 2683181, LumiSection 26838 at 07-Mar-2016 13:43:37.559 CST
+Begin processing the 189001st record. Run 1, Event 3623658, LumiSection 36244 at 07-Mar-2016 13:44:01.550 CST
+Begin processing the 190001st record. Run 1, Event 3228180, LumiSection 32289 at 07-Mar-2016 13:44:24.531 CST
+Begin processing the 191001st record. Run 1, Event 4223444, LumiSection 42243 at 07-Mar-2016 13:44:48.309 CST
+Begin processing the 192001st record. Run 1, Event 2575899, LumiSection 25765 at 07-Mar-2016 13:45:12.421 CST
+Begin processing the 193001st record. Run 1, Event 2570631, LumiSection 25712 at 07-Mar-2016 13:45:36.021 CST
+Begin processing the 194001st record. Run 1, Event 4090938, LumiSection 40918 at 07-Mar-2016 13:45:59.120 CST
+Begin processing the 195001st record. Run 1, Event 2583895, LumiSection 25845 at 07-Mar-2016 13:46:21.929 CST
+Begin processing the 196001st record. Run 1, Event 2595674, LumiSection 25962 at 07-Mar-2016 13:46:45.363 CST
+Begin processing the 197001st record. Run 1, Event 2627579, LumiSection 26282 at 07-Mar-2016 13:47:08.492 CST
+07-Mar-2016 13:47:16 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/3CE8E14A-5E74-E411-86DB-00259074AE32.root
+07-Mar-2016 13:47:16 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/5875AE66-5E74-E411-8BF6-485B39800BBF.root
+07-Mar-2016 13:47:16 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/5875AE66-5E74-E411-8BF6-485B39800BBF.root
+Begin processing the 198001st record. Run 1, Event 3823991, LumiSection 38248 at 07-Mar-2016 13:47:37.054 CST
+Begin processing the 199001st record. Run 1, Event 3925543, LumiSection 39263 at 07-Mar-2016 13:48:02.545 CST
+Begin processing the 200001st record. Run 1, Event 3831992, LumiSection 38328 at 07-Mar-2016 13:48:27.122 CST
+Begin processing the 201001st record. Run 1, Event 3918744, LumiSection 39195 at 07-Mar-2016 13:48:52.113 CST
+Begin processing the 202001st record. Run 1, Event 3938738, LumiSection 39395 at 07-Mar-2016 13:49:16.878 CST
+Begin processing the 203001st record. Run 1, Event 4124440, LumiSection 41253 at 07-Mar-2016 13:49:41.442 CST
+Begin processing the 204001st record. Run 1, Event 3892157, LumiSection 38930 at 07-Mar-2016 13:50:06.241 CST
+Begin processing the 205001st record. Run 1, Event 4750826, LumiSection 47518 at 07-Mar-2016 13:50:28.743 CST
+Begin processing the 206001st record. Run 1, Event 3945688, LumiSection 39465 at 07-Mar-2016 13:50:53.790 CST
+Begin processing the 207001st record. Run 1, Event 3869538, LumiSection 38703 at 07-Mar-2016 13:51:17.775 CST
+Begin processing the 208001st record. Run 1, Event 4002707, LumiSection 40036 at 07-Mar-2016 13:51:42.510 CST
+Begin processing the 209001st record. Run 1, Event 4720908, LumiSection 47219 at 07-Mar-2016 13:52:06.325 CST
+Begin processing the 210001st record. Run 1, Event 4100074, LumiSection 41009 at 07-Mar-2016 13:52:33.223 CST
+Begin processing the 211001st record. Run 1, Event 3950842, LumiSection 39516 at 07-Mar-2016 13:52:57.199 CST
+Begin processing the 212001st record. Run 1, Event 4485427, LumiSection 44863 at 07-Mar-2016 13:53:22.279 CST
+Begin processing the 213001st record. Run 1, Event 4055320, LumiSection 40562 at 07-Mar-2016 13:53:47.788 CST
+Begin processing the 214001st record. Run 1, Event 3947165, LumiSection 39480 at 07-Mar-2016 13:54:11.979 CST
+Begin processing the 215001st record. Run 1, Event 4071240, LumiSection 40721 at 07-Mar-2016 13:54:36.773 CST
+Begin processing the 216001st record. Run 1, Event 4043837, LumiSection 40447 at 07-Mar-2016 13:55:01.861 CST
+Begin processing the 217001st record. Run 1, Event 4225760, LumiSection 42266 at 07-Mar-2016 13:55:24.880 CST
+Begin processing the 218001st record. Run 1, Event 4014549, LumiSection 40154 at 07-Mar-2016 13:55:49.354 CST
+Begin processing the 219001st record. Run 1, Event 4098442, LumiSection 40993 at 07-Mar-2016 13:56:13.987 CST
+Begin processing the 220001st record. Run 1, Event 4033562, LumiSection 40344 at 07-Mar-2016 13:56:38.289 CST
+Begin processing the 221001st record. Run 1, Event 4088816, LumiSection 40897 at 07-Mar-2016 13:57:00.830 CST
+Begin processing the 222001st record. Run 1, Event 4032516, LumiSection 40334 at 07-Mar-2016 13:57:25.501 CST
+Begin processing the 223001st record. Run 1, Event 4363411, LumiSection 43643 at 07-Mar-2016 13:57:50.948 CST
+Begin processing the 224001st record. Run 1, Event 4113691, LumiSection 41146 at 07-Mar-2016 13:58:15.978 CST
+Begin processing the 225001st record. Run 1, Event 4137594, LumiSection 41385 at 07-Mar-2016 13:58:38.129 CST
+Begin processing the 226001st record. Run 1, Event 4067526, LumiSection 40684 at 07-Mar-2016 13:59:02.231 CST
+Begin processing the 227001st record. Run 1, Event 4155869, LumiSection 41567 at 07-Mar-2016 13:59:26.742 CST
+Begin processing the 228001st record. Run 1, Event 4192606, LumiSection 41935 at 07-Mar-2016 13:59:51.313 CST
+Begin processing the 229001st record. Run 1, Event 4308414, LumiSection 43093 at 07-Mar-2016 14:00:14.219 CST
+Begin processing the 230001st record. Run 1, Event 4268759, LumiSection 42696 at 07-Mar-2016 14:00:39.401 CST
+Begin processing the 231001st record. Run 1, Event 4301741, LumiSection 43027 at 07-Mar-2016 14:01:04.149 CST
+Begin processing the 232001st record. Run 1, Event 4148166, LumiSection 41490 at 07-Mar-2016 14:01:29.053 CST
+Begin processing the 233001st record. Run 1, Event 4291958, LumiSection 42929 at 07-Mar-2016 14:01:52.159 CST
+Begin processing the 234001st record. Run 1, Event 4568321, LumiSection 45693 at 07-Mar-2016 14:02:15.863 CST
+Begin processing the 235001st record. Run 1, Event 4121062, LumiSection 41219 at 07-Mar-2016 14:02:40.217 CST
+Begin processing the 236001st record. Run 1, Event 4178291, LumiSection 41792 at 07-Mar-2016 14:03:04.345 CST
+Begin processing the 237001st record. Run 1, Event 4168641, LumiSection 41695 at 07-Mar-2016 14:03:29.102 CST
+Begin processing the 238001st record. Run 1, Event 4230634, LumiSection 42315 at 07-Mar-2016 14:03:53.155 CST
+Begin processing the 239001st record. Run 1, Event 4230334, LumiSection 42312 at 07-Mar-2016 14:04:17.530 CST
+Begin processing the 240001st record. Run 1, Event 4333525, LumiSection 43344 at 07-Mar-2016 14:04:39.903 CST
+Begin processing the 241001st record. Run 1, Event 4192259, LumiSection 41931 at 07-Mar-2016 14:05:04.678 CST
+Begin processing the 242001st record. Run 1, Event 4218755, LumiSection 42196 at 07-Mar-2016 14:05:29.001 CST
+Begin processing the 243001st record. Run 1, Event 4572060, LumiSection 45730 at 07-Mar-2016 14:05:54.349 CST
+Begin processing the 244001st record. Run 1, Event 4573915, LumiSection 45749 at 07-Mar-2016 14:06:17.628 CST
+Begin processing the 245001st record. Run 1, Event 4594615, LumiSection 45956 at 07-Mar-2016 14:06:42.015 CST
+Begin processing the 246001st record. Run 1, Event 4340661, LumiSection 43416 at 07-Mar-2016 14:07:06.554 CST
+07-Mar-2016 14:07:29 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/5875AE66-5E74-E411-8BF6-485B39800BBF.root
+07-Mar-2016 14:07:29 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/723FFE3C-5E74-E411-83D7-00259073E3A0.root
+07-Mar-2016 14:07:29 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/723FFE3C-5E74-E411-83D7-00259073E3A0.root
+Begin processing the 247001st record. Run 1, Event 1780096, LumiSection 17805 at 07-Mar-2016 14:07:33.562 CST
+Begin processing the 248001st record. Run 1, Event 1810038, LumiSection 18104 at 07-Mar-2016 14:07:57.841 CST
+Begin processing the 249001st record. Run 1, Event 2346213, LumiSection 23467 at 07-Mar-2016 14:08:22.970 CST
+Begin processing the 250001st record. Run 1, Event 1867341, LumiSection 18677 at 07-Mar-2016 14:08:47.199 CST
+Begin processing the 251001st record. Run 1, Event 2589656, LumiSection 25902 at 07-Mar-2016 14:09:10.814 CST
+Begin processing the 252001st record. Run 1, Event 1900589, LumiSection 19010 at 07-Mar-2016 14:09:35.632 CST
+Begin processing the 253001st record. Run 1, Event 2164128, LumiSection 21646 at 07-Mar-2016 14:10:01.119 CST
+Begin processing the 254001st record. Run 1, Event 3229149, LumiSection 32298 at 07-Mar-2016 14:10:24.467 CST
+Begin processing the 255001st record. Run 1, Event 1883220, LumiSection 18836 at 07-Mar-2016 14:10:48.345 CST
+Begin processing the 256001st record. Run 1, Event 1955864, LumiSection 19563 at 07-Mar-2016 14:11:12.794 CST
+Begin processing the 257001st record. Run 1, Event 1899600, LumiSection 19000 at 07-Mar-2016 14:11:37.848 CST
+Begin processing the 258001st record. Run 1, Event 2071190, LumiSection 20716 at 07-Mar-2016 14:12:01.340 CST
+Begin processing the 259001st record. Run 1, Event 1887617, LumiSection 18880 at 07-Mar-2016 14:12:24.146 CST
+Begin processing the 260001st record. Run 1, Event 1916203, LumiSection 19166 at 07-Mar-2016 14:12:48.810 CST
+Begin processing the 261001st record. Run 1, Event 1950865, LumiSection 19513 at 07-Mar-2016 14:13:13.191 CST
+Begin processing the 262001st record. Run 1, Event 1920548, LumiSection 19209 at 07-Mar-2016 14:13:37.605 CST
+Begin processing the 263001st record. Run 1, Event 2053051, LumiSection 20535 at 07-Mar-2016 14:13:59.748 CST
+Begin processing the 264001st record. Run 1, Event 2033790, LumiSection 20342 at 07-Mar-2016 14:14:23.111 CST
+Begin processing the 265001st record. Run 1, Event 2393462, LumiSection 23940 at 07-Mar-2016 14:14:47.396 CST
+Begin processing the 266001st record. Run 1, Event 2249038, LumiSection 22495 at 07-Mar-2016 14:15:12.105 CST
+Begin processing the 267001st record. Run 1, Event 2213596, LumiSection 22141 at 07-Mar-2016 14:15:36.400 CST
+Begin processing the 268001st record. Run 1, Event 1980529, LumiSection 19809 at 07-Mar-2016 14:15:59.379 CST
+Begin processing the 269001st record. Run 1, Event 1990182, LumiSection 19906 at 07-Mar-2016 14:16:23.624 CST
+Begin processing the 270001st record. Run 1, Event 2517367, LumiSection 25179 at 07-Mar-2016 14:16:48.197 CST
+Begin processing the 271001st record. Run 1, Event 2048023, LumiSection 20485 at 07-Mar-2016 14:17:12.455 CST
+Begin processing the 272001st record. Run 1, Event 2359751, LumiSection 23603 at 07-Mar-2016 14:17:34.552 CST
+Begin processing the 273001st record. Run 1, Event 2034031, LumiSection 20345 at 07-Mar-2016 14:17:58.766 CST
+Begin processing the 274001st record. Run 1, Event 4764563, LumiSection 47655 at 07-Mar-2016 14:18:23.451 CST
+Begin processing the 275001st record. Run 1, Event 3140210, LumiSection 31409 at 07-Mar-2016 14:18:49.401 CST
+Begin processing the 276001st record. Run 1, Event 2387495, LumiSection 23880 at 07-Mar-2016 14:19:14.481 CST
+Begin processing the 277001st record. Run 1, Event 2051277, LumiSection 20517 at 07-Mar-2016 14:19:39.712 CST
+Begin processing the 278001st record. Run 1, Event 2900566, LumiSection 29012 at 07-Mar-2016 14:20:05.032 CST
+Begin processing the 279001st record. Run 1, Event 2245746, LumiSection 22462 at 07-Mar-2016 14:20:27.643 CST
+Begin processing the 280001st record. Run 1, Event 2063686, LumiSection 20641 at 07-Mar-2016 14:20:52.159 CST
+Begin processing the 281001st record. Run 1, Event 2612370, LumiSection 26129 at 07-Mar-2016 14:21:16.942 CST
+Begin processing the 282001st record. Run 1, Event 2117213, LumiSection 21177 at 07-Mar-2016 14:21:41.240 CST
+Begin processing the 283001st record. Run 1, Event 2088645, LumiSection 20891 at 07-Mar-2016 14:22:05.870 CST
+Begin processing the 284001st record. Run 1, Event 2084362, LumiSection 20848 at 07-Mar-2016 14:22:29.486 CST
+Begin processing the 285001st record. Run 1, Event 2201291, LumiSection 22017 at 07-Mar-2016 14:22:54.230 CST
+Begin processing the 286001st record. Run 1, Event 2304422, LumiSection 23049 at 07-Mar-2016 14:23:18.597 CST
+Begin processing the 287001st record. Run 1, Event 2125745, LumiSection 21262 at 07-Mar-2016 14:23:43.159 CST
+Begin processing the 288001st record. Run 1, Event 2591473, LumiSection 25920 at 07-Mar-2016 14:24:05.310 CST
+Begin processing the 289001st record. Run 1, Event 2136139, LumiSection 21366 at 07-Mar-2016 14:24:30.093 CST
+Begin processing the 290001st record. Run 1, Event 2350969, LumiSection 23515 at 07-Mar-2016 14:24:54.332 CST
+Begin processing the 291001st record. Run 1, Event 2253575, LumiSection 22540 at 07-Mar-2016 14:25:19.362 CST
+Begin processing the 292001st record. Run 1, Event 2659872, LumiSection 26604 at 07-Mar-2016 14:25:42.539 CST
+Begin processing the 293001st record. Run 1, Event 2190353, LumiSection 21908 at 07-Mar-2016 14:26:06.084 CST
+Begin processing the 294001st record. Run 1, Event 2176701, LumiSection 21772 at 07-Mar-2016 14:26:30.547 CST
+Begin processing the 295001st record. Run 1, Event 2647762, LumiSection 26483 at 07-Mar-2016 14:26:55.277 CST
+Begin processing the 296001st record. Run 1, Event 2697427, LumiSection 26980 at 07-Mar-2016 14:27:18.812 CST
+07-Mar-2016 14:27:26 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/723FFE3C-5E74-E411-83D7-00259073E3A0.root
+07-Mar-2016 14:27:26 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/824AEE22-5E74-E411-929E-00259073E4C2.root
+07-Mar-2016 14:27:26 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/824AEE22-5E74-E411-929E-00259073E4C2.root
+Begin processing the 297001st record. Run 1, Event 1079620, LumiSection 10798 at 07-Mar-2016 14:27:45.080 CST
+Begin processing the 298001st record. Run 1, Event 1209953, LumiSection 12102 at 07-Mar-2016 14:28:07.929 CST
+Begin processing the 299001st record. Run 1, Event 608414, LumiSection 6086 at 07-Mar-2016 14:28:31.947 CST
+Begin processing the 300001st record. Run 1, Event 740316, LumiSection 7405 at 07-Mar-2016 14:28:56.601 CST
+Begin processing the 301001st record. Run 1, Event 643869, LumiSection 6440 at 07-Mar-2016 14:29:20.124 CST
+Begin processing the 302001st record. Run 1, Event 641596, LumiSection 6418 at 07-Mar-2016 14:29:43.258 CST
+Begin processing the 303001st record. Run 1, Event 713408, LumiSection 7136 at 07-Mar-2016 14:30:07.235 CST
+Begin processing the 304001st record. Run 1, Event 677791, LumiSection 6780 at 07-Mar-2016 14:30:31.902 CST
+Begin processing the 305001st record. Run 1, Event 1036496, LumiSection 10367 at 07-Mar-2016 14:30:56.112 CST
+Begin processing the 306001st record. Run 1, Event 999703, LumiSection 9999 at 07-Mar-2016 14:31:18.216 CST
+Begin processing the 307001st record. Run 1, Event 763768, LumiSection 7639 at 07-Mar-2016 14:31:43.848 CST
+Begin processing the 308001st record. Run 1, Event 784979, LumiSection 7851 at 07-Mar-2016 14:32:08.404 CST
+Begin processing the 309001st record. Run 1, Event 696866, LumiSection 6970 at 07-Mar-2016 14:32:32.223 CST
+Begin processing the 310001st record. Run 1, Event 708659, LumiSection 7088 at 07-Mar-2016 14:32:55.139 CST
+Begin processing the 311001st record. Run 1, Event 767424, LumiSection 7676 at 07-Mar-2016 14:33:19.086 CST
+Begin processing the 312001st record. Run 1, Event 735113, LumiSection 7353 at 07-Mar-2016 14:33:43.883 CST
+Begin processing the 313001st record. Run 1, Event 818196, LumiSection 8184 at 07-Mar-2016 14:34:07.996 CST
+Begin processing the 314001st record. Run 1, Event 1269315, LumiSection 12696 at 07-Mar-2016 14:34:29.704 CST
+Begin processing the 315001st record. Run 1, Event 1217928, LumiSection 12182 at 07-Mar-2016 14:34:53.848 CST
+Begin processing the 316001st record. Run 1, Event 1005169, LumiSection 10054 at 07-Mar-2016 14:35:18.127 CST
+Begin processing the 317001st record. Run 1, Event 1534567, LumiSection 15349 at 07-Mar-2016 14:35:43.396 CST
+Begin processing the 318001st record. Run 1, Event 930250, LumiSection 9305 at 07-Mar-2016 14:36:05.077 CST
+Begin processing the 319001st record. Run 1, Event 806343, LumiSection 8065 at 07-Mar-2016 14:36:30.040 CST
+Begin processing the 320001st record. Run 1, Event 825915, LumiSection 8261 at 07-Mar-2016 14:36:53.930 CST
+Begin processing the 321001st record. Run 1, Event 955870, LumiSection 9561 at 07-Mar-2016 14:37:18.285 CST
+Begin processing the 322001st record. Run 1, Event 2223826, LumiSection 22243 at 07-Mar-2016 14:37:40.537 CST
+Begin processing the 323001st record. Run 1, Event 835035, LumiSection 8352 at 07-Mar-2016 14:38:05.437 CST
+Begin processing the 324001st record. Run 1, Event 852722, LumiSection 8529 at 07-Mar-2016 14:38:29.900 CST
+Begin processing the 325001st record. Run 1, Event 891305, LumiSection 8915 at 07-Mar-2016 14:38:54.127 CST
+Begin processing the 326001st record. Run 1, Event 1040549, LumiSection 10408 at 07-Mar-2016 14:39:15.958 CST
+Begin processing the 327001st record. Run 1, Event 859986, LumiSection 8602 at 07-Mar-2016 14:39:39.780 CST
+Begin processing the 328001st record. Run 1, Event 867703, LumiSection 8679 at 07-Mar-2016 14:40:04.025 CST
+Begin processing the 329001st record. Run 1, Event 910031, LumiSection 9103 at 07-Mar-2016 14:40:28.539 CST
+Begin processing the 330001st record. Run 1, Event 1189013, LumiSection 11893 at 07-Mar-2016 14:40:51.443 CST
+Begin processing the 331001st record. Run 1, Event 899990, LumiSection 9002 at 07-Mar-2016 14:41:15.103 CST
+Begin processing the 332001st record. Run 1, Event 1286752, LumiSection 12870 at 07-Mar-2016 14:41:39.081 CST
+Begin processing the 333001st record. Run 1, Event 917025, LumiSection 9172 at 07-Mar-2016 14:42:03.007 CST
+Begin processing the 334001st record. Run 1, Event 1327099, LumiSection 13274 at 07-Mar-2016 14:42:27.204 CST
+Begin processing the 335001st record. Run 1, Event 1088842, LumiSection 10891 at 07-Mar-2016 14:42:49.513 CST
+Begin processing the 336001st record. Run 1, Event 950013, LumiSection 9502 at 07-Mar-2016 14:43:13.770 CST
+Begin processing the 337001st record. Run 1, Event 974283, LumiSection 9745 at 07-Mar-2016 14:43:38.147 CST
+Begin processing the 338001st record. Run 1, Event 938856, LumiSection 9391 at 07-Mar-2016 14:44:02.226 CST
+Begin processing the 339001st record. Run 1, Event 959248, LumiSection 9595 at 07-Mar-2016 14:44:25.281 CST
+Begin processing the 340001st record. Run 1, Event 995457, LumiSection 9957 at 07-Mar-2016 14:44:49.696 CST
+Begin processing the 341001st record. Run 1, Event 1040676, LumiSection 10409 at 07-Mar-2016 14:45:14.192 CST
+Begin processing the 342001st record. Run 1, Event 1846307, LumiSection 18467 at 07-Mar-2016 14:45:37.909 CST
+Begin processing the 343001st record. Run 1, Event 1270263, LumiSection 12705 at 07-Mar-2016 14:46:00.090 CST
+Begin processing the 344001st record. Run 1, Event 1116663, LumiSection 11169 at 07-Mar-2016 14:46:25.612 CST
+Begin processing the 345001st record. Run 1, Event 1096116, LumiSection 10963 at 07-Mar-2016 14:46:49.797 CST
+Begin processing the 346001st record. Run 1, Event 1403136, LumiSection 14034 at 07-Mar-2016 14:47:13.771 CST
+07-Mar-2016 14:47:16 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/824AEE22-5E74-E411-929E-00259073E4C2.root
+07-Mar-2016 14:47:16 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/A03CBE5B-5E74-E411-946B-00259073E3A2.root
+07-Mar-2016 14:47:17 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/A03CBE5B-5E74-E411-946B-00259073E3A2.root
+Begin processing the 347001st record. Run 1, Event 3412009, LumiSection 34127 at 07-Mar-2016 14:47:39.193 CST
+Begin processing the 348001st record. Run 1, Event 3259921, LumiSection 32606 at 07-Mar-2016 14:48:03.711 CST
+Begin processing the 349001st record. Run 1, Event 3466992, LumiSection 34677 at 07-Mar-2016 14:48:28.017 CST
+Begin processing the 350001st record. Run 1, Event 3073132, LumiSection 30738 at 07-Mar-2016 14:48:53.225 CST
+Begin processing the 351001st record. Run 1, Event 3386947, LumiSection 33876 at 07-Mar-2016 14:49:15.174 CST
+Begin processing the 352001st record. Run 1, Event 3044558, LumiSection 30452 at 07-Mar-2016 14:49:38.158 CST
+Begin processing the 353001st record. Run 1, Event 3045097, LumiSection 30457 at 07-Mar-2016 14:50:01.897 CST
+Begin processing the 354001st record. Run 1, Event 3236400, LumiSection 32371 at 07-Mar-2016 14:50:26.132 CST
+Begin processing the 355001st record. Run 1, Event 3118160, LumiSection 31188 at 07-Mar-2016 14:50:50.936 CST
+Begin processing the 356001st record. Run 1, Event 3399364, LumiSection 34001 at 07-Mar-2016 14:51:12.706 CST
+Begin processing the 357001st record. Run 1, Event 3165795, LumiSection 31665 at 07-Mar-2016 14:51:35.810 CST
+Begin processing the 358001st record. Run 1, Event 3840831, LumiSection 38416 at 07-Mar-2016 14:52:00.308 CST
+Begin processing the 359001st record. Run 1, Event 3439161, LumiSection 34399 at 07-Mar-2016 14:52:24.812 CST
+Begin processing the 360001st record. Run 1, Event 3109151, LumiSection 31098 at 07-Mar-2016 14:52:47.653 CST
+Begin processing the 361001st record. Run 1, Event 3433766, LumiSection 34345 at 07-Mar-2016 14:53:10.608 CST
+Begin processing the 362001st record. Run 1, Event 3385059, LumiSection 33857 at 07-Mar-2016 14:53:34.374 CST
+Begin processing the 363001st record. Run 1, Event 3181095, LumiSection 31818 at 07-Mar-2016 14:53:58.859 CST
+Begin processing the 364001st record. Run 1, Event 3180824, LumiSection 31815 at 07-Mar-2016 14:54:22.030 CST
+Begin processing the 365001st record. Run 1, Event 3167604, LumiSection 31683 at 07-Mar-2016 14:54:45.441 CST
+Begin processing the 366001st record. Run 1, Event 3380372, LumiSection 33811 at 07-Mar-2016 14:55:09.624 CST
+Begin processing the 367001st record. Run 1, Event 3193511, LumiSection 31942 at 07-Mar-2016 14:55:33.441 CST
+Begin processing the 368001st record. Run 1, Event 3213175, LumiSection 32139 at 07-Mar-2016 14:55:57.067 CST
+Begin processing the 369001st record. Run 1, Event 3414831, LumiSection 34155 at 07-Mar-2016 14:56:19.221 CST
+Begin processing the 370001st record. Run 1, Event 3227694, LumiSection 32284 at 07-Mar-2016 14:56:43.361 CST
+Begin processing the 371001st record. Run 1, Event 3240454, LumiSection 32411 at 07-Mar-2016 14:57:07.792 CST
+Begin processing the 372001st record. Run 1, Event 3240840, LumiSection 32415 at 07-Mar-2016 14:57:31.538 CST
+Begin processing the 373001st record. Run 1, Event 3294944, LumiSection 32956 at 07-Mar-2016 14:57:54.566 CST
+Begin processing the 374001st record. Run 1, Event 3332672, LumiSection 33334 at 07-Mar-2016 14:58:17.542 CST
+Begin processing the 375001st record. Run 1, Event 3258097, LumiSection 32588 at 07-Mar-2016 14:58:41.505 CST
+Begin processing the 376001st record. Run 1, Event 3267005, LumiSection 32677 at 07-Mar-2016 14:59:05.291 CST
+Begin processing the 377001st record. Run 1, Event 4491380, LumiSection 44923 at 07-Mar-2016 14:59:29.864 CST
+Begin processing the 378001st record. Run 1, Event 3274547, LumiSection 32752 at 07-Mar-2016 14:59:51.573 CST
+Begin processing the 379001st record. Run 1, Event 3311053, LumiSection 33117 at 07-Mar-2016 15:00:15.065 CST
+Begin processing the 380001st record. Run 1, Event 3344300, LumiSection 33450 at 07-Mar-2016 15:00:38.722 CST
+Begin processing the 381001st record. Run 1, Event 3279460, LumiSection 32801 at 07-Mar-2016 15:01:02.635 CST
+Begin processing the 382001st record. Run 1, Event 3415828, LumiSection 34165 at 07-Mar-2016 15:01:26.847 CST
+Begin processing the 383001st record. Run 1, Event 4212550, LumiSection 42134 at 07-Mar-2016 15:01:48.597 CST
+Begin processing the 384001st record. Run 1, Event 3331563, LumiSection 33323 at 07-Mar-2016 15:02:13.281 CST
+Begin processing the 385001st record. Run 1, Event 3342837, LumiSection 33435 at 07-Mar-2016 15:02:36.797 CST
+Begin processing the 386001st record. Run 1, Event 4169151, LumiSection 41700 at 07-Mar-2016 15:03:00.424 CST
+Begin processing the 387001st record. Run 1, Event 3362372, LumiSection 33631 at 07-Mar-2016 15:03:23.870 CST
+Begin processing the 388001st record. Run 1, Event 3456918, LumiSection 34577 at 07-Mar-2016 15:03:48.207 CST
+Begin processing the 389001st record. Run 1, Event 3574640, LumiSection 35754 at 07-Mar-2016 15:04:12.447 CST
+Begin processing the 390001st record. Run 1, Event 3561598, LumiSection 35623 at 07-Mar-2016 15:04:35.105 CST
+Begin processing the 391001st record. Run 1, Event 3471582, LumiSection 34723 at 07-Mar-2016 15:04:59.605 CST
+Begin processing the 392001st record. Run 1, Event 3448713, LumiSection 34495 at 07-Mar-2016 15:05:22.896 CST
+Begin processing the 393001st record. Run 1, Event 3399639, LumiSection 34003 at 07-Mar-2016 15:05:46.727 CST
+Begin processing the 394001st record. Run 1, Event 3924544, LumiSection 39253 at 07-Mar-2016 15:06:09.815 CST
+Begin processing the 395001st record. Run 1, Event 4135674, LumiSection 41365 at 07-Mar-2016 15:06:31.627 CST
+07-Mar-2016 15:06:51 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/A03CBE5B-5E74-E411-946B-00259073E3A2.root
+07-Mar-2016 15:06:51 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/A6C9A4FB-5D74-E411-B003-485B39800BD5.root
+07-Mar-2016 15:06:51 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/A6C9A4FB-5D74-E411-B003-485B39800BD5.root
+Begin processing the 396001st record. Run 1, Event 25424, LumiSection 255 at 07-Mar-2016 15:06:58.557 CST
+Begin processing the 397001st record. Run 1, Event 120520, LumiSection 1206 at 07-Mar-2016 15:07:23.475 CST
+Begin processing the 398001st record. Run 1, Event 332181, LumiSection 3323 at 07-Mar-2016 15:07:48.148 CST
+Begin processing the 399001st record. Run 1, Event 1489, LumiSection 15 at 07-Mar-2016 15:08:11.418 CST
+Begin processing the 400001st record. Run 1, Event 199713, LumiSection 1998 at 07-Mar-2016 15:08:36.388 CST
+Begin processing the 401001st record. Run 1, Event 18480, LumiSection 185 at 07-Mar-2016 15:09:01.808 CST
+Begin processing the 402001st record. Run 1, Event 126367, LumiSection 1264 at 07-Mar-2016 15:09:26.174 CST
+Begin processing the 403001st record. Run 1, Event 4173, LumiSection 42 at 07-Mar-2016 15:09:49.519 CST
+Begin processing the 404001st record. Run 1, Event 38739, LumiSection 388 at 07-Mar-2016 15:10:13.713 CST
+Begin processing the 405001st record. Run 1, Event 213598, LumiSection 2136 at 07-Mar-2016 15:10:38.842 CST
+Begin processing the 406001st record. Run 1, Event 647032, LumiSection 6472 at 07-Mar-2016 15:11:03.773 CST
+Begin processing the 407001st record. Run 1, Event 351993, LumiSection 3521 at 07-Mar-2016 15:11:26.549 CST
+Begin processing the 408001st record. Run 1, Event 26036, LumiSection 261 at 07-Mar-2016 15:11:52.079 CST
+Begin processing the 409001st record. Run 1, Event 110351, LumiSection 1104 at 07-Mar-2016 15:12:16.575 CST
+Begin processing the 410001st record. Run 1, Event 55098, LumiSection 551 at 07-Mar-2016 15:12:41.493 CST
+Begin processing the 411001st record. Run 1, Event 277221, LumiSection 2773 at 07-Mar-2016 15:13:05.566 CST
+Begin processing the 412001st record. Run 1, Event 31264, LumiSection 313 at 07-Mar-2016 15:13:29.213 CST
+Begin processing the 413001st record. Run 1, Event 47567, LumiSection 476 at 07-Mar-2016 15:13:54.078 CST
+Begin processing the 414001st record. Run 1, Event 302488, LumiSection 3026 at 07-Mar-2016 15:14:18.102 CST
+Begin processing the 415001st record. Run 1, Event 146154, LumiSection 1462 at 07-Mar-2016 15:14:43.711 CST
+Begin processing the 416001st record. Run 1, Event 89180, LumiSection 892 at 07-Mar-2016 15:15:06.151 CST
+Begin processing the 417001st record. Run 1, Event 64582, LumiSection 646 at 07-Mar-2016 15:15:30.496 CST
+Begin processing the 418001st record. Run 1, Event 303494, LumiSection 3036 at 07-Mar-2016 15:15:55.544 CST
+Begin processing the 419001st record. Run 1, Event 94129, LumiSection 942 at 07-Mar-2016 15:16:20.091 CST
+Begin processing the 420001st record. Run 1, Event 409572, LumiSection 4097 at 07-Mar-2016 15:16:43.576 CST
+Begin processing the 421001st record. Run 1, Event 73804, LumiSection 739 at 07-Mar-2016 15:17:07.418 CST
+Begin processing the 422001st record. Run 1, Event 93640, LumiSection 937 at 07-Mar-2016 15:17:31.381 CST
+Begin processing the 423001st record. Run 1, Event 180608, LumiSection 1807 at 07-Mar-2016 15:17:56.838 CST
+Begin processing the 424001st record. Run 1, Event 163571, LumiSection 1636 at 07-Mar-2016 15:18:21.617 CST
+Begin processing the 425001st record. Run 1, Event 438274, LumiSection 4384 at 07-Mar-2016 15:18:43.741 CST
+Begin processing the 426001st record. Run 1, Event 668671, LumiSection 6688 at 07-Mar-2016 15:19:06.111 CST
+Begin processing the 427001st record. Run 1, Event 143016, LumiSection 1431 at 07-Mar-2016 15:19:31.403 CST
+Begin processing the 428001st record. Run 1, Event 401950, LumiSection 4021 at 07-Mar-2016 15:19:55.999 CST
+Begin processing the 429001st record. Run 1, Event 261748, LumiSection 2618 at 07-Mar-2016 15:20:21.365 CST
+Begin processing the 430001st record. Run 1, Event 359463, LumiSection 3596 at 07-Mar-2016 15:20:43.719 CST
+Begin processing the 431001st record. Run 1, Event 179868, LumiSection 1799 at 07-Mar-2016 15:21:08.288 CST
+Begin processing the 432001st record. Run 1, Event 282088, LumiSection 2821 at 07-Mar-2016 15:21:32.356 CST
+Begin processing the 433001st record. Run 1, Event 401788, LumiSection 4019 at 07-Mar-2016 15:21:58.473 CST
+Begin processing the 434001st record. Run 1, Event 2156101, LumiSection 21566 at 07-Mar-2016 15:22:20.831 CST
+Begin processing the 435001st record. Run 1, Event 1056846, LumiSection 10571 at 07-Mar-2016 15:22:43.388 CST
+Begin processing the 436001st record. Run 1, Event 259018, LumiSection 2591 at 07-Mar-2016 15:23:08.178 CST
+Begin processing the 437001st record. Run 1, Event 210764, LumiSection 2108 at 07-Mar-2016 15:23:32.471 CST
+Begin processing the 438001st record. Run 1, Event 325241, LumiSection 3253 at 07-Mar-2016 15:23:57.985 CST
+Begin processing the 439001st record. Run 1, Event 1663794, LumiSection 16641 at 07-Mar-2016 15:24:20.505 CST
+Begin processing the 440001st record. Run 1, Event 229621, LumiSection 2297 at 07-Mar-2016 15:24:45.547 CST
+Begin processing the 441001st record. Run 1, Event 383014, LumiSection 3831 at 07-Mar-2016 15:25:10.263 CST
+Begin processing the 442001st record. Run 1, Event 1127320, LumiSection 11275 at 07-Mar-2016 15:25:34.766 CST
+Begin processing the 443001st record. Run 1, Event 648727, LumiSection 6489 at 07-Mar-2016 15:25:57.004 CST
+Begin processing the 444001st record. Run 1, Event 281605, LumiSection 2817 at 07-Mar-2016 15:26:21.608 CST
+Begin processing the 445001st record. Run 1, Event 895104, LumiSection 8953 at 07-Mar-2016 15:26:46.197 CST
+07-Mar-2016 15:26:55 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/A6C9A4FB-5D74-E411-B003-485B39800BD5.root
+07-Mar-2016 15:26:55 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/AA96296E-5E74-E411-B545-00259073E3F2.root
+07-Mar-2016 15:26:56 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/AA96296E-5E74-E411-B545-00259073E3F2.root
+Begin processing the 446001st record. Run 1, Event 4733554, LumiSection 47345 at 07-Mar-2016 15:27:13.282 CST
+Begin processing the 447001st record. Run 1, Event 4770471, LumiSection 47714 at 07-Mar-2016 15:27:38.618 CST
+Begin processing the 448001st record. Run 1, Event 4774952, LumiSection 47759 at 07-Mar-2016 15:28:05.989 CST
+Begin processing the 449001st record. Run 1, Event 4848540, LumiSection 48495 at 07-Mar-2016 15:28:28.225 CST
+Begin processing the 450001st record. Run 1, Event 4784319, LumiSection 47853 at 07-Mar-2016 15:28:57.152 CST
+Begin processing the 451001st record. Run 1, Event 4823059, LumiSection 48240 at 07-Mar-2016 15:29:21.071 CST
+Begin processing the 452001st record. Run 1, Event 4819140, LumiSection 48201 at 07-Mar-2016 15:29:48.947 CST
+Begin processing the 453001st record. Run 1, Event 4847636, LumiSection 48486 at 07-Mar-2016 15:30:15.258 CST
+Begin processing the 454001st record. Run 1, Event 4919397, LumiSection 49204 at 07-Mar-2016 15:30:43.242 CST
+Begin processing the 455001st record. Run 1, Event 4875031, LumiSection 48761 at 07-Mar-2016 15:31:05.299 CST
+Begin processing the 456001st record. Run 1, Event 4864055, LumiSection 48651 at 07-Mar-2016 15:31:32.206 CST
+Begin processing the 457001st record. Run 1, Event 4972158, LumiSection 49732 at 07-Mar-2016 15:31:58.184 CST
+Begin processing the 458001st record. Run 1, Event 4925436, LumiSection 49265 at 07-Mar-2016 15:32:22.309 CST
+Begin processing the 459001st record. Run 1, Event 4906846, LumiSection 49079 at 07-Mar-2016 15:32:50.164 CST
+Begin processing the 460001st record. Run 1, Event 4889027, LumiSection 48901 at 07-Mar-2016 15:33:13.049 CST
+Begin processing the 461001st record. Run 1, Event 4909027, LumiSection 49101 at 07-Mar-2016 15:33:37.538 CST
+Begin processing the 462001st record. Run 1, Event 4911548, LumiSection 49126 at 07-Mar-2016 15:34:03.126 CST
+Begin processing the 463001st record. Run 1, Event 4952402, LumiSection 49534 at 07-Mar-2016 15:34:28.437 CST
+Begin processing the 464001st record. Run 1, Event 4957631, LumiSection 49587 at 07-Mar-2016 15:34:54.770 CST
+Begin processing the 465001st record. Run 1, Event 4960790, LumiSection 49618 at 07-Mar-2016 15:35:19.613 CST
+Begin processing the 466001st record. Run 1, Event 4991337, LumiSection 49924 at 07-Mar-2016 15:35:47.160 CST
+07-Mar-2016 15:36:07 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/AA96296E-5E74-E411-B545-00259073E3F2.root
+07-Mar-2016 15:36:07 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/E6901560-5E74-E411-B93F-BCAEC50971F2.root
+07-Mar-2016 15:36:07 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/E6901560-5E74-E411-B93F-BCAEC50971F2.root
+Begin processing the 467001st record. Run 1, Event 4220624, LumiSection 42215 at 07-Mar-2016 15:36:16.545 CST
+Begin processing the 468001st record. Run 1, Event 4728934, LumiSection 47299 at 07-Mar-2016 15:36:41.113 CST
+Begin processing the 469001st record. Run 1, Event 4355826, LumiSection 43567 at 07-Mar-2016 15:37:04.419 CST
+Begin processing the 470001st record. Run 1, Event 4412734, LumiSection 44137 at 07-Mar-2016 15:37:30.099 CST
+Begin processing the 471001st record. Run 1, Event 4259131, LumiSection 42600 at 07-Mar-2016 15:37:53.969 CST
+Begin processing the 472001st record. Run 1, Event 4386868, LumiSection 43878 at 07-Mar-2016 15:38:17.555 CST
+Begin processing the 473001st record. Run 1, Event 4567603, LumiSection 45686 at 07-Mar-2016 15:38:40.108 CST
+Begin processing the 474001st record. Run 1, Event 4379198, LumiSection 43801 at 07-Mar-2016 15:39:04.838 CST
+Begin processing the 475001st record. Run 1, Event 4318689, LumiSection 43196 at 07-Mar-2016 15:39:29.427 CST
+Begin processing the 476001st record. Run 1, Event 4373265, LumiSection 43742 at 07-Mar-2016 15:39:53.632 CST
+Begin processing the 477001st record. Run 1, Event 4396225, LumiSection 43971 at 07-Mar-2016 15:40:17.654 CST
+Begin processing the 478001st record. Run 1, Event 4584815, LumiSection 45858 at 07-Mar-2016 15:40:41.794 CST
+Begin processing the 479001st record. Run 1, Event 4508861, LumiSection 45098 at 07-Mar-2016 15:41:04.061 CST
+Begin processing the 480001st record. Run 1, Event 4612774, LumiSection 46138 at 07-Mar-2016 15:41:27.487 CST
+Begin processing the 481001st record. Run 1, Event 4442093, LumiSection 44430 at 07-Mar-2016 15:41:51.582 CST
+Begin processing the 482001st record. Run 1, Event 4710824, LumiSection 47118 at 07-Mar-2016 15:42:17.188 CST
+Begin processing the 483001st record. Run 1, Event 4563535, LumiSection 45645 at 07-Mar-2016 15:42:38.990 CST
+Begin processing the 484001st record. Run 1, Event 4742060, LumiSection 47430 at 07-Mar-2016 15:43:02.636 CST
+Begin processing the 485001st record. Run 1, Event 4419716, LumiSection 44206 at 07-Mar-2016 15:43:25.826 CST
+Begin processing the 486001st record. Run 1, Event 4427067, LumiSection 44280 at 07-Mar-2016 15:43:52.406 CST
+Begin processing the 487001st record. Run 1, Event 4483074, LumiSection 44840 at 07-Mar-2016 15:44:16.303 CST
+Begin processing the 488001st record. Run 1, Event 4450739, LumiSection 44517 at 07-Mar-2016 15:44:40.364 CST
+Begin processing the 489001st record. Run 1, Event 4483362, LumiSection 44843 at 07-Mar-2016 15:45:03.546 CST
+Begin processing the 490001st record. Run 1, Event 4460931, LumiSection 44619 at 07-Mar-2016 15:45:26.587 CST
+Begin processing the 491001st record. Run 1, Event 4539884, LumiSection 45408 at 07-Mar-2016 15:45:51.268 CST
+Begin processing the 492001st record. Run 1, Event 4487550, LumiSection 44885 at 07-Mar-2016 15:46:15.820 CST
+Begin processing the 493001st record. Run 1, Event 4772504, LumiSection 47735 at 07-Mar-2016 15:46:37.419 CST
+Begin processing the 494001st record. Run 1, Event 4784498, LumiSection 47855 at 07-Mar-2016 15:47:03.960 CST
+Begin processing the 495001st record. Run 1, Event 4561068, LumiSection 45620 at 07-Mar-2016 15:47:30.431 CST
+Begin processing the 496001st record. Run 1, Event 4545957, LumiSection 45469 at 07-Mar-2016 15:47:57.549 CST
+Begin processing the 497001st record. Run 1, Event 4749250, LumiSection 47502 at 07-Mar-2016 15:48:23.639 CST
+Begin processing the 498001st record. Run 1, Event 4602628, LumiSection 46036 at 07-Mar-2016 15:48:45.359 CST
+Begin processing the 499001st record. Run 1, Event 4593971, LumiSection 45949 at 07-Mar-2016 15:49:10.467 CST
+Begin processing the 500001st record. Run 1, Event 4763143, LumiSection 47641 at 07-Mar-2016 15:49:35.218 CST
+Begin processing the 501001st record. Run 1, Event 4625318, LumiSection 46263 at 07-Mar-2016 15:49:58.455 CST
+Begin processing the 502001st record. Run 1, Event 4610602, LumiSection 46116 at 07-Mar-2016 15:50:21.874 CST
+Begin processing the 503001st record. Run 1, Event 4812055, LumiSection 48130 at 07-Mar-2016 15:50:48.292 CST
+Begin processing the 504001st record. Run 1, Event 4629540, LumiSection 46305 at 07-Mar-2016 15:51:11.714 CST
+Begin processing the 505001st record. Run 1, Event 4647324, LumiSection 46483 at 07-Mar-2016 15:51:37.607 CST
+Begin processing the 506001st record. Run 1, Event 4662462, LumiSection 46634 at 07-Mar-2016 15:52:03.536 CST
+Begin processing the 507001st record. Run 1, Event 4699670, LumiSection 47006 at 07-Mar-2016 15:52:26.752 CST
+Begin processing the 508001st record. Run 1, Event 4664501, LumiSection 46655 at 07-Mar-2016 15:52:51.310 CST
+Begin processing the 509001st record. Run 1, Event 4799038, LumiSection 48000 at 07-Mar-2016 15:53:16.641 CST
+Begin processing the 510001st record. Run 1, Event 4710180, LumiSection 47112 at 07-Mar-2016 15:53:41.687 CST
+Begin processing the 511001st record. Run 1, Event 4823911, LumiSection 48249 at 07-Mar-2016 15:54:07.952 CST
+Begin processing the 512001st record. Run 1, Event 4899017, LumiSection 49001 at 07-Mar-2016 15:54:30.597 CST
+Begin processing the 513001st record. Run 1, Event 4984324, LumiSection 49854 at 07-Mar-2016 15:54:53.695 CST
+Begin processing the 514001st record. Run 1, Event 4886087, LumiSection 48871 at 07-Mar-2016 15:55:18.490 CST
+Begin processing the 515001st record. Run 1, Event 4961967, LumiSection 49630 at 07-Mar-2016 15:55:39.533 CST
+Begin processing the 516001st record. Run 1, Event 4920999, LumiSection 49220 at 07-Mar-2016 15:56:02.464 CST
+07-Mar-2016 15:56:04 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/E6901560-5E74-E411-B93F-BCAEC50971F2.root
+07-Mar-2016 15:56:04 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/FADE572F-5E74-E411-AC31-00259074AED2.root
+07-Mar-2016 15:56:04 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/FADE572F-5E74-E411-AC31-00259074AED2.root
+Begin processing the 517001st record. Run 1, Event 1063444, LumiSection 10637 at 07-Mar-2016 15:56:29.911 CST
+Begin processing the 518001st record. Run 1, Event 1046408, LumiSection 10466 at 07-Mar-2016 15:56:54.774 CST
+Begin processing the 519001st record. Run 1, Event 1033498, LumiSection 10337 at 07-Mar-2016 15:57:19.404 CST
+Begin processing the 520001st record. Run 1, Event 1265392, LumiSection 12657 at 07-Mar-2016 15:57:43.247 CST
+Begin processing the 521001st record. Run 1, Event 1078903, LumiSection 10791 at 07-Mar-2016 15:58:05.871 CST
+Begin processing the 522001st record. Run 1, Event 1067291, LumiSection 10675 at 07-Mar-2016 15:58:31.904 CST
+Begin processing the 523001st record. Run 1, Event 1138076, LumiSection 11383 at 07-Mar-2016 15:58:56.230 CST
+Begin processing the 524001st record. Run 1, Event 1352605, LumiSection 13529 at 07-Mar-2016 15:59:20.828 CST
+Begin processing the 525001st record. Run 1, Event 1364978, LumiSection 13653 at 07-Mar-2016 15:59:43.437 CST
+Begin processing the 526001st record. Run 1, Event 1347016, LumiSection 13473 at 07-Mar-2016 16:00:08.050 CST
+Begin processing the 527001st record. Run 1, Event 1169538, LumiSection 11698 at 07-Mar-2016 16:00:33.043 CST
+Begin processing the 528001st record. Run 1, Event 1565949, LumiSection 15663 at 07-Mar-2016 16:00:57.966 CST
+Begin processing the 529001st record. Run 1, Event 2250425, LumiSection 22509 at 07-Mar-2016 16:01:20.530 CST
+Begin processing the 530001st record. Run 1, Event 1162999, LumiSection 11633 at 07-Mar-2016 16:01:44.583 CST
+Begin processing the 531001st record. Run 1, Event 1988412, LumiSection 19888 at 07-Mar-2016 16:02:09.011 CST
+Begin processing the 532001st record. Run 1, Event 1138833, LumiSection 11391 at 07-Mar-2016 16:02:33.971 CST
+Begin processing the 533001st record. Run 1, Event 1172141, LumiSection 11724 at 07-Mar-2016 16:02:57.673 CST
+Begin processing the 534001st record. Run 1, Event 1157876, LumiSection 11582 at 07-Mar-2016 16:03:21.008 CST
+Begin processing the 535001st record. Run 1, Event 1201897, LumiSection 12022 at 07-Mar-2016 16:03:45.427 CST
+Begin processing the 536001st record. Run 1, Event 1183163, LumiSection 11834 at 07-Mar-2016 16:04:10.978 CST
+Begin processing the 537001st record. Run 1, Event 1618383, LumiSection 16187 at 07-Mar-2016 16:04:34.635 CST
+Begin processing the 538001st record. Run 1, Event 1396726, LumiSection 13970 at 07-Mar-2016 16:04:57.141 CST
+Begin processing the 539001st record. Run 1, Event 1196282, LumiSection 11966 at 07-Mar-2016 16:05:22.110 CST
+Begin processing the 540001st record. Run 1, Event 1242519, LumiSection 12428 at 07-Mar-2016 16:05:47.350 CST
+Begin processing the 541001st record. Run 1, Event 1354319, LumiSection 13546 at 07-Mar-2016 16:06:12.122 CST
+Begin processing the 542001st record. Run 1, Event 1278205, LumiSection 12785 at 07-Mar-2016 16:06:34.392 CST
+Begin processing the 543001st record. Run 1, Event 1243737, LumiSection 12440 at 07-Mar-2016 16:06:58.670 CST
+Begin processing the 544001st record. Run 1, Event 1382234, LumiSection 13825 at 07-Mar-2016 16:07:23.146 CST
+Begin processing the 545001st record. Run 1, Event 1452193, LumiSection 14525 at 07-Mar-2016 16:07:47.648 CST
+Begin processing the 546001st record. Run 1, Event 1834375, LumiSection 18348 at 07-Mar-2016 16:08:11.209 CST
+Begin processing the 547001st record. Run 1, Event 1317705, LumiSection 13180 at 07-Mar-2016 16:08:35.840 CST
+Begin processing the 548001st record. Run 1, Event 1295494, LumiSection 12958 at 07-Mar-2016 16:09:00.093 CST
+Begin processing the 549001st record. Run 1, Event 1366156, LumiSection 13664 at 07-Mar-2016 16:09:24.531 CST
+Begin processing the 550001st record. Run 1, Event 1434650, LumiSection 14350 at 07-Mar-2016 16:09:48.336 CST
+Begin processing the 551001st record. Run 1, Event 1297846, LumiSection 12981 at 07-Mar-2016 16:10:11.661 CST
+Begin processing the 552001st record. Run 1, Event 1307510, LumiSection 13078 at 07-Mar-2016 16:10:36.234 CST
+Begin processing the 553001st record. Run 1, Event 1528298, LumiSection 15286 at 07-Mar-2016 16:11:00.716 CST
+Begin processing the 554001st record. Run 1, Event 2223099, LumiSection 22236 at 07-Mar-2016 16:11:25.093 CST
+Begin processing the 555001st record. Run 1, Event 1339773, LumiSection 13401 at 07-Mar-2016 16:11:47.378 CST
+Begin processing the 556001st record. Run 1, Event 1365594, LumiSection 13659 at 07-Mar-2016 16:12:12.319 CST
+Begin processing the 557001st record. Run 1, Event 1381977, LumiSection 13823 at 07-Mar-2016 16:12:36.508 CST
+Begin processing the 558001st record. Run 1, Event 1788300, LumiSection 17887 at 07-Mar-2016 16:13:01.062 CST
+Begin processing the 559001st record. Run 1, Event 1791037, LumiSection 17914 at 07-Mar-2016 16:13:24.754 CST
+Begin processing the 560001st record. Run 1, Event 1772560, LumiSection 17730 at 07-Mar-2016 16:13:47.309 CST
+Begin processing the 561001st record. Run 1, Event 1385677, LumiSection 13860 at 07-Mar-2016 16:14:12.468 CST
+Begin processing the 562001st record. Run 1, Event 1403853, LumiSection 14041 at 07-Mar-2016 16:14:37.192 CST
+Begin processing the 563001st record. Run 1, Event 1473526, LumiSection 14739 at 07-Mar-2016 16:15:02.501 CST
+Begin processing the 564001st record. Run 1, Event 1530685, LumiSection 15310 at 07-Mar-2016 16:15:25.005 CST
+Begin processing the 565001st record. Run 1, Event 1882135, LumiSection 18825 at 07-Mar-2016 16:15:47.460 CST
+07-Mar-2016 16:16:06 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/FADE572F-5E74-E411-AC31-00259074AED2.root
+07-Mar-2016 16:16:06 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/FAF78155-5E74-E411-89FA-00259073E3A2.root
+07-Mar-2016 16:16:07 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/FAF78155-5E74-E411-89FA-00259073E3A2.root
+Begin processing the 566001st record. Run 1, Event 2630189, LumiSection 26308 at 07-Mar-2016 16:16:17.319 CST
+Begin processing the 567001st record. Run 1, Event 2626396, LumiSection 26270 at 07-Mar-2016 16:16:41.815 CST
+Begin processing the 568001st record. Run 1, Event 2970338, LumiSection 29710 at 07-Mar-2016 16:17:07.527 CST
+Begin processing the 569001st record. Run 1, Event 3160568, LumiSection 31613 at 07-Mar-2016 16:17:30.023 CST
+Begin processing the 570001st record. Run 1, Event 3365886, LumiSection 33666 at 07-Mar-2016 16:17:53.659 CST
+Begin processing the 571001st record. Run 1, Event 2669312, LumiSection 26699 at 07-Mar-2016 16:18:18.199 CST
+Begin processing the 572001st record. Run 1, Event 2693868, LumiSection 26944 at 07-Mar-2016 16:18:42.743 CST
+Begin processing the 573001st record. Run 1, Event 3343849, LumiSection 33445 at 07-Mar-2016 16:19:07.467 CST
+Begin processing the 574001st record. Run 1, Event 3755987, LumiSection 37568 at 07-Mar-2016 16:19:29.936 CST
+Begin processing the 575001st record. Run 1, Event 2798223, LumiSection 27988 at 07-Mar-2016 16:19:55.463 CST
+Begin processing the 576001st record. Run 1, Event 2968866, LumiSection 29695 at 07-Mar-2016 16:20:20.272 CST
+Begin processing the 577001st record. Run 1, Event 2794554, LumiSection 27951 at 07-Mar-2016 16:20:45.132 CST
+Begin processing the 578001st record. Run 1, Event 2763475, LumiSection 27640 at 07-Mar-2016 16:21:07.506 CST
+Begin processing the 579001st record. Run 1, Event 2728996, LumiSection 27296 at 07-Mar-2016 16:21:32.498 CST
+Begin processing the 580001st record. Run 1, Event 2857890, LumiSection 28585 at 07-Mar-2016 16:21:57.436 CST
+Begin processing the 581001st record. Run 1, Event 2860183, LumiSection 28608 at 07-Mar-2016 16:22:22.286 CST
+Begin processing the 582001st record. Run 1, Event 2856431, LumiSection 28571 at 07-Mar-2016 16:22:44.287 CST
+Begin processing the 583001st record. Run 1, Event 2748007, LumiSection 27486 at 07-Mar-2016 16:23:09.199 CST
+Begin processing the 584001st record. Run 1, Event 2780501, LumiSection 27811 at 07-Mar-2016 16:23:33.974 CST
+Begin processing the 585001st record. Run 1, Event 2957272, LumiSection 29579 at 07-Mar-2016 16:23:59.527 CST
+Begin processing the 586001st record. Run 1, Event 3236549, LumiSection 32372 at 07-Mar-2016 16:24:22.111 CST
+Begin processing the 587001st record. Run 1, Event 2813475, LumiSection 28140 at 07-Mar-2016 16:24:44.495 CST
+Begin processing the 588001st record. Run 1, Event 2775464, LumiSection 27760 at 07-Mar-2016 16:25:09.183 CST
+Begin processing the 589001st record. Run 1, Event 2799024, LumiSection 27996 at 07-Mar-2016 16:25:33.421 CST
+Begin processing the 590001st record. Run 1, Event 2897024, LumiSection 28977 at 07-Mar-2016 16:25:58.328 CST
+Begin processing the 591001st record. Run 1, Event 2831262, LumiSection 28318 at 07-Mar-2016 16:26:20.908 CST
+Begin processing the 592001st record. Run 1, Event 2829963, LumiSection 28305 at 07-Mar-2016 16:26:44.931 CST
+Begin processing the 593001st record. Run 1, Event 3049070, LumiSection 30497 at 07-Mar-2016 16:27:09.470 CST
+Begin processing the 594001st record. Run 1, Event 2833837, LumiSection 28344 at 07-Mar-2016 16:27:33.725 CST
+Begin processing the 595001st record. Run 1, Event 3865948, LumiSection 38668 at 07-Mar-2016 16:27:57.692 CST
+Begin processing the 596001st record. Run 1, Event 2855218, LumiSection 28558 at 07-Mar-2016 16:28:20.995 CST
+Begin processing the 597001st record. Run 1, Event 3178759, LumiSection 31794 at 07-Mar-2016 16:28:45.328 CST
+Begin processing the 598001st record. Run 1, Event 2913985, LumiSection 29146 at 07-Mar-2016 16:29:10.587 CST
+Begin processing the 599001st record. Run 1, Event 3093932, LumiSection 30946 at 07-Mar-2016 16:29:33.781 CST
+Begin processing the 600001st record. Run 1, Event 3310618, LumiSection 33113 at 07-Mar-2016 16:29:56.994 CST
+Begin processing the 601001st record. Run 1, Event 3169673, LumiSection 31704 at 07-Mar-2016 16:30:21.700 CST
+Begin processing the 602001st record. Run 1, Event 3001868, LumiSection 30025 at 07-Mar-2016 16:30:46.156 CST
+Begin processing the 603001st record. Run 1, Event 2952816, LumiSection 29534 at 07-Mar-2016 16:31:10.882 CST
+Begin processing the 604001st record. Run 1, Event 3314924, LumiSection 33156 at 07-Mar-2016 16:31:33.209 CST
+Begin processing the 605001st record. Run 1, Event 3287284, LumiSection 32880 at 07-Mar-2016 16:31:58.170 CST
+Begin processing the 606001st record. Run 1, Event 3075995, LumiSection 30766 at 07-Mar-2016 16:32:23.029 CST
+Begin processing the 607001st record. Run 1, Event 3011199, LumiSection 30118 at 07-Mar-2016 16:32:47.664 CST
+Begin processing the 608001st record. Run 1, Event 3260040, LumiSection 32607 at 07-Mar-2016 16:33:09.628 CST
+Begin processing the 609001st record. Run 1, Event 3483037, LumiSection 34838 at 07-Mar-2016 16:33:34.623 CST
+Begin processing the 610001st record. Run 1, Event 2971040, LumiSection 29717 at 07-Mar-2016 16:33:59.320 CST
+Begin processing the 611001st record. Run 1, Event 3661792, LumiSection 36625 at 07-Mar-2016 16:34:25.117 CST
+Begin processing the 612001st record. Run 1, Event 3070093, LumiSection 30707 at 07-Mar-2016 16:34:47.717 CST
+Begin processing the 613001st record. Run 1, Event 3000365, LumiSection 30010 at 07-Mar-2016 16:35:12.494 CST
+Begin processing the 614001st record. Run 1, Event 3066185, LumiSection 30668 at 07-Mar-2016 16:35:37.185 CST
+Begin processing the 615001st record. Run 1, Event 3181923, LumiSection 31826 at 07-Mar-2016 16:36:02.117 CST
+07-Mar-2016 16:36:05 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/00000/FAF78155-5E74-E411-89FA-00259073E3A2.root
+07-Mar-2016 16:36:05 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/047F5082-6874-E411-B9C1-002590D0B048.root
+07-Mar-2016 16:36:05 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/047F5082-6874-E411-B9C1-002590D0B048.root
+Begin processing the 616001st record. Run 1, Event 4076575, LumiSection 40774 at 07-Mar-2016 16:36:27.267 CST
+Begin processing the 617001st record. Run 1, Event 4060450, LumiSection 40613 at 07-Mar-2016 16:36:52.767 CST
+Begin processing the 618001st record. Run 1, Event 4125571, LumiSection 41264 at 07-Mar-2016 16:37:16.651 CST
+Begin processing the 619001st record. Run 1, Event 4110738, LumiSection 41116 at 07-Mar-2016 16:37:41.748 CST
+Begin processing the 620001st record. Run 1, Event 4122902, LumiSection 41238 at 07-Mar-2016 16:38:04.951 CST
+Begin processing the 621001st record. Run 1, Event 4432490, LumiSection 44334 at 07-Mar-2016 16:38:28.867 CST
+Begin processing the 622001st record. Run 1, Event 4175128, LumiSection 41760 at 07-Mar-2016 16:38:53.070 CST
+Begin processing the 623001st record. Run 1, Event 4165117, LumiSection 41660 at 07-Mar-2016 16:39:16.778 CST
+Begin processing the 624001st record. Run 1, Event 4298396, LumiSection 42993 at 07-Mar-2016 16:39:41.141 CST
+Begin processing the 625001st record. Run 1, Event 4392867, LumiSection 43938 at 07-Mar-2016 16:40:03.319 CST
+Begin processing the 626001st record. Run 1, Event 4189521, LumiSection 41904 at 07-Mar-2016 16:40:27.431 CST
+Begin processing the 627001st record. Run 1, Event 4288731, LumiSection 42897 at 07-Mar-2016 16:40:53.305 CST
+Begin processing the 628001st record. Run 1, Event 4324350, LumiSection 43253 at 07-Mar-2016 16:41:16.202 CST
+Begin processing the 629001st record. Run 1, Event 4588678, LumiSection 45897 at 07-Mar-2016 16:41:42.259 CST
+Begin processing the 630001st record. Run 1, Event 4283295, LumiSection 42842 at 07-Mar-2016 16:42:05.618 CST
+Begin processing the 631001st record. Run 1, Event 4241944, LumiSection 42428 at 07-Mar-2016 16:42:29.793 CST
+Begin processing the 632001st record. Run 1, Event 4513636, LumiSection 45146 at 07-Mar-2016 16:42:54.553 CST
+Begin processing the 633001st record. Run 1, Event 4357315, LumiSection 43582 at 07-Mar-2016 16:43:20.594 CST
+Begin processing the 634001st record. Run 1, Event 4371549, LumiSection 43725 at 07-Mar-2016 16:43:45.278 CST
+Begin processing the 635001st record. Run 1, Event 4312835, LumiSection 43138 at 07-Mar-2016 16:44:09.389 CST
+Begin processing the 636001st record. Run 1, Event 4698463, LumiSection 46994 at 07-Mar-2016 16:44:32.380 CST
+Begin processing the 637001st record. Run 1, Event 4331216, LumiSection 43321 at 07-Mar-2016 16:44:55.775 CST
+Begin processing the 638001st record. Run 1, Event 4335696, LumiSection 43366 at 07-Mar-2016 16:45:21.540 CST
+Begin processing the 639001st record. Run 1, Event 4350200, LumiSection 43511 at 07-Mar-2016 16:45:45.766 CST
+Begin processing the 640001st record. Run 1, Event 4356186, LumiSection 43571 at 07-Mar-2016 16:46:08.749 CST
+Begin processing the 641001st record. Run 1, Event 4487435, LumiSection 44884 at 07-Mar-2016 16:46:33.482 CST
+Begin processing the 642001st record. Run 1, Event 4495680, LumiSection 44966 at 07-Mar-2016 16:46:59.228 CST
+Begin processing the 643001st record. Run 1, Event 4375942, LumiSection 43769 at 07-Mar-2016 16:47:22.661 CST
+Begin processing the 644001st record. Run 1, Event 4402336, LumiSection 44033 at 07-Mar-2016 16:47:46.687 CST
+Begin processing the 645001st record. Run 1, Event 4427347, LumiSection 44283 at 07-Mar-2016 16:48:11.133 CST
+Begin processing the 646001st record. Run 1, Event 4479517, LumiSection 44804 at 07-Mar-2016 16:48:34.784 CST
+Begin processing the 647001st record. Run 1, Event 4443549, LumiSection 44445 at 07-Mar-2016 16:48:59.056 CST
+Begin processing the 648001st record. Run 1, Event 4549105, LumiSection 45500 at 07-Mar-2016 16:49:22.986 CST
+Begin processing the 649001st record. Run 1, Event 4449577, LumiSection 44505 at 07-Mar-2016 16:49:45.551 CST
+Begin processing the 650001st record. Run 1, Event 4695047, LumiSection 46960 at 07-Mar-2016 16:50:10.629 CST
+Begin processing the 651001st record. Run 1, Event 4533896, LumiSection 45348 at 07-Mar-2016 16:50:37.045 CST
+Begin processing the 652001st record. Run 1, Event 4822715, LumiSection 48237 at 07-Mar-2016 16:50:59.037 CST
+Begin processing the 653001st record. Run 1, Event 4627311, LumiSection 46283 at 07-Mar-2016 16:51:22.155 CST
+Begin processing the 654001st record. Run 1, Event 4499476, LumiSection 45004 at 07-Mar-2016 16:51:46.378 CST
+Begin processing the 655001st record. Run 1, Event 4501385, LumiSection 45023 at 07-Mar-2016 16:52:10.910 CST
+Begin processing the 656001st record. Run 1, Event 4524184, LumiSection 45251 at 07-Mar-2016 16:52:35.541 CST
+Begin processing the 657001st record. Run 1, Event 4552312, LumiSection 45532 at 07-Mar-2016 16:53:00.557 CST
+Begin processing the 658001st record. Run 1, Event 4600647, LumiSection 46016 at 07-Mar-2016 16:53:25.592 CST
+Begin processing the 659001st record. Run 1, Event 4597258, LumiSection 45982 at 07-Mar-2016 16:53:50.227 CST
+Begin processing the 660001st record. Run 1, Event 4691556, LumiSection 46925 at 07-Mar-2016 16:54:17.504 CST
+Begin processing the 661001st record. Run 1, Event 4705062, LumiSection 47060 at 07-Mar-2016 16:54:40.677 CST
+Begin processing the 662001st record. Run 1, Event 4883530, LumiSection 48846 at 07-Mar-2016 16:55:06.330 CST
+Begin processing the 663001st record. Run 1, Event 4858169, LumiSection 48592 at 07-Mar-2016 16:55:28.861 CST
+Begin processing the 664001st record. Run 1, Event 4966645, LumiSection 49677 at 07-Mar-2016 16:55:53.607 CST
+07-Mar-2016 16:56:05 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/047F5082-6874-E411-B9C1-002590D0B048.root
+07-Mar-2016 16:56:05 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/349E775C-6874-E411-9DF8-00259073E470.root
+07-Mar-2016 16:56:05 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/349E775C-6874-E411-9DF8-00259073E470.root
+Begin processing the 665001st record. Run 1, Event 1239697, LumiSection 12400 at 07-Mar-2016 16:56:21.237 CST
+Begin processing the 666001st record. Run 1, Event 1269145, LumiSection 12694 at 07-Mar-2016 16:56:44.728 CST
+Begin processing the 667001st record. Run 1, Event 1221982, LumiSection 12223 at 07-Mar-2016 16:57:07.934 CST
+Begin processing the 668001st record. Run 1, Event 1507300, LumiSection 15076 at 07-Mar-2016 16:57:32.449 CST
+Begin processing the 669001st record. Run 1, Event 1367585, LumiSection 13679 at 07-Mar-2016 16:57:56.579 CST
+Begin processing the 670001st record. Run 1, Event 1828875, LumiSection 18293 at 07-Mar-2016 16:58:20.769 CST
+Begin processing the 671001st record. Run 1, Event 2360126, LumiSection 23606 at 07-Mar-2016 16:58:42.360 CST
+Begin processing the 672001st record. Run 1, Event 1361031, LumiSection 13613 at 07-Mar-2016 16:59:06.636 CST
+Begin processing the 673001st record. Run 1, Event 1624519, LumiSection 16249 at 07-Mar-2016 16:59:31.022 CST
+Begin processing the 674001st record. Run 1, Event 1546810, LumiSection 15471 at 07-Mar-2016 16:59:55.554 CST
+Begin processing the 675001st record. Run 1, Event 1354254, LumiSection 13545 at 07-Mar-2016 17:00:17.633 CST
+Begin processing the 676001st record. Run 1, Event 1273954, LumiSection 12742 at 07-Mar-2016 17:00:41.379 CST
+Begin processing the 677001st record. Run 1, Event 1697734, LumiSection 16981 at 07-Mar-2016 17:01:05.691 CST
+Begin processing the 678001st record. Run 1, Event 1329670, LumiSection 13300 at 07-Mar-2016 17:01:29.715 CST
+Begin processing the 679001st record. Run 1, Event 1437731, LumiSection 14381 at 07-Mar-2016 17:01:52.296 CST
+Begin processing the 680001st record. Run 1, Event 1422288, LumiSection 14226 at 07-Mar-2016 17:02:15.871 CST
+Begin processing the 681001st record. Run 1, Event 2736642, LumiSection 27372 at 07-Mar-2016 17:02:39.887 CST
+Begin processing the 682001st record. Run 1, Event 1358580, LumiSection 13589 at 07-Mar-2016 17:03:04.263 CST
+Begin processing the 683001st record. Run 1, Event 1566679, LumiSection 15670 at 07-Mar-2016 17:03:27.159 CST
+Begin processing the 684001st record. Run 1, Event 1370713, LumiSection 13710 at 07-Mar-2016 17:03:50.635 CST
+Begin processing the 685001st record. Run 1, Event 1502990, LumiSection 15033 at 07-Mar-2016 17:04:14.421 CST
+Begin processing the 686001st record. Run 1, Event 1704027, LumiSection 17044 at 07-Mar-2016 17:04:39.072 CST
+Begin processing the 687001st record. Run 1, Event 1503892, LumiSection 15042 at 07-Mar-2016 17:05:02.438 CST
+Begin processing the 688001st record. Run 1, Event 1416379, LumiSection 14167 at 07-Mar-2016 17:05:25.585 CST
+Begin processing the 689001st record. Run 1, Event 1409100, LumiSection 14094 at 07-Mar-2016 17:05:49.505 CST
+Begin processing the 690001st record. Run 1, Event 2127244, LumiSection 21277 at 07-Mar-2016 17:06:13.450 CST
+Begin processing the 691001st record. Run 1, Event 1608677, LumiSection 16090 at 07-Mar-2016 17:06:36.999 CST
+Begin processing the 692001st record. Run 1, Event 1505694, LumiSection 15060 at 07-Mar-2016 17:06:59.607 CST
+Begin processing the 693001st record. Run 1, Event 1450480, LumiSection 14508 at 07-Mar-2016 17:07:23.530 CST
+Begin processing the 694001st record. Run 1, Event 2258881, LumiSection 22593 at 07-Mar-2016 17:07:47.247 CST
+Begin processing the 695001st record. Run 1, Event 1748915, LumiSection 17493 at 07-Mar-2016 17:08:10.967 CST
+Begin processing the 696001st record. Run 1, Event 1707127, LumiSection 17075 at 07-Mar-2016 17:08:33.973 CST
+Begin processing the 697001st record. Run 1, Event 1484560, LumiSection 14849 at 07-Mar-2016 17:08:57.643 CST
+Begin processing the 698001st record. Run 1, Event 1716163, LumiSection 17166 at 07-Mar-2016 17:09:21.673 CST
+Begin processing the 699001st record. Run 1, Event 1961746, LumiSection 19621 at 07-Mar-2016 17:09:45.722 CST
+Begin processing the 700001st record. Run 1, Event 2562234, LumiSection 25627 at 07-Mar-2016 17:10:07.482 CST
+Begin processing the 701001st record. Run 1, Event 1674887, LumiSection 16752 at 07-Mar-2016 17:10:31.112 CST
+Begin processing the 702001st record. Run 1, Event 1542278, LumiSection 15426 at 07-Mar-2016 17:10:54.249 CST
+Begin processing the 703001st record. Run 1, Event 1546224, LumiSection 15466 at 07-Mar-2016 17:11:18.558 CST
+Begin processing the 704001st record. Run 1, Event 1797585, LumiSection 17980 at 07-Mar-2016 17:11:43.086 CST
+Begin processing the 705001st record. Run 1, Event 1717939, LumiSection 17183 at 07-Mar-2016 17:12:04.906 CST
+Begin processing the 706001st record. Run 1, Event 1571390, LumiSection 15717 at 07-Mar-2016 17:12:29.305 CST
+Begin processing the 707001st record. Run 1, Event 1595104, LumiSection 15954 at 07-Mar-2016 17:12:53.355 CST
+Begin processing the 708001st record. Run 1, Event 2095354, LumiSection 20958 at 07-Mar-2016 17:13:17.719 CST
+Begin processing the 709001st record. Run 1, Event 1636920, LumiSection 16373 at 07-Mar-2016 17:13:39.325 CST
+Begin processing the 710001st record. Run 1, Event 1692129, LumiSection 16925 at 07-Mar-2016 17:14:03.032 CST
+Begin processing the 711001st record. Run 1, Event 1642640, LumiSection 16430 at 07-Mar-2016 17:14:27.279 CST
+Begin processing the 712001st record. Run 1, Event 1795673, LumiSection 17961 at 07-Mar-2016 17:14:52.109 CST
+Begin processing the 713001st record. Run 1, Event 1774235, LumiSection 17746 at 07-Mar-2016 17:15:13.854 CST
+07-Mar-2016 17:15:33 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/349E775C-6874-E411-9DF8-00259073E470.root
+07-Mar-2016 17:15:33 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/64B89571-6874-E411-AC42-20CF305B053E.root
+07-Mar-2016 17:15:33 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/64B89571-6874-E411-AC42-20CF305B053E.root
+Begin processing the 714001st record. Run 1, Event 3120232, LumiSection 31209 at 07-Mar-2016 17:15:40.485 CST
+Begin processing the 715001st record. Run 1, Event 3187730, LumiSection 31884 at 07-Mar-2016 17:16:05.193 CST
+Begin processing the 716001st record. Run 1, Event 3130239, LumiSection 31309 at 07-Mar-2016 17:16:30.176 CST
+Begin processing the 717001st record. Run 1, Event 3190433, LumiSection 31911 at 07-Mar-2016 17:16:52.226 CST
+Begin processing the 718001st record. Run 1, Event 3663509, LumiSection 36643 at 07-Mar-2016 17:17:16.406 CST
+Begin processing the 719001st record. Run 1, Event 3171687, LumiSection 31724 at 07-Mar-2016 17:17:40.919 CST
+Begin processing the 720001st record. Run 1, Event 3222489, LumiSection 32232 at 07-Mar-2016 17:18:05.726 CST
+Begin processing the 721001st record. Run 1, Event 4041401, LumiSection 40423 at 07-Mar-2016 17:18:27.709 CST
+Begin processing the 722001st record. Run 1, Event 3209702, LumiSection 32104 at 07-Mar-2016 17:18:51.031 CST
+Begin processing the 723001st record. Run 1, Event 3588061, LumiSection 35888 at 07-Mar-2016 17:19:15.685 CST
+Begin processing the 724001st record. Run 1, Event 3835476, LumiSection 38363 at 07-Mar-2016 17:19:41.294 CST
+Begin processing the 725001st record. Run 1, Event 3395466, LumiSection 33962 at 07-Mar-2016 17:20:03.931 CST
+Begin processing the 726001st record. Run 1, Event 3246046, LumiSection 32467 at 07-Mar-2016 17:20:27.238 CST
+Begin processing the 727001st record. Run 1, Event 3253737, LumiSection 32544 at 07-Mar-2016 17:20:51.544 CST
+Begin processing the 728001st record. Run 1, Event 3269124, LumiSection 32698 at 07-Mar-2016 17:21:15.857 CST
+Begin processing the 729001st record. Run 1, Event 4465511, LumiSection 44664 at 07-Mar-2016 17:21:39.297 CST
+Begin processing the 730001st record. Run 1, Event 3398031, LumiSection 33987 at 07-Mar-2016 17:22:02.929 CST
+Begin processing the 731001st record. Run 1, Event 3292521, LumiSection 32932 at 07-Mar-2016 17:22:27.393 CST
+Begin processing the 732001st record. Run 1, Event 3286117, LumiSection 32868 at 07-Mar-2016 17:22:51.256 CST
+Begin processing the 733001st record. Run 1, Event 3408233, LumiSection 34089 at 07-Mar-2016 17:23:14.583 CST
+Begin processing the 734001st record. Run 1, Event 3340954, LumiSection 33416 at 07-Mar-2016 17:23:37.985 CST
+Begin processing the 735001st record. Run 1, Event 3451482, LumiSection 34522 at 07-Mar-2016 17:24:01.820 CST
+Begin processing the 736001st record. Run 1, Event 3504038, LumiSection 35048 at 07-Mar-2016 17:24:26.422 CST
+Begin processing the 737001st record. Run 1, Event 3809519, LumiSection 38103 at 07-Mar-2016 17:24:49.617 CST
+Begin processing the 738001st record. Run 1, Event 4101403, LumiSection 41023 at 07-Mar-2016 17:25:13.475 CST
+Begin processing the 739001st record. Run 1, Event 3406864, LumiSection 34076 at 07-Mar-2016 17:25:37.371 CST
+Begin processing the 740001st record. Run 1, Event 4470180, LumiSection 44711 at 07-Mar-2016 17:26:02.532 CST
+Begin processing the 741001st record. Run 1, Event 3761188, LumiSection 37620 at 07-Mar-2016 17:26:24.800 CST
+Begin processing the 742001st record. Run 1, Event 3524550, LumiSection 35253 at 07-Mar-2016 17:26:48.413 CST
+Begin processing the 743001st record. Run 1, Event 3463917, LumiSection 34647 at 07-Mar-2016 17:27:12.686 CST
+Begin processing the 744001st record. Run 1, Event 3695886, LumiSection 36966 at 07-Mar-2016 17:27:36.768 CST
+Begin processing the 745001st record. Run 1, Event 3898173, LumiSection 38990 at 07-Mar-2016 17:28:00.583 CST
+Begin processing the 746001st record. Run 1, Event 3525282, LumiSection 35260 at 07-Mar-2016 17:28:24.356 CST
+Begin processing the 747001st record. Run 1, Event 3489641, LumiSection 34904 at 07-Mar-2016 17:28:48.533 CST
+Begin processing the 748001st record. Run 1, Event 3569191, LumiSection 35699 at 07-Mar-2016 17:29:12.684 CST
+Begin processing the 749001st record. Run 1, Event 3520483, LumiSection 35212 at 07-Mar-2016 17:29:35.796 CST
+Begin processing the 750001st record. Run 1, Event 3492803, LumiSection 34935 at 07-Mar-2016 17:29:59.258 CST
+Begin processing the 751001st record. Run 1, Event 3979476, LumiSection 39803 at 07-Mar-2016 17:30:23.465 CST
+Begin processing the 752001st record. Run 1, Event 3495788, LumiSection 34965 at 07-Mar-2016 17:30:47.881 CST
+Begin processing the 753001st record. Run 1, Event 3561453, LumiSection 35622 at 07-Mar-2016 17:31:10.825 CST
+Begin processing the 754001st record. Run 1, Event 3532739, LumiSection 35335 at 07-Mar-2016 17:31:34.162 CST
+Begin processing the 755001st record. Run 1, Event 3560896, LumiSection 35616 at 07-Mar-2016 17:31:58.187 CST
+Begin processing the 756001st record. Run 1, Event 4137091, LumiSection 41380 at 07-Mar-2016 17:32:22.626 CST
+Begin processing the 757001st record. Run 1, Event 3560736, LumiSection 35615 at 07-Mar-2016 17:32:46.207 CST
+Begin processing the 758001st record. Run 1, Event 3625741, LumiSection 36265 at 07-Mar-2016 17:33:09.361 CST
+Begin processing the 759001st record. Run 1, Event 3950993, LumiSection 39518 at 07-Mar-2016 17:33:33.890 CST
+Begin processing the 760001st record. Run 1, Event 4085472, LumiSection 40863 at 07-Mar-2016 17:33:57.413 CST
+Begin processing the 761001st record. Run 1, Event 3628068, LumiSection 36288 at 07-Mar-2016 17:34:21.752 CST
+Begin processing the 762001st record. Run 1, Event 3729477, LumiSection 37303 at 07-Mar-2016 17:34:44.089 CST
+Begin processing the 763001st record. Run 1, Event 3600065, LumiSection 36008 at 07-Mar-2016 17:35:07.429 CST
+07-Mar-2016 17:35:23 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/64B89571-6874-E411-AC42-20CF305B053E.root
+07-Mar-2016 17:35:23 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/6897C987-6874-E411-A4C7-00259073E3B4.root
+07-Mar-2016 17:35:23 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/6897C987-6874-E411-A4C7-00259073E3B4.root
+Begin processing the 764001st record. Run 1, Event 4647723, LumiSection 46487 at 07-Mar-2016 17:35:33.960 CST
+Begin processing the 765001st record. Run 1, Event 4781264, LumiSection 47822 at 07-Mar-2016 17:35:57.974 CST
+Begin processing the 766001st record. Run 1, Event 4674448, LumiSection 46754 at 07-Mar-2016 17:36:22.749 CST
+Begin processing the 767001st record. Run 1, Event 4658192, LumiSection 46592 at 07-Mar-2016 17:36:47.550 CST
+Begin processing the 768001st record. Run 1, Event 4696166, LumiSection 46971 at 07-Mar-2016 17:37:14.828 CST
+Begin processing the 769001st record. Run 1, Event 4790978, LumiSection 47920 at 07-Mar-2016 17:37:38.113 CST
+Begin processing the 770001st record. Run 1, Event 4758062, LumiSection 47590 at 07-Mar-2016 17:38:02.386 CST
+Begin processing the 771001st record. Run 1, Event 4734980, LumiSection 47360 at 07-Mar-2016 17:38:26.614 CST
+Begin processing the 772001st record. Run 1, Event 4791501, LumiSection 47925 at 07-Mar-2016 17:38:51.166 CST
+Begin processing the 773001st record. Run 1, Event 4745568, LumiSection 47465 at 07-Mar-2016 17:39:17.140 CST
+Begin processing the 774001st record. Run 1, Event 4828268, LumiSection 48292 at 07-Mar-2016 17:39:44.005 CST
+Begin processing the 775001st record. Run 1, Event 4850995, LumiSection 48520 at 07-Mar-2016 17:40:11.437 CST
+Begin processing the 776001st record. Run 1, Event 4925528, LumiSection 49266 at 07-Mar-2016 17:40:36.291 CST
+Begin processing the 777001st record. Run 1, Event 4913084, LumiSection 49141 at 07-Mar-2016 17:41:00.919 CST
+Begin processing the 778001st record. Run 1, Event 4922665, LumiSection 49237 at 07-Mar-2016 17:41:26.611 CST
+Begin processing the 779001st record. Run 1, Event 4984743, LumiSection 49858 at 07-Mar-2016 17:41:53.017 CST
+Begin processing the 780001st record. Run 1, Event 4927566, LumiSection 49286 at 07-Mar-2016 17:42:18.974 CST
+Begin processing the 781001st record. Run 1, Event 4912728, LumiSection 49138 at 07-Mar-2016 17:42:45.539 CST
+Begin processing the 782001st record. Run 1, Event 4891154, LumiSection 48922 at 07-Mar-2016 17:43:11.381 CST
+Begin processing the 783001st record. Run 1, Event 4941111, LumiSection 49421 at 07-Mar-2016 17:43:35.381 CST
+Begin processing the 784001st record. Run 1, Event 4968114, LumiSection 49691 at 07-Mar-2016 17:44:02.218 CST
+Begin processing the 785001st record. Run 1, Event 4997017, LumiSection 49981 at 07-Mar-2016 17:44:27.733 CST
+07-Mar-2016 17:44:37 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/6897C987-6874-E411-A4C7-00259073E3B4.root
+07-Mar-2016 17:44:37 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/7639575E-6874-E411-BE12-0025907B4EEE.root
+07-Mar-2016 17:44:37 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/7639575E-6874-E411-BE12-0025907B4EEE.root
+Begin processing the 786001st record. Run 1, Event 2618683, LumiSection 26193 at 07-Mar-2016 17:44:57.750 CST
+Begin processing the 787001st record. Run 1, Event 2162423, LumiSection 21629 at 07-Mar-2016 17:45:19.919 CST
+Begin processing the 788001st record. Run 1, Event 2199363, LumiSection 21998 at 07-Mar-2016 17:45:43.557 CST
+Begin processing the 789001st record. Run 1, Event 2308021, LumiSection 23085 at 07-Mar-2016 17:46:08.150 CST
+Begin processing the 790001st record. Run 1, Event 2485577, LumiSection 24861 at 07-Mar-2016 17:46:32.670 CST
+Begin processing the 791001st record. Run 1, Event 2210257, LumiSection 22107 at 07-Mar-2016 17:46:55.696 CST
+Begin processing the 792001st record. Run 1, Event 2243974, LumiSection 22444 at 07-Mar-2016 17:47:19.787 CST
+Begin processing the 793001st record. Run 1, Event 2234665, LumiSection 22351 at 07-Mar-2016 17:47:44.226 CST
+Begin processing the 794001st record. Run 1, Event 2250165, LumiSection 22506 at 07-Mar-2016 17:48:08.512 CST
+Begin processing the 795001st record. Run 1, Event 2348254, LumiSection 23488 at 07-Mar-2016 17:48:31.138 CST
+Begin processing the 796001st record. Run 1, Event 2341426, LumiSection 23419 at 07-Mar-2016 17:48:55.258 CST
+Begin processing the 797001st record. Run 1, Event 2323111, LumiSection 23236 at 07-Mar-2016 17:49:20.401 CST
+Begin processing the 798001st record. Run 1, Event 2356591, LumiSection 23571 at 07-Mar-2016 17:49:44.244 CST
+Begin processing the 799001st record. Run 1, Event 2636284, LumiSection 26369 at 07-Mar-2016 17:50:06.409 CST
+Begin processing the 800001st record. Run 1, Event 2492919, LumiSection 24934 at 07-Mar-2016 17:50:30.592 CST
+Begin processing the 801001st record. Run 1, Event 2534517, LumiSection 25350 at 07-Mar-2016 17:50:55.067 CST
+Begin processing the 802001st record. Run 1, Event 3065603, LumiSection 30662 at 07-Mar-2016 17:51:19.983 CST
+Begin processing the 803001st record. Run 1, Event 2329740, LumiSection 23303 at 07-Mar-2016 17:51:41.781 CST
+Begin processing the 804001st record. Run 1, Event 2337587, LumiSection 23381 at 07-Mar-2016 17:52:06.606 CST
+Begin processing the 805001st record. Run 1, Event 2431291, LumiSection 24318 at 07-Mar-2016 17:52:30.986 CST
+Begin processing the 806001st record. Run 1, Event 2551432, LumiSection 25519 at 07-Mar-2016 17:52:55.606 CST
+Begin processing the 807001st record. Run 1, Event 4773450, LumiSection 47744 at 07-Mar-2016 17:53:17.725 CST
+Begin processing the 808001st record. Run 1, Event 3390761, LumiSection 33914 at 07-Mar-2016 17:53:42.079 CST
+Begin processing the 809001st record. Run 1, Event 2438215, LumiSection 24387 at 07-Mar-2016 17:54:06.441 CST
+Begin processing the 810001st record. Run 1, Event 2956243, LumiSection 29569 at 07-Mar-2016 17:54:30.503 CST
+Begin processing the 811001st record. Run 1, Event 2661962, LumiSection 26625 at 07-Mar-2016 17:54:53.893 CST
+Begin processing the 812001st record. Run 1, Event 2405081, LumiSection 24056 at 07-Mar-2016 17:55:16.885 CST
+Begin processing the 813001st record. Run 1, Event 2413992, LumiSection 24145 at 07-Mar-2016 17:55:41.088 CST
+Begin processing the 814001st record. Run 1, Event 2451564, LumiSection 24521 at 07-Mar-2016 17:56:05.176 CST
+Begin processing the 815001st record. Run 1, Event 2552969, LumiSection 25535 at 07-Mar-2016 17:56:29.950 CST
+Begin processing the 816001st record. Run 1, Event 3085055, LumiSection 30857 at 07-Mar-2016 17:56:51.815 CST
+Begin processing the 817001st record. Run 1, Event 2471233, LumiSection 24717 at 07-Mar-2016 17:57:16.325 CST
+Begin processing the 818001st record. Run 1, Event 2680334, LumiSection 26809 at 07-Mar-2016 17:57:40.964 CST
+Begin processing the 819001st record. Run 1, Event 2592326, LumiSection 25929 at 07-Mar-2016 17:58:04.741 CST
+Begin processing the 820001st record. Run 1, Event 2480848, LumiSection 24814 at 07-Mar-2016 17:58:27.712 CST
+Begin processing the 821001st record. Run 1, Event 2508853, LumiSection 25094 at 07-Mar-2016 17:58:51.893 CST
+Begin processing the 822001st record. Run 1, Event 2522975, LumiSection 25235 at 07-Mar-2016 17:59:15.825 CST
+Begin processing the 823001st record. Run 1, Event 3018700, LumiSection 30193 at 07-Mar-2016 17:59:40.143 CST
+Begin processing the 824001st record. Run 1, Event 3051803, LumiSection 30524 at 07-Mar-2016 18:00:01.497 CST
+Begin processing the 825001st record. Run 1, Event 2527514, LumiSection 25280 at 07-Mar-2016 18:00:25.079 CST
+Begin processing the 826001st record. Run 1, Event 2511463, LumiSection 25120 at 07-Mar-2016 18:00:49.614 CST
+Begin processing the 827001st record. Run 1, Event 2533111, LumiSection 25336 at 07-Mar-2016 18:01:13.741 CST
+Begin processing the 828001st record. Run 1, Event 2886100, LumiSection 28867 at 07-Mar-2016 18:01:36.970 CST
+Begin processing the 829001st record. Run 1, Event 2644241, LumiSection 26448 at 07-Mar-2016 18:02:00.434 CST
+Begin processing the 830001st record. Run 1, Event 2572861, LumiSection 25734 at 07-Mar-2016 18:02:24.896 CST
+Begin processing the 831001st record. Run 1, Event 3083924, LumiSection 30846 at 07-Mar-2016 18:02:49.356 CST
+Begin processing the 832001st record. Run 1, Event 2910445, LumiSection 29111 at 07-Mar-2016 18:03:12.558 CST
+Begin processing the 833001st record. Run 1, Event 2646355, LumiSection 26469 at 07-Mar-2016 18:03:35.758 CST
+Begin processing the 834001st record. Run 1, Event 2630629, LumiSection 26312 at 07-Mar-2016 18:03:59.842 CST
+07-Mar-2016 18:04:12 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/7639575E-6874-E411-BE12-0025907B4EEE.root
+07-Mar-2016 18:04:12 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/788A3C5D-6874-E411-824F-00259073E470.root
+07-Mar-2016 18:04:12 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/788A3C5D-6874-E411-824F-00259073E470.root
+Begin processing the 835001st record. Run 1, Event 1737845, LumiSection 17382 at 07-Mar-2016 18:04:26.826 CST
+Begin processing the 836001st record. Run 1, Event 2459350, LumiSection 24599 at 07-Mar-2016 18:04:51.141 CST
+Begin processing the 837001st record. Run 1, Event 1960845, LumiSection 19612 at 07-Mar-2016 18:05:14.656 CST
+Begin processing the 838001st record. Run 1, Event 1769893, LumiSection 17703 at 07-Mar-2016 18:05:39.468 CST
+Begin processing the 839001st record. Run 1, Event 1766412, LumiSection 17668 at 07-Mar-2016 18:06:04.047 CST
+Begin processing the 840001st record. Run 1, Event 2260358, LumiSection 22608 at 07-Mar-2016 18:06:28.339 CST
+Begin processing the 841001st record. Run 1, Event 1739513, LumiSection 17399 at 07-Mar-2016 18:06:50.849 CST
+Begin processing the 842001st record. Run 1, Event 2175634, LumiSection 21761 at 07-Mar-2016 18:07:15.905 CST
+Begin processing the 843001st record. Run 1, Event 1736170, LumiSection 17366 at 07-Mar-2016 18:07:40.123 CST
+Begin processing the 844001st record. Run 1, Event 2559629, LumiSection 25601 at 07-Mar-2016 18:08:05.200 CST
+Begin processing the 845001st record. Run 1, Event 2068301, LumiSection 20688 at 07-Mar-2016 18:08:28.983 CST
+Begin processing the 846001st record. Run 1, Event 1785856, LumiSection 17863 at 07-Mar-2016 18:08:52.314 CST
+Begin processing the 847001st record. Run 1, Event 1785128, LumiSection 17855 at 07-Mar-2016 18:09:16.703 CST
+Begin processing the 848001st record. Run 1, Event 2257850, LumiSection 22583 at 07-Mar-2016 18:09:41.558 CST
+Begin processing the 849001st record. Run 1, Event 1853793, LumiSection 18542 at 07-Mar-2016 18:10:05.936 CST
+Begin processing the 850001st record. Run 1, Event 1824543, LumiSection 18249 at 07-Mar-2016 18:10:29.691 CST
+Begin processing the 851001st record. Run 1, Event 2633811, LumiSection 26344 at 07-Mar-2016 18:10:54.073 CST
+Begin processing the 852001st record. Run 1, Event 1818129, LumiSection 18185 at 07-Mar-2016 18:11:18.578 CST
+Begin processing the 853001st record. Run 1, Event 2398613, LumiSection 23991 at 07-Mar-2016 18:11:42.996 CST
+Begin processing the 854001st record. Run 1, Event 1904054, LumiSection 19045 at 07-Mar-2016 18:12:05.649 CST
+Begin processing the 855001st record. Run 1, Event 1917698, LumiSection 19181 at 07-Mar-2016 18:12:30.540 CST
+Begin processing the 856001st record. Run 1, Event 1903775, LumiSection 19042 at 07-Mar-2016 18:12:55.259 CST
+Begin processing the 857001st record. Run 1, Event 2692074, LumiSection 26926 at 07-Mar-2016 18:13:20.561 CST
+Begin processing the 858001st record. Run 1, Event 2021892, LumiSection 20223 at 07-Mar-2016 18:13:43.309 CST
+Begin processing the 859001st record. Run 1, Event 1972399, LumiSection 19728 at 07-Mar-2016 18:14:07.067 CST
+Begin processing the 860001st record. Run 1, Event 2090055, LumiSection 20905 at 07-Mar-2016 18:14:31.454 CST
+Begin processing the 861001st record. Run 1, Event 1907405, LumiSection 19078 at 07-Mar-2016 18:14:57.809 CST
+Begin processing the 862001st record. Run 1, Event 2378788, LumiSection 23793 at 07-Mar-2016 18:15:20.397 CST
+Begin processing the 863001st record. Run 1, Event 2002691, LumiSection 20031 at 07-Mar-2016 18:15:43.620 CST
+Begin processing the 864001st record. Run 1, Event 2007582, LumiSection 20080 at 07-Mar-2016 18:16:08.275 CST
+Begin processing the 865001st record. Run 1, Event 2310282, LumiSection 23108 at 07-Mar-2016 18:16:32.808 CST
+Begin processing the 866001st record. Run 1, Event 2402851, LumiSection 24034 at 07-Mar-2016 18:16:57.494 CST
+Begin processing the 867001st record. Run 1, Event 2006588, LumiSection 20070 at 07-Mar-2016 18:17:20.032 CST
+Begin processing the 868001st record. Run 1, Event 1985140, LumiSection 19855 at 07-Mar-2016 18:17:43.408 CST
+Begin processing the 869001st record. Run 1, Event 2384706, LumiSection 23852 at 07-Mar-2016 18:18:08.517 CST
+Begin processing the 870001st record. Run 1, Event 2428433, LumiSection 24289 at 07-Mar-2016 18:18:33.775 CST
+Begin processing the 871001st record. Run 1, Event 2806064, LumiSection 28066 at 07-Mar-2016 18:18:56.083 CST
+Begin processing the 872001st record. Run 1, Event 2348644, LumiSection 23492 at 07-Mar-2016 18:19:20.593 CST
+Begin processing the 873001st record. Run 1, Event 2351427, LumiSection 23519 at 07-Mar-2016 18:19:44.821 CST
+Begin processing the 874001st record. Run 1, Event 2076865, LumiSection 20773 at 07-Mar-2016 18:20:10.365 CST
+Begin processing the 875001st record. Run 1, Event 2236822, LumiSection 22373 at 07-Mar-2016 18:20:32.743 CST
+Begin processing the 876001st record. Run 1, Event 2078793, LumiSection 20792 at 07-Mar-2016 18:20:57.582 CST
+Begin processing the 877001st record. Run 1, Event 2161254, LumiSection 21617 at 07-Mar-2016 18:21:21.909 CST
+Begin processing the 878001st record. Run 1, Event 2266824, LumiSection 22673 at 07-Mar-2016 18:21:45.988 CST
+Begin processing the 879001st record. Run 1, Event 2122948, LumiSection 21234 at 07-Mar-2016 18:22:10.229 CST
+Begin processing the 880001st record. Run 1, Event 2117001, LumiSection 21175 at 07-Mar-2016 18:22:32.402 CST
+Begin processing the 881001st record. Run 1, Event 2198845, LumiSection 21993 at 07-Mar-2016 18:22:56.909 CST
+Begin processing the 882001st record. Run 1, Event 2258173, LumiSection 22586 at 07-Mar-2016 18:23:21.130 CST
+Begin processing the 883001st record. Run 1, Event 2610351, LumiSection 26109 at 07-Mar-2016 18:23:45.644 CST
+Begin processing the 884001st record. Run 1, Event 2175942, LumiSection 21764 at 07-Mar-2016 18:24:09.094 CST
+07-Mar-2016 18:24:10 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/788A3C5D-6874-E411-824F-00259073E470.root
+07-Mar-2016 18:24:10 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/92EA5B3C-6874-E411-B50D-002590D0AFE8.root
+07-Mar-2016 18:24:10 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/92EA5B3C-6874-E411-B50D-002590D0AFE8.root
+Begin processing the 885001st record. Run 1, Event 9438, LumiSection 95 at 07-Mar-2016 18:24:38.710 CST
+Begin processing the 886001st record. Run 1, Event 48215, LumiSection 483 at 07-Mar-2016 18:25:03.068 CST
+Begin processing the 887001st record. Run 1, Event 27705, LumiSection 278 at 07-Mar-2016 18:25:27.801 CST
+Begin processing the 888001st record. Run 1, Event 82875, LumiSection 829 at 07-Mar-2016 18:25:49.685 CST
+Begin processing the 889001st record. Run 1, Event 114179, LumiSection 1142 at 07-Mar-2016 18:26:14.123 CST
+Begin processing the 890001st record. Run 1, Event 4043, LumiSection 41 at 07-Mar-2016 18:26:38.718 CST
+Begin processing the 891001st record. Run 1, Event 133557, LumiSection 1336 at 07-Mar-2016 18:27:03.117 CST
+Begin processing the 892001st record. Run 1, Event 150783, LumiSection 1508 at 07-Mar-2016 18:27:24.725 CST
+Begin processing the 893001st record. Run 1, Event 28949, LumiSection 290 at 07-Mar-2016 18:27:49.534 CST
+Begin processing the 894001st record. Run 1, Event 126684, LumiSection 1267 at 07-Mar-2016 18:28:13.135 CST
+Begin processing the 895001st record. Run 1, Event 401560, LumiSection 4017 at 07-Mar-2016 18:28:37.372 CST
+Begin processing the 896001st record. Run 1, Event 329002, LumiSection 3291 at 07-Mar-2016 18:28:58.988 CST
+Begin processing the 897001st record. Run 1, Event 139331, LumiSection 1394 at 07-Mar-2016 18:29:23.038 CST
+Begin processing the 898001st record. Run 1, Event 219562, LumiSection 2196 at 07-Mar-2016 18:29:47.187 CST
+Begin processing the 899001st record. Run 1, Event 383442, LumiSection 3835 at 07-Mar-2016 18:30:11.551 CST
+Begin processing the 900001st record. Run 1, Event 315693, LumiSection 3158 at 07-Mar-2016 18:30:33.534 CST
+Begin processing the 901001st record. Run 1, Event 132243, LumiSection 1323 at 07-Mar-2016 18:30:56.635 CST
+Begin processing the 902001st record. Run 1, Event 44641, LumiSection 447 at 07-Mar-2016 18:31:20.585 CST
+Begin processing the 903001st record. Run 1, Event 75784, LumiSection 758 at 07-Mar-2016 18:31:45.069 CST
+Begin processing the 904001st record. Run 1, Event 253068, LumiSection 2531 at 07-Mar-2016 18:32:08.664 CST
+Begin processing the 905001st record. Run 1, Event 112173, LumiSection 1122 at 07-Mar-2016 18:32:30.470 CST
+Begin processing the 906001st record. Run 1, Event 63662, LumiSection 637 at 07-Mar-2016 18:32:54.319 CST
+Begin processing the 907001st record. Run 1, Event 187713, LumiSection 1878 at 07-Mar-2016 18:33:18.003 CST
+Begin processing the 908001st record. Run 1, Event 71576, LumiSection 716 at 07-Mar-2016 18:33:42.717 CST
+Begin processing the 909001st record. Run 1, Event 120322, LumiSection 1204 at 07-Mar-2016 18:34:04.760 CST
+Begin processing the 910001st record. Run 1, Event 71338, LumiSection 714 at 07-Mar-2016 18:34:28.695 CST
+Begin processing the 911001st record. Run 1, Event 83300, LumiSection 833 at 07-Mar-2016 18:34:52.679 CST
+Begin processing the 912001st record. Run 1, Event 158020, LumiSection 1581 at 07-Mar-2016 18:35:17.922 CST
+Begin processing the 913001st record. Run 1, Event 268790, LumiSection 2688 at 07-Mar-2016 18:35:39.900 CST
+Begin processing the 914001st record. Run 1, Event 289018, LumiSection 2891 at 07-Mar-2016 18:36:03.734 CST
+Begin processing the 915001st record. Run 1, Event 176590, LumiSection 1766 at 07-Mar-2016 18:36:27.754 CST
+Begin processing the 916001st record. Run 1, Event 195179, LumiSection 1952 at 07-Mar-2016 18:36:51.481 CST
+Begin processing the 917001st record. Run 1, Event 708991, LumiSection 7092 at 07-Mar-2016 18:37:14.469 CST
+Begin processing the 918001st record. Run 1, Event 179737, LumiSection 1798 at 07-Mar-2016 18:37:37.956 CST
+Begin processing the 919001st record. Run 1, Event 268000, LumiSection 2680 at 07-Mar-2016 18:38:02.197 CST
+Begin processing the 920001st record. Run 1, Event 711598, LumiSection 7118 at 07-Mar-2016 18:38:26.065 CST
+Begin processing the 921001st record. Run 1, Event 678867, LumiSection 6790 at 07-Mar-2016 18:38:49.682 CST
+Begin processing the 922001st record. Run 1, Event 648343, LumiSection 6485 at 07-Mar-2016 18:39:11.505 CST
+Begin processing the 923001st record. Run 1, Event 254895, LumiSection 2549 at 07-Mar-2016 18:39:36.040 CST
+Begin processing the 924001st record. Run 1, Event 234054, LumiSection 2341 at 07-Mar-2016 18:40:00.048 CST
+Begin processing the 925001st record. Run 1, Event 1227658, LumiSection 12279 at 07-Mar-2016 18:40:24.167 CST
+Begin processing the 926001st record. Run 1, Event 250042, LumiSection 2501 at 07-Mar-2016 18:40:46.765 CST
+Begin processing the 927001st record. Run 1, Event 273902, LumiSection 2740 at 07-Mar-2016 18:41:10.143 CST
+Begin processing the 928001st record. Run 1, Event 284232, LumiSection 2843 at 07-Mar-2016 18:41:33.825 CST
+Begin processing the 929001st record. Run 1, Event 412274, LumiSection 4124 at 07-Mar-2016 18:41:58.058 CST
+Begin processing the 930001st record. Run 1, Event 678981, LumiSection 6791 at 07-Mar-2016 18:42:20.184 CST
+Begin processing the 931001st record. Run 1, Event 300952, LumiSection 3011 at 07-Mar-2016 18:42:44.057 CST
+Begin processing the 932001st record. Run 1, Event 318499, LumiSection 3186 at 07-Mar-2016 18:43:08.153 CST
+Begin processing the 933001st record. Run 1, Event 475853, LumiSection 4760 at 07-Mar-2016 18:43:33.063 CST
+07-Mar-2016 18:43:37 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/92EA5B3C-6874-E411-B50D-002590D0AFE8.root
+07-Mar-2016 18:43:37 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/C2F35257-6874-E411-8370-20CF305B04D2.root
+07-Mar-2016 18:43:37 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/C2F35257-6874-E411-8370-20CF305B04D2.root
+Begin processing the 934001st record. Run 1, Event 828540, LumiSection 8287 at 07-Mar-2016 18:43:58.166 CST
+Begin processing the 935001st record. Run 1, Event 1156565, LumiSection 11568 at 07-Mar-2016 18:44:20.944 CST
+Begin processing the 936001st record. Run 1, Event 776185, LumiSection 7764 at 07-Mar-2016 18:44:45.022 CST
+Begin processing the 937001st record. Run 1, Event 812236, LumiSection 8124 at 07-Mar-2016 18:45:09.106 CST
+Begin processing the 938001st record. Run 1, Event 796187, LumiSection 7964 at 07-Mar-2016 18:45:33.219 CST
+Begin processing the 939001st record. Run 1, Event 1005047, LumiSection 10053 at 07-Mar-2016 18:45:56.891 CST
+Begin processing the 940001st record. Run 1, Event 804446, LumiSection 8046 at 07-Mar-2016 18:46:19.803 CST
+Begin processing the 941001st record. Run 1, Event 820457, LumiSection 8206 at 07-Mar-2016 18:46:43.927 CST
+Begin processing the 942001st record. Run 1, Event 1479767, LumiSection 14801 at 07-Mar-2016 18:47:08.138 CST
+Begin processing the 943001st record. Run 1, Event 896220, LumiSection 8964 at 07-Mar-2016 18:47:33.014 CST
+Begin processing the 944001st record. Run 1, Event 1787955, LumiSection 17884 at 07-Mar-2016 18:47:55.186 CST
+Begin processing the 945001st record. Run 1, Event 880309, LumiSection 8805 at 07-Mar-2016 18:48:18.691 CST
+Begin processing the 946001st record. Run 1, Event 1499728, LumiSection 15001 at 07-Mar-2016 18:48:42.814 CST
+Begin processing the 947001st record. Run 1, Event 1154377, LumiSection 11547 at 07-Mar-2016 18:49:07.539 CST
+Begin processing the 948001st record. Run 1, Event 888943, LumiSection 8892 at 07-Mar-2016 18:49:31.042 CST
+Begin processing the 949001st record. Run 1, Event 1457503, LumiSection 14578 at 07-Mar-2016 18:49:53.922 CST
+Begin processing the 950001st record. Run 1, Event 959340, LumiSection 9596 at 07-Mar-2016 18:50:18.175 CST
+Begin processing the 951001st record. Run 1, Event 919213, LumiSection 9194 at 07-Mar-2016 18:50:42.854 CST
+Begin processing the 952001st record. Run 1, Event 1230473, LumiSection 12308 at 07-Mar-2016 18:51:07.191 CST
+Begin processing the 953001st record. Run 1, Event 1587965, LumiSection 15883 at 07-Mar-2016 18:51:29.462 CST
+Begin processing the 954001st record. Run 1, Event 929554, LumiSection 9298 at 07-Mar-2016 18:51:53.351 CST
+Begin processing the 955001st record. Run 1, Event 1455388, LumiSection 14557 at 07-Mar-2016 18:52:17.499 CST
+Begin processing the 956001st record. Run 1, Event 948712, LumiSection 9489 at 07-Mar-2016 18:52:41.868 CST
+Begin processing the 957001st record. Run 1, Event 1566549, LumiSection 15669 at 07-Mar-2016 18:53:05.290 CST
+Begin processing the 958001st record. Run 1, Event 956367, LumiSection 9566 at 07-Mar-2016 18:53:29.003 CST
+Begin processing the 959001st record. Run 1, Event 991978, LumiSection 9922 at 07-Mar-2016 18:53:53.099 CST
+Begin processing the 960001st record. Run 1, Event 1243150, LumiSection 12434 at 07-Mar-2016 18:54:17.368 CST
+Begin processing the 961001st record. Run 1, Event 996654, LumiSection 9969 at 07-Mar-2016 18:54:41.610 CST
+Begin processing the 962001st record. Run 1, Event 992078, LumiSection 9923 at 07-Mar-2016 18:55:04.427 CST
+Begin processing the 963001st record. Run 1, Event 1121841, LumiSection 11221 at 07-Mar-2016 18:55:28.571 CST
+Begin processing the 964001st record. Run 1, Event 1038907, LumiSection 10391 at 07-Mar-2016 18:55:53.108 CST
+Begin processing the 965001st record. Run 1, Event 1329137, LumiSection 13294 at 07-Mar-2016 18:56:17.237 CST
+Begin processing the 966001st record. Run 1, Event 1049632, LumiSection 10499 at 07-Mar-2016 18:56:40.330 CST
+Begin processing the 967001st record. Run 1, Event 1058756, LumiSection 10590 at 07-Mar-2016 18:57:04.730 CST
+Begin processing the 968001st record. Run 1, Event 1122679, LumiSection 11229 at 07-Mar-2016 18:57:28.899 CST
+Begin processing the 969001st record. Run 1, Event 1095967, LumiSection 10962 at 07-Mar-2016 18:57:53.417 CST
+Begin processing the 970001st record. Run 1, Event 1377865, LumiSection 13781 at 07-Mar-2016 18:58:15.108 CST
+Begin processing the 971001st record. Run 1, Event 1166158, LumiSection 11664 at 07-Mar-2016 18:58:40.503 CST
+Begin processing the 972001st record. Run 1, Event 1550459, LumiSection 15508 at 07-Mar-2016 18:59:04.634 CST
+Begin processing the 973001st record. Run 1, Event 1496288, LumiSection 14966 at 07-Mar-2016 18:59:28.306 CST
+Begin processing the 974001st record. Run 1, Event 2158756, LumiSection 21592 at 07-Mar-2016 18:59:51.717 CST
+Begin processing the 975001st record. Run 1, Event 1989361, LumiSection 19898 at 07-Mar-2016 19:00:15.883 CST
+Begin processing the 976001st record. Run 1, Event 2028036, LumiSection 20285 at 07-Mar-2016 19:00:41.939 CST
+Begin processing the 977001st record. Run 1, Event 2711961, LumiSection 27125 at 07-Mar-2016 19:01:04.201 CST
+Begin processing the 978001st record. Run 1, Event 1247638, LumiSection 12479 at 07-Mar-2016 19:01:26.897 CST
+Begin processing the 979001st record. Run 1, Event 1260043, LumiSection 12603 at 07-Mar-2016 19:01:51.408 CST
+Begin processing the 980001st record. Run 1, Event 1333240, LumiSection 13335 at 07-Mar-2016 19:02:15.838 CST
+Begin processing the 981001st record. Run 1, Event 1292657, LumiSection 12929 at 07-Mar-2016 19:02:40.970 CST
+Begin processing the 982001st record. Run 1, Event 1487111, LumiSection 14875 at 07-Mar-2016 19:03:03.063 CST
+07-Mar-2016 19:03:22 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/C2F35257-6874-E411-8370-20CF305B04D2.root
+07-Mar-2016 19:03:22 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DA81C183-6874-E411-908E-20CF305B04FB.root
+07-Mar-2016 19:03:22 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DA81C183-6874-E411-908E-20CF305B04FB.root
+Begin processing the 983001st record. Run 1, Event 3601540, LumiSection 36023 at 07-Mar-2016 19:03:30.314 CST
+Begin processing the 984001st record. Run 1, Event 3695757, LumiSection 36965 at 07-Mar-2016 19:03:54.835 CST
+Begin processing the 985001st record. Run 1, Event 3881534, LumiSection 38823 at 07-Mar-2016 19:04:20.204 CST
+Begin processing the 986001st record. Run 1, Event 3694155, LumiSection 36949 at 07-Mar-2016 19:04:44.279 CST
+Begin processing the 987001st record. Run 1, Event 4551640, LumiSection 45526 at 07-Mar-2016 19:05:09.082 CST
+Begin processing the 988001st record. Run 1, Event 3995312, LumiSection 39961 at 07-Mar-2016 19:05:34.719 CST
+Begin processing the 989001st record. Run 1, Event 4364389, LumiSection 43653 at 07-Mar-2016 19:05:56.876 CST
+Begin processing the 990001st record. Run 1, Event 3715148, LumiSection 37160 at 07-Mar-2016 19:06:21.922 CST
+Begin processing the 991001st record. Run 1, Event 3919361, LumiSection 39202 at 07-Mar-2016 19:06:46.631 CST
+Begin processing the 992001st record. Run 1, Event 3835711, LumiSection 38365 at 07-Mar-2016 19:07:11.388 CST
+Begin processing the 993001st record. Run 1, Event 3698880, LumiSection 36996 at 07-Mar-2016 19:07:34.892 CST
+Begin processing the 994001st record. Run 1, Event 3745583, LumiSection 37464 at 07-Mar-2016 19:07:59.643 CST
+Begin processing the 995001st record. Run 1, Event 3749940, LumiSection 37507 at 07-Mar-2016 19:08:24.340 CST
+Begin processing the 996001st record. Run 1, Event 3879703, LumiSection 38805 at 07-Mar-2016 19:08:48.670 CST
+Begin processing the 997001st record. Run 1, Event 3740677, LumiSection 37415 at 07-Mar-2016 19:09:11.990 CST
+Begin processing the 998001st record. Run 1, Event 3756243, LumiSection 37570 at 07-Mar-2016 19:09:36.724 CST
+Begin processing the 999001st record. Run 1, Event 3888177, LumiSection 38890 at 07-Mar-2016 19:10:00.993 CST
+Begin processing the 1000001st record. Run 1, Event 4271588, LumiSection 42724 at 07-Mar-2016 19:10:25.370 CST
+Begin processing the 1001001st record. Run 1, Event 3787108, LumiSection 37879 at 07-Mar-2016 19:10:49.108 CST
+Begin processing the 1002001st record. Run 1, Event 3849409, LumiSection 38502 at 07-Mar-2016 19:11:12.972 CST
+Begin processing the 1003001st record. Run 1, Event 3812094, LumiSection 38129 at 07-Mar-2016 19:11:37.231 CST
+Begin processing the 1004001st record. Run 1, Event 3937620, LumiSection 39384 at 07-Mar-2016 19:12:01.902 CST
+Begin processing the 1005001st record. Run 1, Event 3833180, LumiSection 38340 at 07-Mar-2016 19:12:24.567 CST
+Begin processing the 1006001st record. Run 1, Event 3839209, LumiSection 38400 at 07-Mar-2016 19:12:48.864 CST
+Begin processing the 1007001st record. Run 1, Event 4003090, LumiSection 40040 at 07-Mar-2016 19:13:12.947 CST
+Begin processing the 1008001st record. Run 1, Event 4083331, LumiSection 40842 at 07-Mar-2016 19:13:37.566 CST
+Begin processing the 1009001st record. Run 1, Event 3863252, LumiSection 38641 at 07-Mar-2016 19:14:00.956 CST
+Begin processing the 1010001st record. Run 1, Event 3846172, LumiSection 38470 at 07-Mar-2016 19:14:23.906 CST
+Begin processing the 1011001st record. Run 1, Event 4089933, LumiSection 40908 at 07-Mar-2016 19:14:49.300 CST
+Begin processing the 1012001st record. Run 1, Event 3903381, LumiSection 39042 at 07-Mar-2016 19:15:13.160 CST
+Begin processing the 1013001st record. Run 1, Event 4275274, LumiSection 42761 at 07-Mar-2016 19:15:38.463 CST
+Begin processing the 1014001st record. Run 1, Event 4268419, LumiSection 42693 at 07-Mar-2016 19:16:00.675 CST
+Begin processing the 1015001st record. Run 1, Event 3888834, LumiSection 38896 at 07-Mar-2016 19:16:24.713 CST
+Begin processing the 1016001st record. Run 1, Event 4345860, LumiSection 43468 at 07-Mar-2016 19:16:51.094 CST
+Begin processing the 1017001st record. Run 1, Event 3991501, LumiSection 39923 at 07-Mar-2016 19:17:14.500 CST
+Begin processing the 1018001st record. Run 1, Event 3951119, LumiSection 39519 at 07-Mar-2016 19:17:39.296 CST
+Begin processing the 1019001st record. Run 1, Event 3939357, LumiSection 39402 at 07-Mar-2016 19:18:03.739 CST
+Begin processing the 1020001st record. Run 1, Event 4047765, LumiSection 40486 at 07-Mar-2016 19:18:27.753 CST
+Begin processing the 1021001st record. Run 1, Event 3964432, LumiSection 39652 at 07-Mar-2016 19:18:51.914 CST
+Begin processing the 1022001st record. Run 1, Event 4004452, LumiSection 40053 at 07-Mar-2016 19:19:16.074 CST
+Begin processing the 1023001st record. Run 1, Event 3990149, LumiSection 39910 at 07-Mar-2016 19:19:40.618 CST
+Begin processing the 1024001st record. Run 1, Event 4829303, LumiSection 48303 at 07-Mar-2016 19:20:06.281 CST
+Begin processing the 1025001st record. Run 1, Event 4191795, LumiSection 41927 at 07-Mar-2016 19:20:31.567 CST
+Begin processing the 1026001st record. Run 1, Event 4407509, LumiSection 44084 at 07-Mar-2016 19:20:56.610 CST
+Begin processing the 1027001st record. Run 1, Event 4051891, LumiSection 40528 at 07-Mar-2016 19:21:20.154 CST
+Begin processing the 1028001st record. Run 1, Event 4758142, LumiSection 47591 at 07-Mar-2016 19:21:43.857 CST
+Begin processing the 1029001st record. Run 1, Event 4020098, LumiSection 40210 at 07-Mar-2016 19:22:08.772 CST
+Begin processing the 1030001st record. Run 1, Event 4099912, LumiSection 41008 at 07-Mar-2016 19:22:34.150 CST
+Begin processing the 1031001st record. Run 1, Event 4496602, LumiSection 44975 at 07-Mar-2016 19:22:57.717 CST
+Begin processing the 1032001st record. Run 1, Event 4927836, LumiSection 49289 at 07-Mar-2016 19:23:21.649 CST
+07-Mar-2016 19:23:27 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DA81C183-6874-E411-908E-20CF305B04FB.root
+07-Mar-2016 19:23:27 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DC529E4C-6874-E411-B7B4-20CF3027A627.root
+07-Mar-2016 19:23:28 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DC529E4C-6874-E411-B7B4-20CF3027A627.root
+Begin processing the 1033001st record. Run 1, Event 361128, LumiSection 3612 at 07-Mar-2016 19:23:47.631 CST
+Begin processing the 1034001st record. Run 1, Event 338508, LumiSection 3386 at 07-Mar-2016 19:24:10.628 CST
+Begin processing the 1035001st record. Run 1, Event 525759, LumiSection 5259 at 07-Mar-2016 19:24:35.220 CST
+Begin processing the 1036001st record. Run 1, Event 346958, LumiSection 3471 at 07-Mar-2016 19:24:59.959 CST
+Begin processing the 1037001st record. Run 1, Event 348082, LumiSection 3482 at 07-Mar-2016 19:25:22.829 CST
+Begin processing the 1038001st record. Run 1, Event 367205, LumiSection 3673 at 07-Mar-2016 19:25:46.044 CST
+Begin processing the 1039001st record. Run 1, Event 371580, LumiSection 3717 at 07-Mar-2016 19:26:09.905 CST
+Begin processing the 1040001st record. Run 1, Event 777459, LumiSection 7776 at 07-Mar-2016 19:26:35.003 CST
+Begin processing the 1041001st record. Run 1, Event 678556, LumiSection 6787 at 07-Mar-2016 19:26:58.226 CST
+Begin processing the 1042001st record. Run 1, Event 373358, LumiSection 3735 at 07-Mar-2016 19:27:20.904 CST
+Begin processing the 1043001st record. Run 1, Event 414990, LumiSection 4151 at 07-Mar-2016 19:27:44.528 CST
+Begin processing the 1044001st record. Run 1, Event 554556, LumiSection 5547 at 07-Mar-2016 19:28:09.505 CST
+Begin processing the 1045001st record. Run 1, Event 459954, LumiSection 4601 at 07-Mar-2016 19:28:33.762 CST
+Begin processing the 1046001st record. Run 1, Event 412428, LumiSection 4125 at 07-Mar-2016 19:28:55.586 CST
+Begin processing the 1047001st record. Run 1, Event 414916, LumiSection 4150 at 07-Mar-2016 19:29:20.107 CST
+Begin processing the 1048001st record. Run 1, Event 752063, LumiSection 7522 at 07-Mar-2016 19:29:44.728 CST
+Begin processing the 1049001st record. Run 1, Event 469217, LumiSection 4693 at 07-Mar-2016 19:30:09.199 CST
+Begin processing the 1050001st record. Run 1, Event 449761, LumiSection 4499 at 07-Mar-2016 19:30:31.798 CST
+Begin processing the 1051001st record. Run 1, Event 471667, LumiSection 4718 at 07-Mar-2016 19:30:56.061 CST
+Begin processing the 1052001st record. Run 1, Event 480459, LumiSection 4806 at 07-Mar-2016 19:31:19.600 CST
+Begin processing the 1053001st record. Run 1, Event 1112051, LumiSection 11123 at 07-Mar-2016 19:31:43.734 CST
+Begin processing the 1054001st record. Run 1, Event 549188, LumiSection 5493 at 07-Mar-2016 19:32:06.255 CST
+Begin processing the 1055001st record. Run 1, Event 654359, LumiSection 6545 at 07-Mar-2016 19:32:29.899 CST
+Begin processing the 1056001st record. Run 1, Event 531385, LumiSection 5315 at 07-Mar-2016 19:32:53.745 CST
+Begin processing the 1057001st record. Run 1, Event 539591, LumiSection 5397 at 07-Mar-2016 19:33:19.172 CST
+Begin processing the 1058001st record. Run 1, Event 582353, LumiSection 5825 at 07-Mar-2016 19:33:41.278 CST
+Begin processing the 1059001st record. Run 1, Event 531814, LumiSection 5319 at 07-Mar-2016 19:34:05.979 CST
+Begin processing the 1060001st record. Run 1, Event 594698, LumiSection 5949 at 07-Mar-2016 19:34:29.138 CST
+Begin processing the 1061001st record. Run 1, Event 645232, LumiSection 6454 at 07-Mar-2016 19:34:53.737 CST
+Begin processing the 1062001st record. Run 1, Event 639928, LumiSection 6401 at 07-Mar-2016 19:35:16.794 CST
+Begin processing the 1063001st record. Run 1, Event 613705, LumiSection 6139 at 07-Mar-2016 19:35:40.364 CST
+Begin processing the 1064001st record. Run 1, Event 561187, LumiSection 5613 at 07-Mar-2016 19:36:05.374 CST
+Begin processing the 1065001st record. Run 1, Event 989486, LumiSection 9897 at 07-Mar-2016 19:36:28.921 CST
+Begin processing the 1066001st record. Run 1, Event 584939, LumiSection 5851 at 07-Mar-2016 19:36:52.225 CST
+Begin processing the 1067001st record. Run 1, Event 1844926, LumiSection 18453 at 07-Mar-2016 19:37:14.285 CST
+Begin processing the 1068001st record. Run 1, Event 638241, LumiSection 6384 at 07-Mar-2016 19:37:38.449 CST
+Begin processing the 1069001st record. Run 1, Event 630257, LumiSection 6304 at 07-Mar-2016 19:38:03.000 CST
+Begin processing the 1070001st record. Run 1, Event 772228, LumiSection 7724 at 07-Mar-2016 19:38:27.069 CST
+Begin processing the 1071001st record. Run 1, Event 1241896, LumiSection 12422 at 07-Mar-2016 19:38:48.661 CST
+Begin processing the 1072001st record. Run 1, Event 775986, LumiSection 7762 at 07-Mar-2016 19:39:12.190 CST
+Begin processing the 1073001st record. Run 1, Event 1038227, LumiSection 10385 at 07-Mar-2016 19:39:36.123 CST
+Begin processing the 1074001st record. Run 1, Event 1303457, LumiSection 13037 at 07-Mar-2016 19:40:01.774 CST
+Begin processing the 1075001st record. Run 1, Event 705962, LumiSection 7061 at 07-Mar-2016 19:40:24.499 CST
+Begin processing the 1076001st record. Run 1, Event 700961, LumiSection 7011 at 07-Mar-2016 19:40:48.268 CST
+Begin processing the 1077001st record. Run 1, Event 762404, LumiSection 7626 at 07-Mar-2016 19:41:12.943 CST
+Begin processing the 1078001st record. Run 1, Event 822857, LumiSection 8230 at 07-Mar-2016 19:41:38.348 CST
+Begin processing the 1079001st record. Run 1, Event 1804391, LumiSection 18048 at 07-Mar-2016 19:41:59.886 CST
+Begin processing the 1080001st record. Run 1, Event 697082, LumiSection 6972 at 07-Mar-2016 19:42:23.271 CST
+Begin processing the 1081001st record. Run 1, Event 800110, LumiSection 8003 at 07-Mar-2016 19:42:47.200 CST
+07-Mar-2016 19:42:59 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DC529E4C-6874-E411-B7B4-20CF3027A627.root
+07-Mar-2016 19:42:59 CST  Initiating request to open file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DCC97166-6874-E411-933C-485B39800BC7.root
+07-Mar-2016 19:42:59 CST  Successfully opened file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DCC97166-6874-E411-933C-485B39800BC7.root
+Begin processing the 1082001st record. Run 1, Event 2636017, LumiSection 26366 at 07-Mar-2016 19:43:15.380 CST
+Begin processing the 1083001st record. Run 1, Event 2807391, LumiSection 28080 at 07-Mar-2016 19:43:40.046 CST
+Begin processing the 1084001st record. Run 1, Event 2707588, LumiSection 27082 at 07-Mar-2016 19:44:03.674 CST
+Begin processing the 1085001st record. Run 1, Event 2735535, LumiSection 27361 at 07-Mar-2016 19:44:28.729 CST
+Begin processing the 1086001st record. Run 1, Event 2681832, LumiSection 26824 at 07-Mar-2016 19:44:54.898 CST
+Begin processing the 1087001st record. Run 1, Event 2844869, LumiSection 28454 at 07-Mar-2016 19:45:17.598 CST
+Begin processing the 1088001st record. Run 1, Event 2741300, LumiSection 27419 at 07-Mar-2016 19:45:42.539 CST
+Begin processing the 1089001st record. Run 1, Event 2741979, LumiSection 27426 at 07-Mar-2016 19:46:06.988 CST
+Begin processing the 1090001st record. Run 1, Event 3126577, LumiSection 31272 at 07-Mar-2016 19:46:32.239 CST
+Begin processing the 1091001st record. Run 1, Event 3562835, LumiSection 35636 at 07-Mar-2016 19:46:54.532 CST
+Begin processing the 1092001st record. Run 1, Event 2819450, LumiSection 28200 at 07-Mar-2016 19:47:18.988 CST
+Begin processing the 1093001st record. Run 1, Event 3006678, LumiSection 30073 at 07-Mar-2016 19:47:44.472 CST
+Begin processing the 1094001st record. Run 1, Event 2770675, LumiSection 27712 at 07-Mar-2016 19:48:09.554 CST
+Begin processing the 1095001st record. Run 1, Event 2826045, LumiSection 28266 at 07-Mar-2016 19:48:31.783 CST
+Begin processing the 1096001st record. Run 1, Event 2765806, LumiSection 27664 at 07-Mar-2016 19:48:56.776 CST
+Begin processing the 1097001st record. Run 1, Event 2808791, LumiSection 28094 at 07-Mar-2016 19:49:21.147 CST
+Begin processing the 1098001st record. Run 1, Event 2806151, LumiSection 28067 at 07-Mar-2016 21:15:41.613 CST
+Begin processing the 1099001st record. Run 1, Event 3180038, LumiSection 31807 at 07-Mar-2016 21:16:03.619 CST
+Begin processing the 1100001st record. Run 1, Event 2813017, LumiSection 28136 at 07-Mar-2016 21:16:26.898 CST
+Begin processing the 1101001st record. Run 1, Event 3432399, LumiSection 34331 at 07-Mar-2016 21:16:51.016 CST
+Begin processing the 1102001st record. Run 1, Event 2846493, LumiSection 28471 at 07-Mar-2016 21:17:16.444 CST
+Begin processing the 1103001st record. Run 1, Event 2941383, LumiSection 29420 at 07-Mar-2016 21:17:41.739 CST
+Begin processing the 1104001st record. Run 1, Event 2907537, LumiSection 29082 at 07-Mar-2016 21:18:03.823 CST
+Begin processing the 1105001st record. Run 1, Event 3279996, LumiSection 32807 at 07-Mar-2016 21:18:27.990 CST
+Begin processing the 1106001st record. Run 1, Event 2857393, LumiSection 28580 at 07-Mar-2016 21:18:53.106 CST
+Begin processing the 1107001st record. Run 1, Event 4148377, LumiSection 41492 at 07-Mar-2016 21:19:17.709 CST
+Begin processing the 1108001st record. Run 1, Event 2905825, LumiSection 29065 at 07-Mar-2016 21:19:41.046 CST
+Begin processing the 1109001st record. Run 1, Event 3151471, LumiSection 31522 at 07-Mar-2016 21:20:05.853 CST
+Begin processing the 1110001st record. Run 1, Event 2940477, LumiSection 29411 at 07-Mar-2016 21:20:31.044 CST
+Begin processing the 1111001st record. Run 1, Event 3230707, LumiSection 32314 at 07-Mar-2016 21:20:55.534 CST
+Begin processing the 1112001st record. Run 1, Event 4174708, LumiSection 41756 at 07-Mar-2016 21:21:18.629 CST
+Begin processing the 1113001st record. Run 1, Event 3326258, LumiSection 33269 at 07-Mar-2016 21:21:43.121 CST
+Begin processing the 1114001st record. Run 1, Event 3450451, LumiSection 34512 at 07-Mar-2016 21:22:08.835 CST
+Begin processing the 1115001st record. Run 1, Event 3068286, LumiSection 30689 at 07-Mar-2016 21:22:33.486 CST
+Begin processing the 1116001st record. Run 1, Event 3630667, LumiSection 36314 at 07-Mar-2016 21:22:56.726 CST
+Begin processing the 1117001st record. Run 1, Event 3960452, LumiSection 39613 at 07-Mar-2016 21:23:21.303 CST
+Begin processing the 1118001st record. Run 1, Event 3037206, LumiSection 30378 at 07-Mar-2016 23:19:35.389 CST
+Begin processing the 1119001st record. Run 1, Event 3096613, LumiSection 30972 at 07-Mar-2016 23:19:59.549 CST
+Begin processing the 1120001st record. Run 1, Event 2995360, LumiSection 29960 at 07-Mar-2016 23:20:23.427 CST
+Begin processing the 1121001st record. Run 1, Event 3025632, LumiSection 30263 at 07-Mar-2016 23:20:46.720 CST
+Begin processing the 1122001st record. Run 1, Event 3249940, LumiSection 32506 at 07-Mar-2016 23:21:11.537 CST
+Begin processing the 1123001st record. Run 1, Event 3444990, LumiSection 34457 at 07-Mar-2016 23:21:35.311 CST
+Begin processing the 1124001st record. Run 1, Event 3106108, LumiSection 31067 at 07-Mar-2016 23:21:59.595 CST
+Begin processing the 1125001st record. Run 1, Event 3250046, LumiSection 32507 at 07-Mar-2016 23:22:22.671 CST
+Begin processing the 1126001st record. Run 1, Event 3138193, LumiSection 31388 at 07-Mar-2016 23:22:46.327 CST
+Begin processing the 1127001st record. Run 1, Event 3241189, LumiSection 32419 at 07-Mar-2016 23:23:11.308 CST
+Begin processing the 1128001st record. Run 1, Event 3365295, LumiSection 33660 at 07-Mar-2016 23:23:35.799 CST
+Begin processing the 1129001st record. Run 1, Event 3491290, LumiSection 34920 at 07-Mar-2016 23:23:59.204 CST
+Begin processing the 1130001st record. Run 1, Event 3332395, LumiSection 33331 at 07-Mar-2016 23:24:22.414 CST
+07-Mar-2016 23:24:39 CST  Closed file file:/fdata/hepx/store/mc/Phys14DR/QCD_HT_1000ToInf_13TeV-madgraph/MINIAODSIM/PU20bx25_PHYS14_25_V1_ext1-v1/10000/DCC97166-6874-E411-933C-485B39800BC7.root
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 1130720 passed = 1130720 failed = 0
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+TrigReport     1    0    1130720    1130720          0          0 WriteTree
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+
+TrigReport ---------- Modules in Path: WriteTree ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0    1130720    1130720          0          0 WeightProducer
+TrigReport     1    1    1130720    1130720          0          0 GenHT
+TrigReport     1    2    1130720    1130720          0          0 NVtx
+TrigReport     1    3    1130720    1130720          0          0 nAllVertices
+TrigReport     1    4    1130720    1130720          0          0 genParticles
+TrigReport     1    5    1130720    1130720          0          0 SusyScan
+TrigReport     1    6    1130720    1130720          0          0 IsolatedElectronTracksVeto
+TrigReport     1    7    1130720    1130720          0          0 IsolatedMuonTracksVeto
+TrigReport     1    8    1130720    1130720          0          0 IsolatedPionTracksVeto
+TrigReport     1    9    1130720    1130720          0          0 LeptonsNew
+TrigReport     1   10    1130720    1130720          0          0 LeptonsNewTag
+TrigReport     1   11    1130720    1130720          0          0 goodPhotons
+TrigReport     1   12    1130720    1130720          0          0 GoodJets
+TrigReport     1   13    1130720    1130720          0          0 METFilters
+TrigReport     1   14    1130720    1130720          0          0 CSCTightHaloFilter
+TrigReport     1   15    1130720    1130720          0          0 HBHENoiseFilterResultProducer
+TrigReport     1   16    1130720    1130720          0          0 EcalDeadCellTriggerPrimitiveFilter
+TrigReport     1   17    1130720    1130720          0          0 eeBadScFilter
+TrigReport     1   18    1130720    1130720          0          0 TriggerProducer
+TrigReport     1   19    1130720    1130720          0          0 HTJets
+TrigReport     1   20    1130720    1130720          0          0 HT
+TrigReport     1   21    1130720    1130720          0          0 NJets
+TrigReport     1   22    1130720    1130720          0          0 BTags
+TrigReport     1   23    1130720    1130720          0          0 MHTJets
+TrigReport     1   24    1130720    1130720          0          0 MHT
+TrigReport     1   25    1130720    1130720          0          0 DeltaPhi
+TrigReport     1   26    1130720    1130720          0          0 MET
+TrigReport     1   27    1130720    1130720          0          0 JetsProperties
+TrigReport     1   28    1130720    1130720          0          0 TreeMaker2
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited   Executed     Passed     Failed      Error Name
+TrigReport    1130720    1130720    1130720          0          0 WeightProducer
+TrigReport    1130720    1130720    1130720          0          0 GenHT
+TrigReport    1130720    1130720    1130720          0          0 NVtx
+TrigReport    1130720    1130720    1130720          0          0 nAllVertices
+TrigReport    1130720    1130720    1130720          0          0 genParticles
+TrigReport    1130720    1130720    1130720          0          0 SusyScan
+TrigReport    1130720    1130720    1130720          0          0 IsolatedElectronTracksVeto
+TrigReport    1130720    1130720    1130720          0          0 IsolatedMuonTracksVeto
+TrigReport    1130720    1130720    1130720          0          0 IsolatedPionTracksVeto
+TrigReport    1130720    1130720    1130720          0          0 LeptonsNew
+TrigReport    1130720    1130720    1130720          0          0 LeptonsNewTag
+TrigReport    1130720    1130720    1130720          0          0 goodPhotons
+TrigReport    1130720    1130720    1130720          0          0 GoodJets
+TrigReport    1130720    1130720    1130720          0          0 METFilters
+TrigReport    1130720    1130720    1130720          0          0 CSCTightHaloFilter
+TrigReport    1130720    1130720    1130720          0          0 HBHENoiseFilterResultProducer
+TrigReport    1130720    1130720    1130720          0          0 EcalDeadCellTriggerPrimitiveFilter
+TrigReport    1130720    1130720    1130720          0          0 eeBadScFilter
+TrigReport    1130720    1130720    1130720          0          0 TriggerProducer
+TrigReport    1130720    1130720    1130720          0          0 HTJets
+TrigReport    1130720    1130720    1130720          0          0 HT
+TrigReport    1130720    1130720    1130720          0          0 NJets
+TrigReport    1130720    1130720    1130720          0          0 BTags
+TrigReport    1130720    1130720    1130720          0          0 MHTJets
+TrigReport    1130720    1130720    1130720          0          0 MHT
+TrigReport    1130720    1130720    1130720          0          0 DeltaPhi
+TrigReport    1130720    1130720    1130720          0          0 MET
+TrigReport    1130720    1130720    1130720          0          0 JetsProperties
+TrigReport    1130720    1130720    1130720          0          0 TreeMaker2
+TrigReport    1130720    1130720    1130720          0          0 TriggerResults
+TrigReport          0          0          0          0          0 HTFilter
+TrigReport          0          0          0          0          0 MHTFilter
+TrigReport    1130720    1130720    1130720          0          0 goodVertices
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport       event loop CPU/event = 0.019476
+TimeReport      event loop Real/event = 0.034799
+TimeReport     sum Streams Real/event = 0.033907
+TimeReport efficiency CPU/Real/thread = 0.559683
+
+TimeReport ---------- Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport   0.033600     0.033600  WriteTree
+TimeReport  per event     per exec  Name
+
+TimeReport -------End-Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport  per event     per exec  Name
+
+TimeReport ---------- Modules in Path: WriteTree ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000028     0.000028  WeightProducer
+TimeReport   0.000015     0.000015  GenHT
+TimeReport   0.000006     0.000006  NVtx
+TimeReport   0.000003     0.000003  nAllVertices
+TimeReport   0.000547     0.000547  genParticles
+TimeReport   0.000006     0.000006  SusyScan
+TimeReport   0.001100     0.001100  IsolatedElectronTracksVeto
+TimeReport   0.000999     0.000999  IsolatedMuonTracksVeto
+TimeReport   0.009805     0.009805  IsolatedPionTracksVeto
+TimeReport   0.000432     0.000432  LeptonsNew
+TimeReport   0.000133     0.000133  LeptonsNewTag
+TimeReport   0.000640     0.000640  goodPhotons
+TimeReport   0.000285     0.000285  GoodJets
+TimeReport   0.000011     0.000011  METFilters
+TimeReport   0.000004     0.000004  CSCTightHaloFilter
+TimeReport   0.000034     0.000034  HBHENoiseFilterResultProducer
+TimeReport   0.000004     0.000004  EcalDeadCellTriggerPrimitiveFilter
+TimeReport   0.000004     0.000004  eeBadScFilter
+TimeReport   0.000595     0.000595  TriggerProducer
+TimeReport   0.000101     0.000101  HTJets
+TimeReport   0.000009     0.000009  HT
+TimeReport   0.000007     0.000007  NJets
+TimeReport   0.000010     0.000010  BTags
+TimeReport   0.000105     0.000105  MHTJets
+TimeReport   0.000014     0.000014  MHT
+TimeReport   0.000032     0.000032  DeltaPhi
+TimeReport   0.000028     0.000028  MET
+TimeReport   0.000311     0.000311  JetsProperties
+TimeReport   0.000490     0.000490  TreeMaker2
+TimeReport  per event    per visit  Name
+
+TimeReport ---------- Module Summary ---[Real sec]----
+TimeReport  per event     per exec    per visit  Name
+TimeReport   0.000034     0.000034     0.000034  TriggerResults
+TimeReport   0.000028     0.000028     0.000028  WeightProducer
+TimeReport   0.000015     0.000015     0.000015  GenHT
+TimeReport   0.000006     0.000006     0.000006  NVtx
+TimeReport   0.000003     0.000003     0.000003  nAllVertices
+TimeReport   0.000547     0.000547     0.000547  genParticles
+TimeReport   0.000006     0.000006     0.000006  SusyScan
+TimeReport   0.001100     0.001100     0.001100  IsolatedElectronTracksVeto
+TimeReport   0.000999     0.000999     0.000999  IsolatedMuonTracksVeto
+TimeReport   0.009805     0.009805     0.009805  IsolatedPionTracksVeto
+TimeReport   0.000432     0.000432     0.000432  LeptonsNew
+TimeReport   0.000133     0.000133     0.000133  LeptonsNewTag
+TimeReport   0.000640     0.000640     0.000640  goodPhotons
+TimeReport   0.000285     0.000285     0.000285  GoodJets
+TimeReport   0.000011     0.000011     0.000011  METFilters
+TimeReport   0.000004     0.000004     0.000004  CSCTightHaloFilter
+TimeReport   0.000034     0.000034     0.000034  HBHENoiseFilterResultProducer
+TimeReport   0.000004     0.000004     0.000004  EcalDeadCellTriggerPrimitiveFilter
+TimeReport   0.000004     0.000004     0.000004  eeBadScFilter
+TimeReport   0.000595     0.000595     0.000595  TriggerProducer
+TimeReport   0.000101     0.000101     0.000101  HTJets
+TimeReport   0.000009     0.000009     0.000009  HT
+TimeReport   0.000007     0.000007     0.000007  NJets
+TimeReport   0.000010     0.000010     0.000010  BTags
+TimeReport   0.000105     0.000105     0.000105  MHTJets
+TimeReport   0.000014     0.000014     0.000014  MHT
+TimeReport   0.000032     0.000032     0.000032  DeltaPhi
+TimeReport   0.000028     0.000028     0.000028  MET
+TimeReport   0.000311     0.000311     0.000311  JetsProperties
+TimeReport   0.000490     0.000490     0.000490  TreeMaker2
+TimeReport   0.000000     0.000000     0.000000  HTFilter
+TimeReport   0.000000     0.000000     0.000000  MHTFilter
+TimeReport   0.000071     0.000071     0.000071  goodVertices
+TimeReport  per event     per exec    per visit  Name
+
+T---Report end!
+
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                            24       24
+    2 fileAction           -s file_open                             48       48
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    2 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                 72                  72

@@ -1,0 +1,15 @@
+#!/bin/sh
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=15GB
+#PBS -l walltime=48:00:00
+#PBS -q hepx
+#PBS -t 0-0
+#cd /home/aperloff/JEC/CMSSW_7_3_3_testPUPPI/src
+cd /home/delgado_andrea/CMSSW_7_4_6_patch6/src/TreeMaker/Production/test/
+export SCRAM_ARCH=slc6_amd64_gcc491
+eval `scramv1 runtime -sh`
+#cd /fdata/hepx/store/user/delgado_andrea/Stop/
+
+cmsRun runMakeTreeFromMiniAOD_cfg.py scenario=Phys14 inputFilesConfig="ZJetsToNuNu_HT-400to600_Tune4C_13TeV-madgraph-tauola" fastsim=False outfile="/fdata/hepx/store/user/delgado_andrea/Analysis/Full/ZJetsToNuNu_HT-400to600_Tune4C_13TeV-madgraph-tauola"
+
+exit 0

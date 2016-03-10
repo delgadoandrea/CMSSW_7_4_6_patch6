@@ -1,0 +1,215 @@
+***** SETUP ************************************
+ dataset:
+ cms.untracked.vstring('file:/fdata/hepx/store/mc/Phys14DR/TTbarH_M-125_13TeV_amcatnlo-pythia8-tauola/MINIAODSIM/PU20bx25_tsg_PHYS14_25_V1-v2/00000/08B36E8F-5E7F-E411-9D5A-002590200AE4.root',
+    'file:/fdata/hepx/store/mc/Phys14DR/TTbarH_M-125_13TeV_amcatnlo-pythia8-tauola/MINIAODSIM/PU20bx25_tsg_PHYS14_25_V1-v2/00000/FC4E6E16-5C7F-E411-8843-002590200AE4.root')
+ outfile: test
+
+ storing lostlepton variables: False
+ storing hadtau variables: False
+ storing Zinv variables: False
+ storing QCD variables: False
+
+ storing PDF weights: False
+
+ storing tag and probe variables: False
+ storing track debugging variables: False
+ Applying baseline selection filter: False
+
+ scenario: Spring15Fast
+ global tag: MCRUN2_74_V9
+ Instance name of tag information: PAT
+ Including gen-level information: True
+ Using fastsim settings: True
+ JECs applied: data/Summer15_25nsV2_MC
+ era of this dataset: Run2_25ns
+************************************************
+# Conditions read from  CMS_CONDITIONS  via FrontierProd
+Configuring for 74X
+Calculation with mtcut: cms.double(100)
+^@^@28-Oct-2015 11:15:29 CDT  Initiating request to open file
+ file:/fdata/hepx/store/mc/Phys14DR/TTbarH_M-125_13TeV_amcatnlo-pythia8-tauola/MINIAODSIM/PU20bx25_tsg_PHYS14_25_V1-v2/00000/08B36E8F-5E7F-E411-9D5A-002590200AE4.root
+28-Oct-2015 11:15:30 CDT  Successfully opened file
+ file:/fdata/hepx/store/mc/Phys14DR/TTbarH_M-125_13TeV_amcatnlo-pythia8-tauola/MINIAODSIM/PU20bx25_tsg_PHYS14_25_V1-v2/00000/08B36E8F-5E7F-E411-9D5A-002590200AE4.root
+WeightProducer: Using constant event weight of 1
+WeightProducer: Applying multiplicative PU weights
+  Reading PU scenario from
+ '/home/delgado_andrea/CMSSW_7_4_6_patch6/src/TreeMaker/Production/test/data/pu_weights_7_4_25ns_testShifts.root'
+  Computing weights for pile-up scenario Reading JEC parameters =
+ SubTotalMC from file =
+ /home/delgado_andrea/CMSSW_7_4_6_patch6/src/PhysicsTools/PatUtils/data/Summer15_50nsV4_DATA_UncertaintySources_AK4PFchs.txt.
+Reading JEC parameters = SubTotalMC from file =
+ /home/delgado_andrea/CMSSW_7_4_6_patch6/src/PhysicsTools/PatUtils/data/Summer15_50nsV4_DATA_UncertaintySources_AK4PFchs.txt.
+will store trigger information for...
+HLT_PFHT350_PFMET100_NoiseCleaned_v
+HLT_PFHT350_PFMET100_JetIdCleaned_v
+HLT_PFMET170_NoiseCleaned_v
+HLT_PFMET170_JetIdCleaned_v
+HLT_PFHT350_v
+HLT_PFHT800_v
+HLT_PFHT900_v
+HLT_Ele27_eta2p1_WPLoose_Gsf_v
+HLT_DoubleEle24_22_eta2p1_WPLoose_Gsf_v
+HLT_IsoMu17_eta2p1_v
+HLT_PFHT350_PFMET120_NoiseCleaned_v
+HLT_Mu15_IsoVVVL_PFHT350_PFMET70_v
+HLT_Ele15_IsoVVVL_PFHT350_PFMET70_v
+HLT_Mu15_IsoVVVL_PFHT400_PFMET70_v
+HLT_Ele15_IsoVVVL_PFHT400_PFMET70_v
+HLT_Mu15_IsoVVVL_BTagCSV0p72_PFHT400_v
+HLT_Mu15_IsoVVVL_BTagCSV07_PFHT400_v
+HLT_Mu15_IsoVVVL_PFHT600_v
+HLT_Mu45_eta2p1_v
+HLT_Mu50_eta2p1_v
+HLT_Mu50_v
+HLT_Mu55_v
+HLT_Photon75_v
+HLT_Photon90_v
+HLT_Photon90_CaloIdL_PFHT500_v
+HLT_DoubleEle8_CaloIdM_Mass8_PFHT300_v
+HLT_Ele27_eta2p1_WP85_Gsf_v
+HLT_IsoMu20_eta2p1_IterTrk02_v
+HLT_DoubleMu8_Mass8_PFHT300_v
+HLT_Ele27_WP85_Gsf_v
+HLT_IsoMu20_eta2p1_v
+HLT_Ele17_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v
+HLT_DoubleMu18NoFiltersNoVtx_v
+HLT_Mu20_v
+HLT_QuadJet45_TripleCSV0p5_v
+HLT_DoubleJet90_Double30_TripleCSV0p5_v
+HLT_Ele15_IsoVVVL_PFHT350_v
+HLT_Mu15_IsoVVVL_PFHT350_v
+VarsBool:
+full name: GoodJets(JetID) -> tag: GoodJets nameInTree: JetID
+VarsInt:
+full name: NVtx -> tag: NVtx nameInTree: NVtx
+full name: nAllVertices -> tag: nAllVertices nameInTree: nAllVertices
+full name: IsolatedElectronTracksVeto:isoTracks(isoElectronTracks) ->
+ tag: IsolatedElectronTracksVeto:isoTracks nameInTree:
+ isoElectronTracks
+full name: IsolatedMuonTracksVeto:isoTracks(isoMuonTracks) -> tag:
+ IsolatedMuonTracksVeto:isoTracks nameInTree: isoMuonTracks
+full name: IsolatedPionTracksVeto:isoTracks(isoPionTracks) -> tag:
+ IsolatedPionTracksVeto:isoTracks nameInTree: isoPionTracks
+full name: LeptonsNew(Leptons) -> tag: LeptonsNew nameInTree: Leptons
+full name: LeptonsNewTag(TagLeptonHighPT) -> tag: LeptonsNewTag
+ nameInTree: TagLeptonHighPT
+full name: goodPhotons:NumPhotons -> tag: goodPhotons:NumPhotons
+ nameInTree: NumPhotons
+full name: NJets -> tag: NJets nameInTree: NJets
+full name: BTags -> tag: BTags nameInTree: BTags
+VarsDouble:
+full name: WeightProducer:weight(Weight) -> tag: WeightProducer:weight
+ nameInTree: Weight
+full name: WeightProducer:PUweight(puWeight) -> tag:
+ WeightProducer:PUweight nameInTree: puWeight
+full name: WeightProducer:PUSysUp(puSysUp) -> tag:
+ WeightProducer:PUSysUp nameInTree: puSysUp
+full name: WeightProducer:PUSysDown(puSysDown) -> tag:
+ WeightProducer:PUSysDown nameInTree: puSysDown
+full name: GenHT:genHT -> tag: GenHT:genHT nameInTree: genHT
+full name: SusyScan:SusyMotherMass -> tag: SusyScan:SusyMotherMass
+ nameInTree: SusyMotherMass
+full name: SusyScan:SusyLSPMass -> tag: SusyScan:SusyLSPMass
+ nameInTree: SusyLSPMass
+full name: HT -> tag: HT nameInTree: HT
+full name: MHT:Pt(MHT) -> tag: MHT:Pt nameInTree: MHT
+full name: MHT:Phi(MHT_Phi) -> tag: MHT:Phi nameInTree: MHT_Phi
+full name: DeltaPhi:DeltaPhi1 -> tag: DeltaPhi:DeltaPhi1 nameInTree:
+ DeltaPhi1
+full name: DeltaPhi:DeltaPhi2 -> tag: DeltaPhi:DeltaPhi2 nameInTree:
+ DeltaPhi2
+full name: DeltaPhi:DeltaPhi3 -> tag: DeltaPhi:DeltaPhi3 nameInTree:
+ DeltaPhi3
+full name: DeltaPhi:DeltaPhi4 -> tag: DeltaPhi:DeltaPhi4 nameInTree:
+ DeltaPhi4
+full name: MET:minDeltaPhiN -> tag: MET:minDeltaPhiN nameInTree:
+ minDeltaPhiN
+full name: MET:DeltaPhiN1 -> tag: MET:DeltaPhiN1 nameInTree:
+ DeltaPhiN1
+full name: MET:DeltaPhiN2 -> tag: MET:DeltaPhiN2 nameInTree:
+ DeltaPhiN2
+full name: MET:DeltaPhiN3 -> tag: MET:DeltaPhiN3 nameInTree:
+ DeltaPhiN3
+full name: MET:Pt(METPt) -> tag: MET:Pt nameInTree: METPt
+full name: MET:Phi(METPhi) -> tag: MET:Phi nameInTree: METPhi
+full name: MET:GenPt(GenMETPt) -> tag: MET:GenPt nameInTree: GenMETPt
+full name: MET:GenPhi(GenMETPhi) -> tag: MET:GenPhi nameInTree:
+ GenMETPhi
+VarsString:
+VarsTLorentzVector:
+VectorBool:
+full name: TriggerProducer:TriggerPass -> tag:
+ TriggerProducer:TriggerPass nameInTree: TriggerPass
+VectorInt:
+full name: genParticles:PDGid(genParticles_PDGid) -> tag:
+ genParticles:PDGid nameInTree: genParticles_PDGid
+full name: genParticles:parent(genParticles_parent) -> tag:
+ genParticles:parent nameInTree: genParticles_parent
+full name: LeptonsNew:MuonCharge(MuonCharge) -> tag:
+ LeptonsNew:MuonCharge nameInTree: MuonCharge
+full name: LeptonsNew:ElectronCharge(ElectronCharge) -> tag:
+ LeptonsNew:ElectronCharge nameInTree: ElectronCharge
+full name: TriggerProducer:TriggerPrescales -> tag:
+ TriggerProducer:TriggerPrescales nameInTree: TriggerPrescales
+full name:
+ JetsProperties:chargedHadronMultiplicity(Jets_chargedHadronMultiplicity)
+ -> tag: JetsProperties:chargedHadronMultiplicity nameInTree:
+ Jets_chargedHadronMultiplicity
+full name:
+ JetsProperties:electronMultiplicity(Jets_electronMultiplicity) ->
+ tag: JetsProperties:electronMultiplicity nameInTree:
+ Jets_electronMultiplicity
+full name: JetsProperties:muonMultiplicity(Jets_muonMultiplicity) ->
+ tag: JetsProperties:muonMultiplicity nameInTree:
+ Jets_muonMultiplicity
+full name:
+ JetsProperties:neutralHadronMultiplicity(Jets_neutralHadronMultiplicity)
+ -> tag: JetsProperties:neutralHadronMultiplicity nameInTree:
+ Jets_neutralHadronMultiplicity
+full name: JetsProperties:photonMultiplicity(Jets_photonMultiplicity)
+ -> tag: JetsProperties:photonMultiplicity nameInTree:
+ Jets_photonMultiplicity
+full name: JetsProperties:flavor(Jets_flavor) -> tag:
+ JetsProperties:flavor nameInTree: Jets_flavor
+VectorDouble:
+full name: JetsProperties:bDiscriminatorUser(Jets_bDiscriminatorCSV)
+ -> tag: JetsProperties:bDiscriminatorUser nameInTree:
+ Jets_bDiscriminatorCSV
+full name: JetsProperties:bDiscriminatorMVA(Jets_bDiscriminatorMVA) ->
+ tag: JetsProperties:bDiscriminatorMVA nameInTree:
+ Jets_bDiscriminatorMVA
+full name:
+ JetsProperties:chargedEmEnergyFraction(Jets_chargedEmEnergyFraction)
+ -> tag: JetsProperties:chargedEmEnergyFraction nameInTree:
+ Jets_chargedEmEnergyFraction
+full name:
+ JetsProperties:chargedHadronEnergyFraction(Jets_chargedHadronEnergyFraction)
+ -> tag: JetsProperties:chargedHadronEnergyFraction nameInTree:
+ Jets_chargedHadronEnergyFraction
+full name: JetsProperties:jetArea(Jets_jetArea) -> tag:
+ JetsProperties:jetArea nameInTree: Jets_jetArea
+full name: JetsProperties:muonEnergyFraction(Jets_muonEnergyFraction)
+ -> tag: JetsProperties:muonEnergyFraction nameInTree:
+ Jets_muonEnergyFraction
+full name:
+ JetsProperties:neutralEmEnergyFraction(Jets_neutralEmEnergyFraction)
+ -> tag: JetsProperties:neutralEmEnergyFraction nameInTree:
+ Jets_neutralEmEnergyFraction
+full name:
+ JetsProperties:photonEnergyFraction(Jets_photonEnergyFraction) ->
+ tag: JetsProperties:photonEnergyFraction nameInTree:
+ Jets_photonEnergyFraction
+VectorString:
+full name: TriggerProducer:TriggerNames -> tag:
+ TriggerProducer:TriggerNames nameInTree: TriggerNames
+VectorTLorentzVector:
+full name: genParticles(genParticles) -> tag: genParticles nameInTree:
+ genParticles
+VectorRecoCand:
+full name: LeptonsNew:IdIsoMuon(Muons) -> tag: LeptonsNew:IdIsoMuon
+ nameInTree: Muons
+full name: LeptonsNew:IdIsoElectron(Electrons) -> tag:
+ LeptonsNew:IdIsoElectron nameInTree: Electrons
+full name: goodPhotons:bestPhoton -> tag: goodPhotons:bestPhoton
+ nameInTree: bestPhoton
+full name: GoodJets(Jets) -> tag: GoodJets nameInTree: Jets

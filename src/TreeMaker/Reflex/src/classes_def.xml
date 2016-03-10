@@ -1,0 +1,12 @@
+<lcgdict>
+  <class name="std::vector<TLorentzVector>"/>
+  <class name="std::vector<std::vector<TLorentzVector> >"/>
+  <class name="std::vector<pat::Jet>"/>
+  <class name="std::vector<std::vector<pat::Jet> >"/>
+  <class name="edm::Wrapper<std::vector<TLorentzVector> >"/>
+  <class name="edm::Wrapper<std::vector<std::vector<TLorentzVector>  >>"/>
+  <class name="genP"/>
+  <class name="edm::Wrapper<genP>"/>
+  <class name="stoppair"/>
+  <class name="edm::Wrapper<stoppair>"/>
+</lcgdict>

@@ -1,0 +1,447 @@
+void leadjetpt()
+{
+//=========Macro generated from canvas: leadjetpt/leadjetpt
+//=========  (Mon Nov 23 12:45:10 2015) by ROOT version6.02/05
+   TCanvas *leadjetpt = new TCanvas("leadjetpt", "leadjetpt",240,262,700,700);
+   leadjetpt->Range(-122.5,-6.345703,1402.5,0.08698382);
+   leadjetpt->SetFillColor(0);
+   leadjetpt->SetBorderMode(0);
+   leadjetpt->SetBorderSize(2);
+   leadjetpt->SetLogy();
+   leadjetpt->SetFrameBorderMode(0);
+   leadjetpt->SetFrameBorderMode(0);
+   
+   THStack *leadjetpt = new THStack();
+   leadjetpt->SetName("leadjetpt");
+   leadjetpt->SetTitle("leadjetpt");
+   
+   TH1F *leadjetpt_stack_13 = new TH1F("leadjetpt_stack_13","leadjetpt",25,30,1250);
+   leadjetpt_stack_13->SetMinimum(1.98411e-06);
+   leadjetpt_stack_13->SetMaximum(0.277789);
+   leadjetpt_stack_13->SetDirectory(0);
+   leadjetpt_stack_13->SetStats(0);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#000099");
+   leadjetpt_stack_13->SetLineColor(ci);
+   leadjetpt_stack_13->GetXaxis()->SetTitle("leadjetpt");
+   leadjetpt_stack_13->GetXaxis()->SetLabelFont(42);
+   leadjetpt_stack_13->GetXaxis()->SetLabelSize(0.035);
+   leadjetpt_stack_13->GetXaxis()->SetTitleSize(0.035);
+   leadjetpt_stack_13->GetXaxis()->SetTitleFont(42);
+   leadjetpt_stack_13->GetYaxis()->SetTitle("Events/pb");
+   leadjetpt_stack_13->GetYaxis()->SetLabelFont(42);
+   leadjetpt_stack_13->GetYaxis()->SetLabelSize(0.035);
+   leadjetpt_stack_13->GetYaxis()->SetTitleSize(0.035);
+   leadjetpt_stack_13->GetYaxis()->SetTitleFont(42);
+   leadjetpt_stack_13->GetZaxis()->SetLabelFont(42);
+   leadjetpt_stack_13->GetZaxis()->SetLabelSize(0.035);
+   leadjetpt_stack_13->GetZaxis()->SetTitleSize(0.035);
+   leadjetpt_stack_13->GetZaxis()->SetTitleFont(42);
+   leadjetpt->SetHistogram(leadjetpt_stack_13);
+   
+   
+   TH1D *leadjetpt61 = new TH1D("leadjetpt61","p_{T}^{Leading jet}",25,30,1250);
+   leadjetpt61->SetBinContent(4,0.02495631);
+   leadjetpt61->SetBinContent(5,0.01663754);
+   leadjetpt61->SetBinContent(7,0.01663754);
+   leadjetpt61->SetBinContent(8,0.01663754);
+   leadjetpt61->SetBinContent(9,0.00831877);
+   leadjetpt61->SetBinContent(10,0.02004099);
+   leadjetpt61->SetBinContent(11,0.01376429);
+   leadjetpt61->SetBinContent(12,0.0068069);
+   leadjetpt61->SetBinContent(13,0.00408414);
+   leadjetpt61->SetBinContent(15,0.00068069);
+   leadjetpt61->SetBinContent(16,0.00068069);
+   leadjetpt61->SetBinContent(17,0.00068069);
+   leadjetpt61->SetBinContent(18,0.00068069);
+   leadjetpt61->SetBinContent(20,0.00068069);
+   leadjetpt61->SetBinContent(26,0.00068069);
+   leadjetpt61->SetBinError(4,0.01440853);
+   leadjetpt61->SetBinError(5,0.01176452);
+   leadjetpt61->SetBinError(7,0.01176452);
+   leadjetpt61->SetBinError(8,0.01176452);
+   leadjetpt61->SetBinError(9,0.00831877);
+   leadjetpt61->SetBinError(10,0.01186257);
+   leadjetpt61->SetBinError(11,0.008538656);
+   leadjetpt61->SetBinError(12,0.002152531);
+   leadjetpt61->SetBinError(13,0.001667343);
+   leadjetpt61->SetBinError(15,0.00068069);
+   leadjetpt61->SetBinError(16,0.00068069);
+   leadjetpt61->SetBinError(17,0.00068069);
+   leadjetpt61->SetBinError(18,0.00068069);
+   leadjetpt61->SetBinError(20,0.00068069);
+   leadjetpt61->SetBinError(26,0.00068069);
+   leadjetpt61->SetEntries(48);
+
+   ci = TColor::GetColor("#00cc00");
+   leadjetpt61->SetFillColor(ci);
+
+   ci = TColor::GetColor("#00cc00");
+   leadjetpt61->SetLineColor(ci);
+
+   ci = TColor::GetColor("#00cc00");
+   leadjetpt61->SetMarkerColor(ci);
+   leadjetpt61->SetMarkerStyle(22);
+   leadjetpt61->GetXaxis()->SetTitle("leadjetpt");
+   leadjetpt61->GetXaxis()->SetLabelFont(42);
+   leadjetpt61->GetXaxis()->SetLabelSize(0.035);
+   leadjetpt61->GetXaxis()->SetTitleSize(0.035);
+   leadjetpt61->GetXaxis()->SetTitleFont(42);
+   leadjetpt61->GetYaxis()->SetTitle("Events/pb");
+   leadjetpt61->GetYaxis()->SetLabelFont(42);
+   leadjetpt61->GetYaxis()->SetLabelSize(0.035);
+   leadjetpt61->GetYaxis()->SetTitleSize(0.035);
+   leadjetpt61->GetYaxis()->SetTitleFont(42);
+   leadjetpt61->GetZaxis()->SetLabelFont(42);
+   leadjetpt61->GetZaxis()->SetLabelSize(0.035);
+   leadjetpt61->GetZaxis()->SetTitleSize(0.035);
+   leadjetpt61->GetZaxis()->SetTitleFont(42);
+   leadjetpt->Add(leadjetpt,"");
+   
+   TH1D *leadjetpt62 = new TH1D("leadjetpt62","p_{T}^{Leading jet}",25,30,1250);
+   leadjetpt62->SetBinContent(1,0.003372718);
+   leadjetpt62->SetBinContent(2,0.05905044);
+   leadjetpt62->SetBinContent(3,0.1482294);
+   leadjetpt62->SetBinContent(4,0.1406127);
+   leadjetpt62->SetBinContent(5,0.1122199);
+   leadjetpt62->SetBinContent(6,0.06131524);
+   leadjetpt62->SetBinContent(7,0.03315765);
+   leadjetpt62->SetBinContent(8,0.01722178);
+   leadjetpt62->SetBinContent(9,0.01038106);
+   leadjetpt62->SetBinContent(10,0.005667729);
+   leadjetpt62->SetBinContent(11,0.003376837);
+   leadjetpt62->SetBinContent(12,0.002038486);
+   leadjetpt62->SetBinContent(13,0.001198698);
+   leadjetpt62->SetBinContent(14,0.0007800198);
+   leadjetpt62->SetBinContent(15,0.0005432281);
+   leadjetpt62->SetBinContent(16,0.0004457256);
+   leadjetpt62->SetBinContent(17,0.0002507207);
+   leadjetpt62->SetBinContent(18,0.000181076);
+   leadjetpt62->SetBinContent(19,8.357355e-05);
+   leadjetpt62->SetBinContent(20,5.57157e-05);
+   leadjetpt62->SetBinContent(21,0.0001114314);
+   leadjetpt62->SetBinContent(22,5.57157e-05);
+   leadjetpt62->SetBinContent(23,1.392893e-05);
+   leadjetpt62->SetBinContent(24,1.392893e-05);
+   leadjetpt62->SetBinContent(25,2.785785e-05);
+   leadjetpt62->SetBinContent(26,5.57157e-05);
+   leadjetpt62->SetBinError(1,0.001438511);
+   leadjetpt62->SetBinError(2,0.004722378);
+   leadjetpt62->SetBinError(3,0.005995425);
+   leadjetpt62->SetBinError(4,0.004309765);
+   leadjetpt62->SetBinError(5,0.003596008);
+   leadjetpt62->SetBinError(6,0.002140427);
+   leadjetpt62->SetBinError(7,0.001156062);
+   leadjetpt62->SetBinError(8,0.0005288252);
+   leadjetpt62->SetBinError(9,0.000386229);
+   leadjetpt62->SetBinError(10,0.0002842065);
+   leadjetpt62->SetBinError(11,0.0002184962);
+   leadjetpt62->SetBinError(12,0.0001687175);
+   leadjetpt62->SetBinError(13,0.0001292615);
+   leadjetpt62->SetBinError(14,0.0001042345);
+   leadjetpt62->SetBinError(15,8.698611e-05);
+   leadjetpt62->SetBinError(16,7.87939e-05);
+   leadjetpt62->SetBinError(17,5.909542e-05);
+   leadjetpt62->SetBinError(18,5.022145e-05);
+   leadjetpt62->SetBinError(19,3.411876e-05);
+   leadjetpt62->SetBinError(20,2.785785e-05);
+   leadjetpt62->SetBinError(21,3.939695e-05);
+   leadjetpt62->SetBinError(22,2.785785e-05);
+   leadjetpt62->SetBinError(23,1.392893e-05);
+   leadjetpt62->SetBinError(24,1.392893e-05);
+   leadjetpt62->SetBinError(25,1.969847e-05);
+   leadjetpt62->SetBinError(26,2.785785e-05);
+   leadjetpt62->SetEntries(12325);
+
+   ci = TColor::GetColor("#00ffff");
+   leadjetpt62->SetFillColor(ci);
+
+   ci = TColor::GetColor("#00ffff");
+   leadjetpt62->SetLineColor(ci);
+
+   ci = TColor::GetColor("#00ffff");
+   leadjetpt62->SetMarkerColor(ci);
+   leadjetpt62->SetMarkerStyle(20);
+   leadjetpt62->GetXaxis()->SetTitle("leadjetpt");
+   leadjetpt62->GetXaxis()->SetLabelFont(42);
+   leadjetpt62->GetXaxis()->SetLabelSize(0.035);
+   leadjetpt62->GetXaxis()->SetTitleSize(0.035);
+   leadjetpt62->GetXaxis()->SetTitleFont(42);
+   leadjetpt62->GetYaxis()->SetTitle("Events/pb");
+   leadjetpt62->GetYaxis()->SetLabelFont(42);
+   leadjetpt62->GetYaxis()->SetLabelSize(0.035);
+   leadjetpt62->GetYaxis()->SetTitleSize(0.035);
+   leadjetpt62->GetYaxis()->SetTitleFont(42);
+   leadjetpt62->GetZaxis()->SetLabelFont(42);
+   leadjetpt62->GetZaxis()->SetLabelSize(0.035);
+   leadjetpt62->GetZaxis()->SetTitleSize(0.035);
+   leadjetpt62->GetZaxis()->SetTitleFont(42);
+   leadjetpt->Add(leadjetpt,"");
+   
+   TH1D *leadjetpt63 = new TH1D("leadjetpt63","p_{T}^{Leading jet}",25,30,1250);
+   leadjetpt63->SetBinContent(1,0.0004396122);
+   leadjetpt63->SetBinContent(2,0.01362683);
+   leadjetpt63->SetBinContent(3,0.03466226);
+   leadjetpt63->SetBinContent(4,0.03547508);
+   leadjetpt63->SetBinContent(5,0.02612896);
+   leadjetpt63->SetBinContent(6,0.01554113);
+   leadjetpt63->SetBinContent(7,0.008450088);
+   leadjetpt63->SetBinContent(8,0.004772031);
+   leadjetpt63->SetBinContent(9,0.002734114);
+   leadjetpt63->SetBinContent(10,0.001682419);
+   leadjetpt63->SetBinContent(11,0.0009792261);
+   leadjetpt63->SetBinContent(12,0.0006235431);
+   leadjetpt63->SetBinContent(13,0.0004084353);
+   leadjetpt63->SetBinContent(14,0.0002726803);
+   leadjetpt63->SetBinContent(15,0.0002001216);
+   leadjetpt63->SetBinContent(16,0.0001310738);
+   leadjetpt63->SetBinContent(17,9.830535e-05);
+   leadjetpt63->SetBinContent(18,7.606961e-05);
+   leadjetpt63->SetBinContent(19,3.861996e-05);
+   leadjetpt63->SetBinContent(20,3.744966e-05);
+   leadjetpt63->SetBinContent(21,2.457634e-05);
+   leadjetpt63->SetBinContent(22,1.638422e-05);
+   leadjetpt63->SetBinContent(23,1.404362e-05);
+   leadjetpt63->SetBinContent(24,1.053272e-05);
+   leadjetpt63->SetBinContent(25,7.021811e-06);
+   leadjetpt63->SetBinContent(26,2.574664e-05);
+   leadjetpt63->SetBinError(1,0.0001361644);
+   leadjetpt63->SetBinError(2,0.000738898);
+   leadjetpt63->SetBinError(3,0.001090421);
+   leadjetpt63->SetBinError(4,0.0009811426);
+   leadjetpt63->SetBinError(5,0.0007692984);
+   leadjetpt63->SetBinError(6,0.0004858607);
+   leadjetpt63->SetBinError(7,0.0002386357);
+   leadjetpt63->SetBinError(8,0.0001213256);
+   leadjetpt63->SetBinError(9,7.929736e-05);
+   leadjetpt63->SetBinError(10,5.564996e-05);
+   leadjetpt63->SetBinError(11,3.765981e-05);
+   leadjetpt63->SetBinError(12,2.744214e-05);
+   leadjetpt63->SetBinError(13,2.186304e-05);
+   leadjetpt63->SetBinError(14,1.786388e-05);
+   leadjetpt63->SetBinError(15,1.530368e-05);
+   leadjetpt63->SetBinError(16,1.238531e-05);
+   leadjetpt63->SetBinError(17,1.072599e-05);
+   leadjetpt63->SetBinError(18,9.435274e-06);
+   leadjetpt63->SetBinError(19,6.722872e-06);
+   leadjetpt63->SetBinError(20,6.620226e-06);
+   leadjetpt63->SetBinError(21,5.362996e-06);
+   leadjetpt63->SetBinError(22,4.378868e-06);
+   leadjetpt63->SetBinError(23,4.054044e-06);
+   leadjetpt63->SetBinError(24,3.510905e-06);
+   leadjetpt63->SetBinError(25,2.866642e-06);
+   leadjetpt63->SetBinError(26,5.489202e-06);
+   leadjetpt63->SetEntries(19290);
+
+   ci = TColor::GetColor("#ffcc00");
+   leadjetpt63->SetFillColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   leadjetpt63->SetLineColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   leadjetpt63->SetMarkerColor(ci);
+   leadjetpt63->SetMarkerStyle(21);
+   leadjetpt63->GetXaxis()->SetTitle("leadjetpt");
+   leadjetpt63->GetXaxis()->SetLabelFont(42);
+   leadjetpt63->GetXaxis()->SetLabelSize(0.035);
+   leadjetpt63->GetXaxis()->SetTitleSize(0.035);
+   leadjetpt63->GetXaxis()->SetTitleFont(42);
+   leadjetpt63->GetYaxis()->SetTitle("Events/pb");
+   leadjetpt63->GetYaxis()->SetLabelFont(42);
+   leadjetpt63->GetYaxis()->SetLabelSize(0.035);
+   leadjetpt63->GetYaxis()->SetTitleSize(0.035);
+   leadjetpt63->GetYaxis()->SetTitleFont(42);
+   leadjetpt63->GetZaxis()->SetLabelFont(42);
+   leadjetpt63->GetZaxis()->SetLabelSize(0.035);
+   leadjetpt63->GetZaxis()->SetTitleSize(0.035);
+   leadjetpt63->GetZaxis()->SetTitleFont(42);
+   leadjetpt->Add(leadjetpt,"");
+   
+   TH1D *leadjetpt64 = new TH1D("leadjetpt64","p_{T}^{Leading jet}",25,30,1250);
+   leadjetpt64->SetBinContent(1,0.000107972);
+   leadjetpt64->SetBinContent(2,0.001218542);
+   leadjetpt64->SetBinContent(3,0.002853547);
+   leadjetpt64->SetBinContent(4,0.003285435);
+   leadjetpt64->SetBinContent(5,0.002498781);
+   leadjetpt64->SetBinContent(6,0.001958921);
+   leadjetpt64->SetBinContent(7,0.001249391);
+   leadjetpt64->SetBinContent(8,0.0009408991);
+   leadjetpt64->SetBinContent(9,0.0006478322);
+   leadjetpt64->SetBinContent(10,0.0002467932);
+   leadjetpt64->SetBinContent(11,0.0002467932);
+   leadjetpt64->SetBinContent(12,0.0001233966);
+   leadjetpt64->SetBinContent(13,0.0001696703);
+   leadjetpt64->SetBinContent(14,0.0001233966);
+   leadjetpt64->SetBinContent(15,6.16983e-05);
+   leadjetpt64->SetBinContent(16,4.627373e-05);
+   leadjetpt64->SetBinContent(17,4.627373e-05);
+   leadjetpt64->SetBinContent(18,1.542458e-05);
+   leadjetpt64->SetBinContent(19,4.627373e-05);
+   leadjetpt64->SetBinContent(20,1.542458e-05);
+   leadjetpt64->SetBinContent(21,1.542458e-05);
+   leadjetpt64->SetBinContent(26,1.542458e-05);
+   leadjetpt64->SetBinError(1,4.080959e-05);
+   leadjetpt64->SetBinError(2,0.0001370966);
+   leadjetpt64->SetBinError(3,0.0002097969);
+   leadjetpt64->SetBinError(4,0.0002251143);
+   leadjetpt64->SetBinError(5,0.0001963228);
+   leadjetpt64->SetBinError(6,0.0001738261);
+   leadjetpt64->SetBinError(7,0.0001388212);
+   leadjetpt64->SetBinError(8,0.0001204698);
+   leadjetpt64->SetBinError(9,9.996268e-05);
+   leadjetpt64->SetBinError(10,6.16983e-05);
+   leadjetpt64->SetBinError(11,6.16983e-05);
+   leadjetpt64->SetBinError(12,4.362729e-05);
+   leadjetpt64->SetBinError(13,5.115753e-05);
+   leadjetpt64->SetBinError(14,4.362729e-05);
+   leadjetpt64->SetBinError(15,3.084915e-05);
+   leadjetpt64->SetBinError(16,2.671615e-05);
+   leadjetpt64->SetBinError(17,2.671615e-05);
+   leadjetpt64->SetBinError(18,1.542458e-05);
+   leadjetpt64->SetBinError(19,2.671615e-05);
+   leadjetpt64->SetBinError(20,1.542458e-05);
+   leadjetpt64->SetBinError(21,1.542458e-05);
+   leadjetpt64->SetBinError(26,1.542458e-05);
+   leadjetpt64->SetEntries(1033);
+
+   ci = TColor::GetColor("#ff0000");
+   leadjetpt64->SetFillColor(ci);
+
+   ci = TColor::GetColor("#ff0000");
+   leadjetpt64->SetLineColor(ci);
+
+   ci = TColor::GetColor("#ff0000");
+   leadjetpt64->SetMarkerColor(ci);
+   leadjetpt64->SetMarkerStyle(20);
+   leadjetpt64->GetXaxis()->SetTitle("leadjetpt");
+   leadjetpt64->GetXaxis()->SetLabelFont(42);
+   leadjetpt64->GetXaxis()->SetLabelSize(0.035);
+   leadjetpt64->GetXaxis()->SetTitleSize(0.035);
+   leadjetpt64->GetXaxis()->SetTitleFont(42);
+   leadjetpt64->GetYaxis()->SetTitle("Events/pb");
+   leadjetpt64->GetYaxis()->SetLabelFont(42);
+   leadjetpt64->GetYaxis()->SetLabelSize(0.035);
+   leadjetpt64->GetYaxis()->SetTitleSize(0.035);
+   leadjetpt64->GetYaxis()->SetTitleFont(42);
+   leadjetpt64->GetZaxis()->SetLabelFont(42);
+   leadjetpt64->GetZaxis()->SetLabelSize(0.035);
+   leadjetpt64->GetZaxis()->SetTitleSize(0.035);
+   leadjetpt64->GetZaxis()->SetTitleFont(42);
+   leadjetpt->Add(leadjetpt,"");
+   
+   TH1D *leadjetpt65 = new TH1D("leadjetpt65","p_{T}^{Leading jet}",25,30,1250);
+   leadjetpt65->SetBinContent(7,1.677165e-05);
+   leadjetpt65->SetBinError(7,1.677165e-05);
+   leadjetpt65->SetEntries(1);
+
+   ci = TColor::GetColor("#0000ff");
+   leadjetpt65->SetFillColor(ci);
+
+   ci = TColor::GetColor("#0000ff");
+   leadjetpt65->SetLineColor(ci);
+
+   ci = TColor::GetColor("#0000ff");
+   leadjetpt65->SetMarkerColor(ci);
+   leadjetpt65->SetMarkerStyle(21);
+   leadjetpt65->GetXaxis()->SetTitle("leadjetpt");
+   leadjetpt65->GetXaxis()->SetLabelFont(42);
+   leadjetpt65->GetXaxis()->SetLabelSize(0.035);
+   leadjetpt65->GetXaxis()->SetTitleSize(0.035);
+   leadjetpt65->GetXaxis()->SetTitleFont(42);
+   leadjetpt65->GetYaxis()->SetTitle("Events/pb");
+   leadjetpt65->GetYaxis()->SetLabelFont(42);
+   leadjetpt65->GetYaxis()->SetLabelSize(0.035);
+   leadjetpt65->GetYaxis()->SetTitleSize(0.035);
+   leadjetpt65->GetYaxis()->SetTitleFont(42);
+   leadjetpt65->GetZaxis()->SetLabelFont(42);
+   leadjetpt65->GetZaxis()->SetLabelSize(0.035);
+   leadjetpt65->GetZaxis()->SetTitleSize(0.035);
+   leadjetpt65->GetZaxis()->SetTitleFont(42);
+   leadjetpt->Add(leadjetpt,"");
+   leadjetpt->Draw("nostack");
+   
+   TPaveText *pt = new TPaveText(0.3872701,0.9342857,0.6127299,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   TText *AText = pt->AddText("leadjetpt");
+   pt->Draw();
+   
+   TLegend *leg = new TLegend(0.54023,0.639881,0.938218,0.924107,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetTextSize(0.034965);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("leadjetpt","leadjetpt_QCD","lp");
+
+   ci = TColor::GetColor("#00cc00");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#00cc00");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("leadjetpt","leadjetpt_WJetsToLNu","lp");
+
+   ci = TColor::GetColor("#00ffff");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#00ffff");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("leadjetpt","leadjetpt_ZJetsToNuNu","lp");
+
+   ci = TColor::GetColor("#ffcc00");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#ffcc00");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("leadjetpt","leadjetpt_signal","lp");
+
+   ci = TColor::GetColor("#ff0000");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#ff0000");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("leadjetpt","leadjetpt_ttbar","lp");
+
+   ci = TColor::GetColor("#0000ff");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#0000ff");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   leg->Draw();
+   leadjetpt->Modified();
+   leadjetpt->cd();
+   leadjetpt->SetSelected(leadjetpt);
+}

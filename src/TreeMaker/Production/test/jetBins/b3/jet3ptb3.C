@@ -1,0 +1,441 @@
+void jet3ptb3()
+{
+//=========Macro generated from canvas: b3/jet3ptb3/b3/jet3ptb3
+//=========  (Tue Nov 24 14:24:00 2015) by ROOT version6.02/05
+   TCanvas *b3/jet3ptb3 = new TCanvas("b3/jet3ptb3", "b3/jet3ptb3",180,202,700,700);
+   b3/jet3ptb3->Range(-66.25001,-7.332985,896.25,0.535648);
+   b3/jet3ptb3->SetFillColor(0);
+   b3/jet3ptb3->SetBorderMode(0);
+   b3/jet3ptb3->SetBorderSize(2);
+   b3/jet3ptb3->SetLogy();
+   b3/jet3ptb3->SetFrameBorderMode(0);
+   b3/jet3ptb3->SetFrameBorderMode(0);
+   
+   THStack *b3/jet3ptb3 = new THStack();
+   b3/jet3ptb3->SetName("b3/jet3ptb3");
+   b3/jet3ptb3->SetTitle("b3/jet3ptb3");
+   
+   TH1F *b3/jet3ptb3_stack_10 = new TH1F("b3/jet3ptb3_stack_10","b3/jet3ptb3",32,30,800);
+   b3/jet3ptb3_stack_10->SetMinimum(2.843662e-07);
+   b3/jet3ptb3_stack_10->SetMaximum(0.5607698);
+   b3/jet3ptb3_stack_10->SetDirectory(0);
+   b3/jet3ptb3_stack_10->SetStats(0);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#000099");
+   b3/jet3ptb3_stack_10->SetLineColor(ci);
+   b3/jet3ptb3_stack_10->GetXaxis()->SetTitle("b3/jet3ptb3");
+   b3/jet3ptb3_stack_10->GetXaxis()->SetLabelFont(42);
+   b3/jet3ptb3_stack_10->GetXaxis()->SetLabelSize(0.035);
+   b3/jet3ptb3_stack_10->GetXaxis()->SetTitleSize(0.035);
+   b3/jet3ptb3_stack_10->GetXaxis()->SetTitleFont(42);
+   b3/jet3ptb3_stack_10->GetYaxis()->SetTitle("Events/pb");
+   b3/jet3ptb3_stack_10->GetYaxis()->SetLabelFont(42);
+   b3/jet3ptb3_stack_10->GetYaxis()->SetLabelSize(0.035);
+   b3/jet3ptb3_stack_10->GetYaxis()->SetTitleSize(0.035);
+   b3/jet3ptb3_stack_10->GetYaxis()->SetTitleFont(42);
+   b3/jet3ptb3_stack_10->GetZaxis()->SetLabelFont(42);
+   b3/jet3ptb3_stack_10->GetZaxis()->SetLabelSize(0.035);
+   b3/jet3ptb3_stack_10->GetZaxis()->SetTitleSize(0.035);
+   b3/jet3ptb3_stack_10->GetZaxis()->SetTitleFont(42);
+   b3/jet3ptb3->SetHistogram(b3/jet3ptb3_stack_10);
+   
+   
+   TH1D *jet3ptb346 = new TH1D("jet3ptb346","p_{T}^{3rd jet}",32,30,800);
+   jet3ptb346->SetBinContent(1,0.04620819);
+   jet3ptb346->SetBinContent(2,0.04484681);
+   jet3ptb346->SetBinContent(3,0.03025134);
+   jet3ptb346->SetBinContent(4,0.04061218);
+   jet3ptb346->SetBinContent(5,0.01021035);
+   jet3ptb346->SetBinContent(6,0.00612621);
+   jet3ptb346->SetBinContent(7,0.00884897);
+   jet3ptb346->SetBinContent(8,0.00476483);
+   jet3ptb346->SetBinContent(9,0.0068069);
+   jet3ptb346->SetBinContent(10,0.00544552);
+   jet3ptb346->SetBinContent(11,0.00408414);
+   jet3ptb346->SetBinContent(12,0.00340345);
+   jet3ptb346->SetBinContent(13,0.00068069);
+   jet3ptb346->SetBinContent(14,0.00136138);
+   jet3ptb346->SetBinContent(15,0.00068069);
+   jet3ptb346->SetBinContent(18,0.00136138);
+   jet3ptb346->SetBinContent(20,0.00068069);
+   jet3ptb346->SetBinContent(25,0.00068069);
+   jet3ptb346->SetBinError(1,0.01690004);
+   jet3ptb346->SetBinError(2,0.0168726);
+   jet3ptb346->SetBinError(3,0.01215198);
+   jet3ptb346->SetBinError(4,0.01477371);
+   jet3ptb346->SetBinError(5,0.002636301);
+   jet3ptb346->SetBinError(6,0.00204207);
+   jet3ptb346->SetBinError(7,0.002454263);
+   jet3ptb346->SetBinError(8,0.001800936);
+   jet3ptb346->SetBinError(9,0.002152531);
+   jet3ptb346->SetBinError(10,0.001925282);
+   jet3ptb346->SetBinError(11,0.001667343);
+   jet3ptb346->SetBinError(12,0.001522069);
+   jet3ptb346->SetBinError(13,0.00068069);
+   jet3ptb346->SetBinError(14,0.000962641);
+   jet3ptb346->SetBinError(15,0.00068069);
+   jet3ptb346->SetBinError(18,0.000962641);
+   jet3ptb346->SetBinError(20,0.00068069);
+   jet3ptb346->SetBinError(25,0.00068069);
+   jet3ptb346->SetEntries(173);
+
+   ci = TColor::GetColor("#00cc00");
+   jet3ptb346->SetFillColor(ci);
+
+   ci = TColor::GetColor("#00cc00");
+   jet3ptb346->SetLineColor(ci);
+
+   ci = TColor::GetColor("#00cc00");
+   jet3ptb346->SetMarkerColor(ci);
+   jet3ptb346->SetMarkerStyle(22);
+   jet3ptb346->GetXaxis()->SetTitle("jet3ptb3");
+   jet3ptb346->GetXaxis()->SetLabelFont(42);
+   jet3ptb346->GetXaxis()->SetLabelSize(0.035);
+   jet3ptb346->GetXaxis()->SetTitleSize(0.035);
+   jet3ptb346->GetXaxis()->SetTitleFont(42);
+   jet3ptb346->GetYaxis()->SetTitle("Events/pb");
+   jet3ptb346->GetYaxis()->SetLabelFont(42);
+   jet3ptb346->GetYaxis()->SetLabelSize(0.035);
+   jet3ptb346->GetYaxis()->SetTitleSize(0.035);
+   jet3ptb346->GetYaxis()->SetTitleFont(42);
+   jet3ptb346->GetZaxis()->SetLabelFont(42);
+   jet3ptb346->GetZaxis()->SetLabelSize(0.035);
+   jet3ptb346->GetZaxis()->SetTitleSize(0.035);
+   jet3ptb346->GetZaxis()->SetTitleFont(42);
+   b3/jet3ptb3->Add(jet3ptb3,"");
+   
+   TH1D *jet3ptb347 = new TH1D("jet3ptb347","p_{T}^{3rd jet}",32,30,800);
+   jet3ptb347->SetBinContent(1,0.2693975);
+   jet3ptb347->SetBinContent(2,0.1218212);
+   jet3ptb347->SetBinContent(3,0.05085164);
+   jet3ptb347->SetBinContent(4,0.02392666);
+   jet3ptb347->SetBinContent(5,0.01191665);
+   jet3ptb347->SetBinContent(6,0.005932613);
+   jet3ptb347->SetBinContent(7,0.003539568);
+   jet3ptb347->SetBinContent(8,0.002370349);
+   jet3ptb347->SetBinContent(9,0.001142982);
+   jet3ptb347->SetBinContent(10,0.000933238);
+   jet3ptb347->SetBinContent(11,0.0004457256);
+   jet3ptb347->SetBinContent(12,0.0003342942);
+   jet3ptb347->SetBinContent(13,0.0003482231);
+   jet3ptb347->SetBinContent(14,0.0001253603);
+   jet3ptb347->SetBinContent(15,9.750248e-05);
+   jet3ptb347->SetBinContent(16,8.357355e-05);
+   jet3ptb347->SetBinContent(17,8.357355e-05);
+   jet3ptb347->SetBinContent(18,1.392893e-05);
+   jet3ptb347->SetBinContent(20,4.178678e-05);
+   jet3ptb347->SetBinContent(22,1.392893e-05);
+   jet3ptb347->SetBinError(1,0.005030568);
+   jet3ptb347->SetBinError(2,0.003036748);
+   jet3ptb347->SetBinError(3,0.001354765);
+   jet3ptb347->SetBinError(4,0.0006442085);
+   jet3ptb347->SetBinError(5,0.0004100593);
+   jet3ptb347->SetBinError(6,0.0002881479);
+   jet3ptb347->SetBinError(7,0.0002220952);
+   jet3ptb347->SetBinError(8,0.0001818028);
+   jet3ptb347->SetBinError(9,0.0001262239);
+   jet3ptb347->SetBinError(10,0.0001140132);
+   jet3ptb347->SetBinError(11,7.87939e-05);
+   jet3ptb347->SetBinError(12,6.823752e-05);
+   jet3ptb347->SetBinError(13,6.964463e-05);
+   jet3ptb347->SetBinError(14,4.178678e-05);
+   jet3ptb347->SetBinError(15,3.685247e-05);
+   jet3ptb347->SetBinError(16,3.411876e-05);
+   jet3ptb347->SetBinError(17,3.411876e-05);
+   jet3ptb347->SetBinError(18,1.392893e-05);
+   jet3ptb347->SetBinError(20,2.412561e-05);
+   jet3ptb347->SetBinError(22,1.392893e-05);
+   jet3ptb347->SetEntries(19755);
+
+   ci = TColor::GetColor("#00ffff");
+   jet3ptb347->SetFillColor(ci);
+
+   ci = TColor::GetColor("#00ffff");
+   jet3ptb347->SetLineColor(ci);
+
+   ci = TColor::GetColor("#00ffff");
+   jet3ptb347->SetMarkerColor(ci);
+   jet3ptb347->SetMarkerStyle(20);
+   jet3ptb347->GetXaxis()->SetTitle("jet3ptb3");
+   jet3ptb347->GetXaxis()->SetLabelFont(42);
+   jet3ptb347->GetXaxis()->SetLabelSize(0.035);
+   jet3ptb347->GetXaxis()->SetTitleSize(0.035);
+   jet3ptb347->GetXaxis()->SetTitleFont(42);
+   jet3ptb347->GetYaxis()->SetTitle("Events/pb");
+   jet3ptb347->GetYaxis()->SetLabelFont(42);
+   jet3ptb347->GetYaxis()->SetLabelSize(0.035);
+   jet3ptb347->GetYaxis()->SetTitleSize(0.035);
+   jet3ptb347->GetYaxis()->SetTitleFont(42);
+   jet3ptb347->GetZaxis()->SetLabelFont(42);
+   jet3ptb347->GetZaxis()->SetLabelSize(0.035);
+   jet3ptb347->GetZaxis()->SetTitleSize(0.035);
+   jet3ptb347->GetZaxis()->SetTitleFont(42);
+   b3/jet3ptb3->Add(jet3ptb3,"");
+   
+   TH1D *jet3ptb348 = new TH1D("jet3ptb348","p_{T}^{3rd jet}",32,30,800);
+   jet3ptb348->SetBinContent(1,0.06930008);
+   jet3ptb348->SetBinContent(2,0.02950564);
+   jet3ptb348->SetBinContent(3,0.01288967);
+   jet3ptb348->SetBinContent(4,0.006083811);
+   jet3ptb348->SetBinContent(5,0.003091592);
+   jet3ptb348->SetBinContent(6,0.001606324);
+   jet3ptb348->SetBinContent(7,0.0009466223);
+   jet3ptb348->SetBinContent(8,0.0004867696);
+   jet3ptb348->SetBinContent(9,0.0003510905);
+   jet3ptb348->SetBinContent(10,0.0002305494);
+   jet3ptb348->SetBinContent(11,0.0001509689);
+   jet3ptb348->SetBinContent(12,8.075082e-05);
+   jet3ptb348->SetBinContent(13,5.968539e-05);
+   jet3ptb348->SetBinContent(14,3.510905e-05);
+   jet3ptb348->SetBinContent(15,1.638422e-05);
+   jet3ptb348->SetBinContent(16,1.989513e-05);
+   jet3ptb348->SetBinContent(17,1.053272e-05);
+   jet3ptb348->SetBinContent(18,1.170302e-05);
+   jet3ptb348->SetBinContent(19,8.192112e-06);
+   jet3ptb348->SetBinContent(20,7.021811e-06);
+   jet3ptb348->SetBinContent(21,2.340604e-06);
+   jet3ptb348->SetBinContent(22,2.340604e-06);
+   jet3ptb348->SetBinContent(23,4.681207e-06);
+   jet3ptb348->SetBinContent(24,2.340604e-06);
+   jet3ptb348->SetBinContent(25,1.170302e-06);
+   jet3ptb348->SetBinContent(26,2.340604e-06);
+   jet3ptb348->SetBinContent(31,1.170302e-06);
+   jet3ptb348->SetBinError(1,0.001168379);
+   jet3ptb348->SetBinError(2,0.0005998721);
+   jet3ptb348->SetBinError(3,0.000274278);
+   jet3ptb348->SetBinError(4,0.0001271584);
+   jet3ptb348->SetBinError(5,7.575707e-05);
+   jet3ptb348->SetBinError(6,4.528826e-05);
+   jet3ptb348->SetBinError(7,3.351704e-05);
+   jet3ptb348->SetBinError(8,2.403012e-05);
+   jet3ptb348->SetBinError(9,2.027022e-05);
+   jet3ptb348->SetBinError(10,1.642597e-05);
+   jet3ptb348->SetBinError(11,1.329207e-05);
+   jet3ptb348->SetBinError(12,9.721256e-06);
+   jet3ptb348->SetBinError(13,8.357626e-06);
+   jet3ptb348->SetBinError(14,6.410007e-06);
+   jet3ptb348->SetBinError(15,4.378868e-06);
+   jet3ptb348->SetBinError(16,4.825278e-06);
+   jet3ptb348->SetBinError(17,3.510905e-06);
+   jet3ptb348->SetBinError(18,3.700819e-06);
+   jet3ptb348->SetBinError(19,3.096327e-06);
+   jet3ptb348->SetBinError(20,2.866642e-06);
+   jet3ptb348->SetBinError(21,1.655057e-06);
+   jet3ptb348->SetBinError(22,1.655057e-06);
+   jet3ptb348->SetBinError(23,2.340604e-06);
+   jet3ptb348->SetBinError(24,1.655057e-06);
+   jet3ptb348->SetBinError(25,1.170302e-06);
+   jet3ptb348->SetBinError(26,1.655057e-06);
+   jet3ptb348->SetBinError(31,1.170302e-06);
+   jet3ptb348->SetEntries(37083);
+
+   ci = TColor::GetColor("#ffcc00");
+   jet3ptb348->SetFillColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   jet3ptb348->SetLineColor(ci);
+
+   ci = TColor::GetColor("#ffcc00");
+   jet3ptb348->SetMarkerColor(ci);
+   jet3ptb348->SetMarkerStyle(21);
+   jet3ptb348->GetXaxis()->SetTitle("jet3ptb3");
+   jet3ptb348->GetXaxis()->SetLabelFont(42);
+   jet3ptb348->GetXaxis()->SetLabelSize(0.035);
+   jet3ptb348->GetXaxis()->SetTitleSize(0.035);
+   jet3ptb348->GetXaxis()->SetTitleFont(42);
+   jet3ptb348->GetYaxis()->SetTitle("Events/pb");
+   jet3ptb348->GetYaxis()->SetLabelFont(42);
+   jet3ptb348->GetYaxis()->SetLabelSize(0.035);
+   jet3ptb348->GetYaxis()->SetTitleSize(0.035);
+   jet3ptb348->GetYaxis()->SetTitleFont(42);
+   jet3ptb348->GetZaxis()->SetLabelFont(42);
+   jet3ptb348->GetZaxis()->SetLabelSize(0.035);
+   jet3ptb348->GetZaxis()->SetTitleSize(0.035);
+   jet3ptb348->GetZaxis()->SetTitleFont(42);
+   b3/jet3ptb3->Add(jet3ptb3,"");
+   
+   TH1D *jet3ptb349 = new TH1D("jet3ptb349","p_{T}^{3rd jet}",32,30,800);
+   jet3ptb349->SetBinContent(1,0.01138334);
+   jet3ptb349->SetBinContent(2,0.006709691);
+   jet3ptb349->SetBinContent(3,0.003316284);
+   jet3ptb349->SetBinContent(4,0.001357363);
+   jet3ptb349->SetBinContent(5,0.0008020779);
+   jet3ptb349->SetBinContent(6,0.0003856144);
+   jet3ptb349->SetBinContent(7,0.0002313686);
+   jet3ptb349->SetBinContent(8,0.000107972);
+   jet3ptb349->SetBinContent(9,1.542458e-05);
+   jet3ptb349->SetBinContent(10,6.16983e-05);
+   jet3ptb349->SetBinContent(11,3.084915e-05);
+   jet3ptb349->SetBinContent(13,1.542458e-05);
+   jet3ptb349->SetBinError(1,0.0004190264);
+   jet3ptb349->SetBinError(2,0.000321705);
+   jet3ptb349->SetBinError(3,0.0002261687);
+   jet3ptb349->SetBinError(4,0.0001446953);
+   jet3ptb349->SetBinError(5,0.0001112282);
+   jet3ptb349->SetBinError(6,7.712288e-05);
+   jet3ptb349->SetBinError(7,5.973913e-05);
+   jet3ptb349->SetBinError(8,4.080959e-05);
+   jet3ptb349->SetBinError(9,1.542458e-05);
+   jet3ptb349->SetBinError(10,3.084915e-05);
+   jet3ptb349->SetBinError(11,2.181364e-05);
+   jet3ptb349->SetBinError(13,1.542458e-05);
+   jet3ptb349->SetEntries(1583);
+
+   ci = TColor::GetColor("#ff0000");
+   jet3ptb349->SetFillColor(ci);
+
+   ci = TColor::GetColor("#ff0000");
+   jet3ptb349->SetLineColor(ci);
+
+   ci = TColor::GetColor("#ff0000");
+   jet3ptb349->SetMarkerColor(ci);
+   jet3ptb349->SetMarkerStyle(20);
+   jet3ptb349->GetXaxis()->SetTitle("jet3ptb3");
+   jet3ptb349->GetXaxis()->SetLabelFont(42);
+   jet3ptb349->GetXaxis()->SetLabelSize(0.035);
+   jet3ptb349->GetXaxis()->SetTitleSize(0.035);
+   jet3ptb349->GetXaxis()->SetTitleFont(42);
+   jet3ptb349->GetYaxis()->SetTitle("Events/pb");
+   jet3ptb349->GetYaxis()->SetLabelFont(42);
+   jet3ptb349->GetYaxis()->SetLabelSize(0.035);
+   jet3ptb349->GetYaxis()->SetTitleSize(0.035);
+   jet3ptb349->GetYaxis()->SetTitleFont(42);
+   jet3ptb349->GetZaxis()->SetLabelFont(42);
+   jet3ptb349->GetZaxis()->SetLabelSize(0.035);
+   jet3ptb349->GetZaxis()->SetTitleSize(0.035);
+   jet3ptb349->GetZaxis()->SetTitleFont(42);
+   b3/jet3ptb3->Add(jet3ptb3,"");
+   
+   TH1D *jet3ptb350 = new TH1D("jet3ptb350","p_{T}^{3rd jet}",32,30,800);
+   jet3ptb350->SetBinContent(1,0.0002515747);
+   jet3ptb350->SetBinContent(2,0.0004696061);
+   jet3ptb350->SetBinContent(3,0.000570236);
+   jet3ptb350->SetBinContent(4,0.000335433);
+   jet3ptb350->SetBinContent(5,0.0002683464);
+   jet3ptb350->SetBinContent(6,0.0001006299);
+   jet3ptb350->SetBinContent(7,0.0001509448);
+   jet3ptb350->SetBinContent(8,1.677165e-05);
+   jet3ptb350->SetBinContent(10,3.35433e-05);
+   jet3ptb350->SetBinContent(11,1.677165e-05);
+   jet3ptb350->SetBinError(1,6.495631e-05);
+   jet3ptb350->SetBinError(2,8.874722e-05);
+   jet3ptb350->SetBinError(3,9.779467e-05);
+   jet3ptb350->SetBinError(4,7.500509e-05);
+   jet3ptb350->SetBinError(5,6.708659e-05);
+   jet3ptb350->SetBinError(6,4.108198e-05);
+   jet3ptb350->SetBinError(7,5.031494e-05);
+   jet3ptb350->SetBinError(8,1.677165e-05);
+   jet3ptb350->SetBinError(10,2.371869e-05);
+   jet3ptb350->SetBinError(11,1.677165e-05);
+   jet3ptb350->SetEntries(132);
+
+   ci = TColor::GetColor("#0000ff");
+   jet3ptb350->SetFillColor(ci);
+
+   ci = TColor::GetColor("#0000ff");
+   jet3ptb350->SetLineColor(ci);
+
+   ci = TColor::GetColor("#0000ff");
+   jet3ptb350->SetMarkerColor(ci);
+   jet3ptb350->SetMarkerStyle(21);
+   jet3ptb350->GetXaxis()->SetTitle("jet3ptb3");
+   jet3ptb350->GetXaxis()->SetLabelFont(42);
+   jet3ptb350->GetXaxis()->SetLabelSize(0.035);
+   jet3ptb350->GetXaxis()->SetTitleSize(0.035);
+   jet3ptb350->GetXaxis()->SetTitleFont(42);
+   jet3ptb350->GetYaxis()->SetTitle("Events/pb");
+   jet3ptb350->GetYaxis()->SetLabelFont(42);
+   jet3ptb350->GetYaxis()->SetLabelSize(0.035);
+   jet3ptb350->GetYaxis()->SetTitleSize(0.035);
+   jet3ptb350->GetYaxis()->SetTitleFont(42);
+   jet3ptb350->GetZaxis()->SetLabelFont(42);
+   jet3ptb350->GetZaxis()->SetLabelSize(0.035);
+   jet3ptb350->GetZaxis()->SetTitleSize(0.035);
+   jet3ptb350->GetZaxis()->SetTitleFont(42);
+   b3/jet3ptb3->Add(jet3ptb3,"");
+   b3/jet3ptb3->Draw("nostack");
+   
+   TPaveText *pt = new TPaveText(0.3578161,0.9342857,0.6421839,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   TText *AText = pt->AddText("b3/jet3ptb3");
+   pt->Draw();
+   
+   TLegend *leg = new TLegend(0.54023,0.639881,0.938218,0.924107,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetTextSize(0.034965);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("jet3ptb3","b3/jet3ptb3_QCD_b3/","lp");
+
+   ci = TColor::GetColor("#00cc00");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#00cc00");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("jet3ptb3","b3/jet3ptb3_WJetsToLNu_b3/","lp");
+
+   ci = TColor::GetColor("#00ffff");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#00ffff");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("jet3ptb3","b3/jet3ptb3_ZJetsToNuNu_b3/","lp");
+
+   ci = TColor::GetColor("#ffcc00");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#ffcc00");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("jet3ptb3","b3/jet3ptb3_signal_b3/","lp");
+
+   ci = TColor::GetColor("#ff0000");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#ff0000");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("jet3ptb3","b3/jet3ptb3_ttbar_b3/","lp");
+
+   ci = TColor::GetColor("#0000ff");
+   entry->SetLineColor(ci);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   ci = TColor::GetColor("#0000ff");
+   entry->SetMarkerColor(ci);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   leg->Draw();
+   b3/jet3ptb3->Modified();
+   b3/jet3ptb3->cd();
+   b3/jet3ptb3->SetSelected(b3/jet3ptb3);
+}
