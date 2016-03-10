@@ -1,0 +1,2 @@
+ALL_SUBSYSTEMS+=TreeMaker
+subdirs_src_TreeMaker = src_TreeMaker_Reflex src_TreeMaker_TreeMaker src_TreeMaker_grid-control src_TreeMaker_Production src_TreeMaker_WeightProducer src_TreeMaker_Utils

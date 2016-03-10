@@ -1,0 +1,2 @@
+ALL_PACKAGES += TreeMaker/TreeMaker
+subdirs_src_TreeMaker_TreeMaker := src_TreeMaker_TreeMaker_python src_TreeMaker_TreeMaker_src

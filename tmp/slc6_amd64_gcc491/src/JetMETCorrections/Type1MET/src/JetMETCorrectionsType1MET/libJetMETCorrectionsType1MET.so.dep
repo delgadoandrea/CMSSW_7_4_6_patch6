@@ -1,0 +1,8 @@
+tmp/slc6_amd64_gcc491/src/JetMETCorrections/Type1MET/src/JetMETCorrectionsType1MET/AddCorrectionsToGenericMET.o: \
+ src/JetMETCorrections/Type1MET/src/AddCorrectionsToGenericMET.cc \
+ src/JetMETCorrections/Type1MET/interface/AddCorrectionsToGenericMET.h \
+
+tmp/slc6_amd64_gcc491/src/JetMETCorrections/Type1MET/src/JetMETCorrectionsType1MET/METCorrectionAlgorithm.o: \
+ src/JetMETCorrections/Type1MET/src/METCorrectionAlgorithm.cc \
+ src/JetMETCorrections/Type1MET/interface/METCorrectionAlgorithm.h \
+

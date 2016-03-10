@@ -1,0 +1,4 @@
+tmp/slc6_amd64_gcc491/src/PhysicsTools/PatAlgos/test/METReader/METReader.o: \
+ src/PhysicsTools/PatAlgos/test/METReader.cc \
+ src/PhysicsTools/PatAlgos/test/METReader.h \
+
