@@ -1,2 +1,2 @@
 ALL_SUBSYSTEMS+=PhysicsTools
-subdirs_src_PhysicsTools = src_PhysicsTools_PatUtils src_PhysicsTools_PatAlgos
+subdirs_src_PhysicsTools = src_PhysicsTools_PatAlgos src_PhysicsTools_PatUtils

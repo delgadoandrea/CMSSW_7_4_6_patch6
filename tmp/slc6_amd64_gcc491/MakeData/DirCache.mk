@@ -1,5 +1,5 @@
 ALL_PACKAGES += JetMETCorrections/Type1MET
-subdirs_src_JetMETCorrections_Type1MET := src_JetMETCorrections_Type1MET_data src_JetMETCorrections_Type1MET_src src_JetMETCorrections_Type1MET_test src_JetMETCorrections_Type1MET_python src_JetMETCorrections_Type1MET_interface src_JetMETCorrections_Type1MET_plugins
+subdirs_src_JetMETCorrections_Type1MET := src_JetMETCorrections_Type1MET_plugins src_JetMETCorrections_Type1MET_src src_JetMETCorrections_Type1MET_python src_JetMETCorrections_Type1MET_test
 ALL_COMMONRULES += src_TreeMaker_Production_test
 src_TreeMaker_Production_test_parent := TreeMaker/Production
 src_TreeMaker_Production_test_INIT_FUNC += $$(eval $$(call CommonProductRules,src_TreeMaker_Production_test,src/TreeMaker/Production/test,TEST))
@@ -64,11 +64,11 @@ endif
 ALL_COMMONRULES += src_TreeMaker_TreeMaker_python
 src_TreeMaker_TreeMaker_python_INIT_FUNC += $$(eval $$(call CommonProductRules,src_TreeMaker_TreeMaker_python,src/TreeMaker/TreeMaker/python,PYTHON))
 ALL_PACKAGES += PhysicsTools/PatAlgos
-subdirs_src_PhysicsTools_PatAlgos := src_PhysicsTools_PatAlgos_python src_PhysicsTools_PatAlgos_test src_PhysicsTools_PatAlgos_src src_PhysicsTools_PatAlgos_scripts src_PhysicsTools_PatAlgos_plugins
+subdirs_src_PhysicsTools_PatAlgos := src_PhysicsTools_PatAlgos_python src_PhysicsTools_PatAlgos_src src_PhysicsTools_PatAlgos_plugins src_PhysicsTools_PatAlgos_scripts src_PhysicsTools_PatAlgos_test
 ALL_PACKAGES += TreeMaker/WeightProducer
 subdirs_src_TreeMaker_WeightProducer := src_TreeMaker_WeightProducer_python src_TreeMaker_WeightProducer_src
 ALL_PACKAGES += TreeMaker/Production
-subdirs_src_TreeMaker_Production := src_TreeMaker_Production_python src_TreeMaker_Production_test
+subdirs_src_TreeMaker_Production := src_TreeMaker_Production_test src_TreeMaker_Production_python
 src_PhysicsTools_PatAlgos_scripts_files := $(filter-out \#% %\#,$(notdir $(wildcard $(foreach dir,$(LOCALTOP)/src/PhysicsTools/PatAlgos/scripts,$(dir)/*))))
 $(eval $(call Src2StoreCopy,src_PhysicsTools_PatAlgos_scripts,src/PhysicsTools/PatAlgos/scripts,$(SCRAMSTORENAME_BIN),*))
 ifeq ($(strip $(PyTreeMakerUtils)),)
@@ -102,7 +102,7 @@ endif
 ALL_COMMONRULES += src_TreeMaker_Production_python
 src_TreeMaker_Production_python_INIT_FUNC += $$(eval $$(call CommonProductRules,src_TreeMaker_Production_python,src/TreeMaker/Production/python,PYTHON))
 ALL_PACKAGES += PhysicsTools/PatUtils
-subdirs_src_PhysicsTools_PatUtils := src_PhysicsTools_PatUtils_data src_PhysicsTools_PatUtils_python src_PhysicsTools_PatUtils_src src_PhysicsTools_PatUtils_plugins
+subdirs_src_PhysicsTools_PatUtils := src_PhysicsTools_PatUtils_python src_PhysicsTools_PatUtils_plugins src_PhysicsTools_PatUtils_src
 ifeq ($(strip $(runtestPhysicsToolsPatAlgos)),)
 runtestPhysicsToolsPatAlgos_files := $(patsubst src/PhysicsTools/PatAlgos/test/%,%,$(foreach file,runtestPhysicsToolsPatAlgos.cpp,$(eval xfile:=$(wildcard src/PhysicsTools/PatAlgos/test/$(file)))$(if $(xfile),$(xfile),$(warning No such file exists: src/PhysicsTools/PatAlgos/test/$(file). Please fix src/PhysicsTools/PatAlgos/test/BuildFile.))))
 runtestPhysicsToolsPatAlgos := self/src/PhysicsTools/PatAlgos/test
@@ -148,9 +148,9 @@ src_PhysicsTools_PatAlgos_test_INIT_FUNC += $$(eval $$(call CommonProductRules,s
 ALL_PACKAGES += TreeMaker/grid-control
 subdirs_src_TreeMaker_grid-control := 
 ALL_SUBSYSTEMS+=TreeMaker
-subdirs_src_TreeMaker = src_TreeMaker_Reflex src_TreeMaker_TreeMaker src_TreeMaker_grid-control src_TreeMaker_Production src_TreeMaker_WeightProducer src_TreeMaker_Utils
+subdirs_src_TreeMaker = src_TreeMaker_Production src_TreeMaker_grid-control src_TreeMaker_Utils src_TreeMaker_WeightProducer src_TreeMaker_TreeMaker src_TreeMaker_Reflex
 ALL_PACKAGES += TreeMaker/Utils
-subdirs_src_TreeMaker_Utils := src_TreeMaker_Utils_interface src_TreeMaker_Utils_python src_TreeMaker_Utils_src
+subdirs_src_TreeMaker_Utils := src_TreeMaker_Utils_python src_TreeMaker_Utils_src
 ALL_PACKAGES += TreeMaker/TreeMaker
 subdirs_src_TreeMaker_TreeMaker := src_TreeMaker_TreeMaker_python src_TreeMaker_TreeMaker_src
 ifeq ($(strip $(PyPhysicsToolsPatAlgos)),)
@@ -182,4 +182,4 @@ endif
 ALL_COMMONRULES += src_TreeMaker_WeightProducer_python
 src_TreeMaker_WeightProducer_python_INIT_FUNC += $$(eval $$(call CommonProductRules,src_TreeMaker_WeightProducer_python,src/TreeMaker/WeightProducer/python,PYTHON))
 ALL_SUBSYSTEMS+=PhysicsTools
-subdirs_src_PhysicsTools = src_PhysicsTools_PatUtils src_PhysicsTools_PatAlgos
+subdirs_src_PhysicsTools = src_PhysicsTools_PatAlgos src_PhysicsTools_PatUtils
