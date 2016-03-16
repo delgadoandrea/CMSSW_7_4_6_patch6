@@ -16,7 +16,7 @@
 // Header file for the classes stored in the TTree if any.
 #include "vector"
 #include "iostream"
-#include "TreeMaker/Utils/interface/stoppair.h"
+//#include "TreeMaker/Utils/interface/stoppair.h"
 
 /*class Sample{
 public:
@@ -58,7 +58,7 @@ public :
    Double_t        GenMETPt;
    vector<TLorentzVector> *genParticles;
    vector<int>     *genParticles_PDGid;
-   stoppair        genParticles_stopPair;
+   //   stoppair        genParticles_stopPair;
    Double_t        HT;
    Int_t           isoElectronTracks;
    Int_t           isoMuonTracks;
@@ -122,7 +122,7 @@ public :
    TBranch        *b_GenMETPt;   //!
    TBranch        *b_genParticles;   //!
    TBranch        *b_genParticles_PDGid;   //!
-   TBranch        *b_genParticles_stopPair; 
+   //   TBranch        *b_genParticles_stopPair; 
    TBranch        *b_HT;   //!
    TBranch        *b_isoElectronTracks;   //!
    TBranch        *b_isoMuonTracks;   //!
@@ -171,6 +171,8 @@ public :
    EventLoop(TTree *tree=0, unsigned int test=0);
    virtual ~EventLoop();
    virtual Int_t    Cut(Long64_t entry);
+   virtual Int_t    ISRCut(Long64_t entry);
+   virtual Int_t    VBFCut(Long64_t entry);
    virtual Int_t    GetEntry(Long64_t entry);
    virtual Long64_t LoadTree(Long64_t entry);
    virtual void     Init(TTree *tree);
@@ -188,17 +190,17 @@ EventLoop::EventLoop(TTree *tree, unsigned int test) : fChain(0)
 {
 // if parameter tree is not specified (or zero), connect the file
 // used to generate this class and read the Tree.
-   TString basepath = "/fdata/hepx/store/user/delgado_andrea/Analysis/new/";
+   TString basepath = "/fdata/hepx/store/user/delgado_andrea/Analysis/Full/";
   //TString basepath = "./";
-   TString outpath = "Maps/";
+   TString outpath = "./";
 
    samples.clear();
    samples.push_back("TTbarH_M-125_13TeV_amcatnlo-pythia8-tauola.root");
    samples.push_back("QCD_HT_250To500_13TeV-madgraph.root");
    samples.push_back("QCD_HT-500To1000_13TeV-madgraph.root");
    samples.push_back("QCD_HT_1000ToInf_13TeV-madgraph.root");
-//   samples.push_back("signal.root");
-   samples.push_back("test.root");
+   samples.push_back("signal.root");
+   //samples.push_back("test.root");
    samples.push_back("WJetsToLNu_HT-100to200_Tune4C_13TeV-madgraph-tauola.root");
    samples.push_back("WJetsToLNu_HT-200to400_Tune4C_13TeV-madgraph-tauola.root");
    samples.push_back("WJetsToLNu_HT-400to600_Tune4C_13TeV-madgraph-tauola.root");
@@ -209,19 +211,19 @@ EventLoop::EventLoop(TTree *tree, unsigned int test) : fChain(0)
    samples.push_back("ZJetsToNuNu_HT-600toInf_Tune4C_13TeV-madgraph-tauola.root");
 
    outFile.clear();
-   outFile.push_back(outpath+"ttbar_plots.root");
-   outFile.push_back(outpath+"QCD_HT_250To500_plots.root");
-   outFile.push_back(outpath+"QCD_HT_500To1000_plots.root");
-   outFile.push_back(outpath+"QCD_HT_1000ToInf_plots.root");
-   outFile.push_back(outpath+"Signal_plots.root");
-   outFile.push_back(outpath+"WJetsToLNu_HT-100to200_plots.root");
-   outFile.push_back(outpath+"WJetsToLNu_HT-200to400_plots.root");
-   outFile.push_back(outpath+"WJetsToLNu_HT-400to600_plots.root");
-   outFile.push_back(outpath+"WJetsToLNu_HT-600toInf_plots.root");
-   outFile.push_back(outpath+"ZJetsToNuNu_HT-100to200_plots.root");
-   outFile.push_back(outpath+"ZJetsToNuNu_HT-200to400_plots.root");
-   outFile.push_back(outpath+"ZJetsToNuNu_HT-400to600_plots.root");
-   outFile.push_back(outpath+"ZJetsToNuNu_HT-600toInf_plots.root");
+   outFile.push_back(outpath+"ttbar.txt");
+   outFile.push_back(outpath+"QCD_HT_250To500.txt");
+   outFile.push_back(outpath+"QCD_HT_500To1000.txt");
+   outFile.push_back(outpath+"QCD_HT_1000ToInf.txt");
+   outFile.push_back(outpath+"Signal.txt");
+   outFile.push_back(outpath+"WJetsToLNu_HT-100to200.txt");
+   outFile.push_back(outpath+"WJetsToLNu_HT-200to400.txt");
+   outFile.push_back(outpath+"WJetsToLNu_HT-400to600.txt");
+   outFile.push_back(outpath+"WJetsToLNu_HT-600toInf.txt");
+   outFile.push_back(outpath+"ZJetsToNuNu_HT-100to200.txt");
+   outFile.push_back(outpath+"ZJetsToNuNu_HT-200to400.txt");
+   outFile.push_back(outpath+"ZJetsToNuNu_HT-400to600.txt");
+   outFile.push_back(outpath+"ZJetsToNuNu_HT-600toInf.txt");
 
    lum.clear();
    lum.push_back(0.509*2.58/78300.);
@@ -238,19 +240,20 @@ EventLoop::EventLoop(TTree *tree, unsigned int test) : fChain(0)
    lum.push_back(1.0);
    lum.push_back(1.0);
 
-   //for(unsigned int s=test; s< samples.size(); s++){
-      sampleIndex=test;
-      if (tree == 0) {
-         TFile *f = (TFile*)gROOT->GetListOfFiles()->FindObject(basepath+samples[test]);
-         if (!f || !f->IsOpen()) {
-            f = new TFile(basepath+samples[test]);
-         }
-         TDirectory * dir = (TDirectory*)f->Get(basepath+samples[test]+":/TreeMaker2");
-         dir->GetObject("PreSelection",tree);        
-      }
-      Init(tree);
-      Loop();
    
+   //for(unsigned int s=0; s< samples.size(); s++){
+   sampleIndex=test;
+   if (tree == 0) {
+     TFile *f = (TFile*)gROOT->GetListOfFiles()->FindObject(basepath+samples[test]);
+     if (!f || !f->IsOpen()) {
+       f = new TFile(basepath+samples[test]);
+     }
+     TDirectory * dir = (TDirectory*)f->Get(basepath+samples[test]+":/TreeMaker2");
+     dir->GetObject("PreSelection",tree);        
+   }
+   Init(tree);
+   Loop();
+  
 }
 
 EventLoop::~EventLoop()
@@ -340,7 +343,7 @@ void EventLoop::Init(TTree *tree)
    fChain->SetBranchAddress("GenMETPt", &GenMETPt, &b_GenMETPt);
    fChain->SetBranchAddress("genParticles", &genParticles, &b_genParticles);
    fChain->SetBranchAddress("genParticles_PDGid", &genParticles_PDGid, &b_genParticles_PDGid);
-   fChain->SetBranchAddress("genParticles_stopPair", &genParticles_stopPair, &b_genParticles_stopPair);
+   //   fChain->SetBranchAddress("genParticles_stopPair", &genParticles_stopPair, &b_genParticles_stopPair);
    fChain->SetBranchAddress("HT", &HT, &b_HT);
    fChain->SetBranchAddress("isoElectronTracks", &isoElectronTracks, &b_isoElectronTracks);
    fChain->SetBranchAddress("isoMuonTracks", &isoMuonTracks, &b_isoMuonTracks);
@@ -412,5 +415,120 @@ Int_t EventLoop::Cut(Long64_t entry)
 // returns  1 if entry is accepted.
 // returns -1 otherwise.
    return 1;
+}
+Int_t EventLoop::ISRCut(Long64_t entry){
+  bool cut = false;
+  
+  if(METPt > 300 && NJets > 0 && Jets->at(0).Pt() > 110 && Muons->size() > 0 && Muons->at(0).Pt() > 5 && Muons->at(0).Pt() < 30 && Muons->at(0).Eta()<1.5 && HT > 400 && Electrons->size() == 0 && BTags==0  && MuonCharge->at(0) == -1){
+
+
+
+    if(Jets->at(0).Eta() < 2.4 && Jets_chargedEmEnergyFraction->at(0)<0.5 && Jets_neutralEmEnergyFraction->at(0)<0.7 && Jets_chargedHadronEnergyFraction->at(0) > 0.2 ){
+      if(NJets>1){
+
+	
+	if(Jets->at(1).Pt()>60 && Jets->at(0).DeltaPhi(Jets->at(1)) < 2.5){
+	  if(NJets>2){
+
+	    if(Jets->at(2).Pt()>30 && Jets->at(2).Pt() < 60){
+	      if(Muons->size() > 1 && Muons->at(0).Pt() < 20 && Muons->at(1).Pt() > 5 && Muons->at(1).Pt() < 20 && Muons->at(1).Eta()<1.5){
+		cut = true;
+	      }
+	      else if(Muons->size() ==1){
+		cut = true;
+	      }
+	    }
+	  }
+	  else{
+
+	    if(Muons->size() > 1 && Muons->at(0).Pt() < 20 && Muons->at(1).Pt() > 5 && Muons->at(1).Pt() < 20 && Muons->at(1).Eta()<1.5){
+	      cut = true;
+	    }
+	    else if(Muons->size() ==1){
+	      cut = true;
+	    }
+
+	  }	     	  
+	}//2nd jet req's
+
+      }//njets >1
+      else if(NJets == 1){
+
+	if(Muons->size() > 1 && Muons->at(0).Pt() < 20 && Muons->at(1).Pt() > 5 && Muons->at(1).Pt() < 20 && Muons->at(1).Eta()<1.5){
+	  cut = true;
+	}
+	else if(Muons->size() ==1){
+	  cut = true;
+	}
+      }	 
+    }
+  }//loop over cuts
+
+  if(cut) return 1;
+  else return -1;
+  
+// This function may be called from Loop.
+// returns  1 if entry is accepted.
+// returns -1 otherwise.
+
+}
+Int_t EventLoop::VBFCut(Long64_t entry){
+  bool cut = false;
+  int j1Index = -1;
+  int j2Index = -1;
+  Double_t massVBF = -1;
+  
+  if(METPt > 300 && NJets > 1 && Muons->size() > 0 && Muons->at(0).Pt() > 5 && Muons->at(0).Pt() < 30 && Muons->at(0).Eta()<1.5 && Electrons->size() == 0 && BTags==0 && MuonCharge->at(0) == -1){
+
+    for(int i=0; i<NJets; i++){
+      for(int j=i+1; j < NJets; j++){
+	if((Jets->at(i).Eta()*Jets->at(j).Eta()) < 0 && abs(Jets->at(i).Eta()-Jets->at(j).Eta()) > 4.2 && Jets->at(i).Pt() > 30 && Jets->at(j).Pt()>30){
+	  TLorentzVector VBFmass = Jets->at(i) + Jets->at(j);
+	  if(VBFmass.M() > massVBF){
+	    massVBF = VBFmass.M();
+	    j1Index = i;
+	    j2Index = j;
+	  }	    
+	}
+      }// second loop over jets
+    }//first loop over jets
+
+
+    if(massVBF > 250 && abs(Jets->at(j2Index).Phi() - METPhi) > 0.5){
+
+      
+      if(NJets>j2Index+1){
+
+	if(Jets->at(j2Index+1).Pt()<50){
+
+	  if(Muons->size() > 1 && Muons->at(0).Pt() < 20 && Muons->at(1).Pt() > 5 && Muons->at(1).Pt() < 20 && Muons->at(1).Eta()<1.5){
+	    cut = true;
+	  }
+	  else if(Muons->size() ==1){
+	    cut = true;
+	  }
+	}
+
+      }
+      else if(NJets==j2Index+1){
+
+	if(Muons->size() > 1 && Muons->at(0).Pt() < 20 && Muons->at(1).Pt() > 5 && Muons->at(1).Pt() < 20 && Muons->at(1).Eta()<1.5){
+	  cut = true;
+	}
+	else if(Muons->size() ==1){
+	  cut = true;
+	}
+      }
+
+    }
+  }//loop over cuts
+  
+  if(cut) return 1;
+  else return -1;
+  
+// This function may be called from Loop.
+// returns  1 if entry is accepted.
+// returns -1 otherwise.
+
 }
 #endif // #ifdef EventLoop_cxx
